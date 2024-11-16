@@ -1,6 +1,6 @@
 /* General Body Styling */
 body {
-    background-color: #cbe1ef;
+    background-color: #f4f7fb; /* Light grayish-blue */
     font-family: 'Roboto', Arial, sans-serif;
 	line-height: 1.5em;
 	font-size: 1.1em;
@@ -17,6 +17,7 @@ header {
     display: flex;
     flex-direction: column; /* Stack nav and img vertically */
     gap: 15px; /* Space between nav and img */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation Bar */
@@ -30,7 +31,8 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: space-evenly;
-    /* background-color: #5c87b2; */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    background-color: #01377D;
     /* padding: 10px 0; */
 }
 
@@ -43,23 +45,23 @@ nav ul li {
 }
 
 nav ul li:nth-child(1) {
-    background-color: #5c87b2; /* Blue */
+    background-color: #01377D;
 }
 
 nav ul li:nth-child(2) {
-    background-color: #6ba5d6; /* Light blue */
+    background-color: #009DD1;
 }
 
 nav ul li:nth-child(3) {
-    background-color: #4682b4; /* Steel blue */
+    background-color: #77bcd7;
 }
 
 nav ul li:nth-child(4) {
-    background-color: #1e90ff; /* Dodger blue */
+    background-color: #56ab31;
 }
 
 nav ul li:nth-child(5) {
-    background-color: #87ceeb; /* Sky blue */
+    background-color: #26BE70;
 }
 
 nav ul li a {
@@ -80,16 +82,31 @@ header a img {
 }
 
 /* Container Styling */
-.container-2col {
+.main-container {
     display: flex;
     /* margin: 20px auto; */
     gap: 15px;
 }
 
 /* Sidebar Menu */
+.subtitle {
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 1.8em;
+    margin: 10px 0; /* Space above and below the subtitle */
+    color: #00509e; /* Navy blue for headings */
+	border-bottom: 2px solid #fff;
+	padding-left: 5px;
+}
+
+.fixed-sidebar {
+	top: 10px; /* Offset from the top of the viewport */
+	position: sticky; /* Sticky positioning */
+}
+
 aside {
     flex: 1;
-    background-color: #ffffff;
+	background-color: #d8d8d8;
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -98,21 +115,20 @@ aside {
 }
 
 aside ul {
-	top: 20px; /* Offset from the top of the viewport */
-	position: sticky; /* Sticky positioning */
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 aside ul li {
-    margin-bottom: 10px;
+	line-height: 1.8em;
+    border-bottom: 2px solid #fff;
 }
 
 aside ul li a {
     color: #333;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
     display: block;
     padding: 8px 10px;
     border-radius: 3px;
@@ -123,29 +139,50 @@ aside ul li a:hover {
     color: #fff;
 }
 
-/* Main Content */
-/* main {
-    background-color: white;
-    padding: 20px;
+/* Search Bar Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 30px; /* Space below the search bar */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
 }
 
-main p {
-    line-height: 1.6;
-    color: #333;
-}
-
-main hr {
+/* Search Input Field */
+.search-container input {
+    flex: 1;
     border: none;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    background: transparent;
+    color: #333; /* Dark text color */
 }
+
+/* Search Button */
+.search-container button {
+	position: relative;
+	left: -20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #333; /* Icon color */
+    font-size: 1.2rem; /* Adjust icon size */
+}
+
+.search-container button:hover {
+    color: #00509e; /* Hover color for the search icon */
+}
+
 
 /* Main Content */
 main {
     flex: 3;
     background-color: #ffffff;
     border: 1px solid #ccc;
-    border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -155,7 +192,7 @@ main h2 {
     color: #003366;
     margin-top: 20px;
 	margin-bottom: 10px;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 main h2 i {
@@ -186,11 +223,26 @@ ul {
 
 /* Footer Section */
 footer {
+	display: flex;
+	flex-direction: row;
     background-color: #5c87b2;
     color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Add space between image and text */
+    padding: 20px;
+	gap: 30px;
+    font-size: 1em;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer img {
+	padding-left: 30px;
+    max-width: 200px; /* Restrict the logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer-text {
+	padding-right: 30px;
 }
 
 footer p {
@@ -198,7 +250,7 @@ footer p {
 }
 
 footer a {
-    color: white;
+    color:#cbe1ef;
     text-decoration: none;
 }
 
