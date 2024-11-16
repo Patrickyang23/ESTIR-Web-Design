@@ -1,0 +1,207 @@
+/* General Body Styling */
+body {
+    background-color: #cbe1ef;
+    font-family: 'Roboto', Arial, sans-serif;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	width: 95%; /* 95% of the viewport width */
+    margin: 0 auto; /* Center body horizontally */
+    display: flex;
+    flex-direction: column; /* Stack nav and img vertically */
+    gap: 15px; /* Space between nav and img */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    flex-direction: column; /* Stack nav and img vertically */
+    gap: 15px; /* Space between nav and img */
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%; /* Make nav span the full width of the header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #5c87b2; */
+    /* padding: 10px 0; */
+}
+
+nav ul li {
+	flex: 1; /* Ensure each nav item takes equal width */
+    text-align: center; /* Center text inside each block */
+    padding: 10px 0; /* Vertical padding for nav items */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+}
+
+nav ul li:nth-child(1) {
+    background-color: #5c87b2; /* Blue */
+}
+
+nav ul li:nth-child(2) {
+    background-color: #6ba5d6; /* Light blue */
+}
+
+nav ul li:nth-child(3) {
+    background-color: #4682b4; /* Steel blue */
+}
+
+nav ul li:nth-child(4) {
+    background-color: #1e90ff; /* Dodger blue */
+}
+
+nav ul li:nth-child(5) {
+    background-color: #87ceeb; /* Sky blue */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Image */
+header a img {
+    width: 100%; /* Cover the width of the header */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra spacing below the image */
+}
+
+/* Container Styling */
+.container-2col {
+    display: flex;
+    /* margin: 20px auto; */
+    gap: 15px;
+}
+
+/* Sidebar Menu */
+aside {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+	
+}
+
+aside ul {
+	top: 20px; /* Offset from the top of the viewport */
+	position: sticky; /* Sticky positioning */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+aside ul li a:hover {
+    background-color: #5c87b2;
+    color: #fff;
+}
+
+/* Main Content */
+/* main {
+    background-color: white;
+    padding: 20px;
+}
+
+main p {
+    line-height: 1.6;
+    color: #333;
+}
+
+main hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Main Content */
+main {
+    flex: 3;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+	font-weight: bold;
+    color: #003366;
+    margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+main h2 i {
+    color: #006ab8;
+    font-size: 1.2em; /* Adjust icon size */
+}
+
+main p, main ul {
+    line-height: 1.6;
+}
+
+/* Link Styling */
+a {
+    color: #006ab8;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding: 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #5c87b2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
