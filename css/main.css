@@ -386,6 +386,7 @@ table {
 table td {
     padding: 10px;
     border: 1px solid #ddd;
+    text-align: left;
 }
 
 table a {
@@ -395,4 +396,43 @@ table a {
 
 table a:hover {
     text-decoration: underline;
+}
+
+/* Define specific widths for each column */
+.col-num {
+    width: 10%;
+}
+
+.col-reaction {
+    width: 60%;
+}
+
+.col-type {
+    width: 30%;
+}
+
+.author-info em {
+    font-style: italic;
+}
+
+
+.photo-figure {
+    margin: 0 20px 20px 0; /* Adds spacing around the image */
+    float: left; /* Floats the image to the left */
+    max-width: 50%; /* Prevents the image from taking up too much space */
+    text-align: center; /* Centers the caption text */
+}
+
+.photo-figure img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+    border: 1px solid #ccc; /* Optional: Adds a border around the image */
+    padding: 5px; /* Optional: Adds padding around the image */
+    background-color: #f9f9f9; /* Optional: Light background for the image */
+}
+
+.photo-figure figcaption {
+    font-size: 0.9em; /* Slightly smaller font size for the caption */
+    color: #555; /* Subtle gray for the caption text */
+    margin-top: 5px;
 }
