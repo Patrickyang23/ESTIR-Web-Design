@@ -102,6 +102,8 @@ header a img {
 .fixed-sidebar {
 	top: 10px; /* Offset from the top of the viewport */
 	position: sticky; /* Sticky positioning */
+    height: 90vh; /* Set a height less than the full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
 }
 
 aside {
@@ -187,18 +189,40 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+main h1 {
+	font-weight: bold;
+    color: #003366;
+    margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	border-bottom: 2px solid #333;
+}
+
+main h1 i {
+    color: #006ab8;
+    font-size: 1.3em; /* Adjust icon size */
+}
+
 main h2 {
 	font-weight: bold;
     color: #003366;
     margin-top: 20px;
 	margin-bottom: 10px;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	border-bottom: 2px solid #333;
 }
 
 main h2 i {
     color: #006ab8;
     font-size: 1.2em; /* Adjust icon size */
+}
+
+main h3 {
+	font-weight: bold;
+    color: #003366;
+    margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.1em;
 }
 
 main p, main ul {
