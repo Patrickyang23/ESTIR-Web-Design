@@ -1,129 +1,476 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc." name="description"/>
-<meta content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry" name="keywords"/>
-<meta content="index, follow, noodp, noydir" name="robots"/>
-<link href="https://knowledge.electrochem.org/" rel="canonical"/>
-<link href="https://knowledge.electrochem.org/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="../../css/html5reset.css" rel="stylesheet"/>
-<link href="../../css/main.css" rel="stylesheet"/>
-<title>No Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
+    <meta name="keywords" content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry">
+    <meta name="robots" content="index, follow, noodp, noydir">
+    <link rel="canonical" href="https://knowledge.electrochem.org/">
+    <link rel="icon" href="https://knowledge.electrochem.org/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/html5reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Electrochemistry Encyclopedia -- Electrochemical machining </title>
 </head>
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="../../index.html">Home</a></li>
-<li><a href="../../estir/index.html">ESTIR</a></li>
-<li><a href="../../encycl/index.html">Encyclopedia</a></li>
-<li><a href="../../ed/dict.html">Dictionary</a></li>
-<li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
-</ul>
-</nav>
-<a href="index.html">
-<img alt="Electrochemical Encyclopedia Banner" src="../../images/banner_encyclopedia.jpg"/>
-</a>
-</header>
-<!-- Main content container -->
-<div class="main-container">
-<aside>
-<div class="fixed-sidebar">
-<h3 class="subtitle">Search</h3>
-<div class="search-container">
-<input placeholder="Search" type="text"/>
-<button type="button"><i class="fas fa-search"></i></button>
-</div>
-<!-- Navigation menu for sections -->
-<h3 class="subtitle">Navigation</h3>
-<ul>
-<li><a href="#article">&gt; Main Content</a></li>
-<li><a href="#appendix">&gt; Appendix</a></li>
-<li><a href="#acknowledgements">&gt; Acknowledgements</a></li>
-<li><a href="#bibliography">&gt; Bibliography</a></li>
-<li><a href="#other-resources">&gt; Other Resources</a></li>
-<!-- Other sections -->
-</ul>
-</div>
-</aside>
-<main>
-<section id="article">
-<h1><i class="fas fa-flask"></i>
-<!-- Insert the article's title here -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../estir/index.html">ESTIR</a></li>
+                <li><a href="../../encycl/index.html">Encyclopedia</a></li>
+                <li><a href="../../ed/dict.html">Dictionary</a></li>
+                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="../../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
+        </a>
+    </header>
+
+    <!-- Main content container -->
+    <div class="main-container">
+        <aside>
+            <div class="fixed-sidebar">
+                <h3 class="subtitle">Search</h3>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Navigation menu for sections -->
+                <h3 class="subtitle">Navigation</h3>
+                <ul>
+                    <li><a href="#article">> Main Content</a></li>
+                    <li><a href="#appendix">> Appendix</a></li>
+                    <li><a href="#acknowledgements">> Acknowledgements</a></li>
+                    <li><a href="#bibliography">> Bibliography</a></li>
+                    <li><a href="#other-resources">> Other Resources</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="article">
+                <h1><i class="fas fa-flask"></i> ELECTROCHEMICAL MACHINING (ECM)
 </h1>
-<div class="author-info">
-<em>
-<!-- Provide the author's information here -->
-</em><br/>
+                <div class="author-info">
+                    <em> <img src="clear.jpg" width="25" height="1"> <em> Joseph McGeough<br>
+                        Institute for Integrated Micro and Nano Systems<br>
+                        University of Edinburgh<br>
+                        Edinburgh, EH9 3JL, United Kingdom</em><br>
+                        (July, 2005) 
+                        <br>
+                </div>
+            </section>
+            <section>
+   <p>
+                    
+       Michael Faraday's early metallurgic researches, from 1818 to 1824, anticipated the developments which have led to widespread use today of alloy steels. Much effort has been expended to improve their performance for their service as cutting tools in machining. The aim has always been to yield higher rates of machining and to tackle recently developed harder materials on the principle that the tool material must be harder than the workpiece which is to be machined. Much progress has been made; however, in recent years some alloys, which are exceedingly difficult to machine by the conventional methods, have been produced to meet a demand for very high-strength, heat resistant materials. Moreover, these new materials often have to take a complex shape. A search has had to be made for alternative methods of machining since the evolution of suitable tooling has not kept pace with these advances.
+   </p>
+   <p>
+    
+Electrochemical machining (ECM) has been developed initially to machine these hard to machine alloys, although any metal can so be machined. ECM is an electrolytic process and its basis is the phenomenon of <a href="../ed/dict.htm#e19"> electrolysis</a>, whose <a href="../ed/dict.htm#f12"> laws were established by Faraday</a> in 1833. The first significant developments occurred in the 1950s, when ECM was investigated as a method for shaping high strength alloys. As of the 1990s, ECM is employed in many ways, for example, by automotive, offshore petroleum, and medical engineering industries, as well as by aerospace firms, which are its principal user.
+   </p>
+   <p>
+    
+Metal removal is achieved by <a href="../ed/dict.htm#m02"> electrochemical dissolution</a> of an <a href="../ed/dict.htm#a02"> anodically</a> <a href="../ed/dict.htm#p06"> polarized</a> workpiece which is one part of an <a href="../ed/dict.htm#e02"> electrolytic cell</a> in ECM. Hard metals can be shaped electrolytically by using ECM and the rate of machining does not depend on their hardness. The tool <a href="../ed/dict.htm#e20"> electrode</a> used in the process does not wear, and therefore soft metals can be used as tools to form shapes on harder workpieces, unlike conventional machining methods. The process is used to smooth surfaces, drill holes, form complex shapes, and remove fatigue cracks in steel structures. Its combination with other techniques yields fresh applications in diverse industries. Recent advances lie in computer-aided tool design, and the use of pulsed power, which has led to greater accuracy for ECM-produced components.
+
+   </p>
+            </section>
+            <section>
+<h3> Theoretical background</h3>
+
+
+Since electrolysis is the basis of ECM, it must be understood before going further through the characteristics and other details of the process.
+
+<h3><em>Electrolysis</em></h3>
+
+<a name="fig1"></a>
+   width of table = width of figure + 22   
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m03/m03-f01b.jpg"><img alt="Electrolysis" height="288" src="fig/m03/m03-f01.jpg" width="400"/></a></td></tr>
+<tr><td><em> Fig. 1. Electrolysis of copper sulphate solution. </em></td></tr>
+</table>
+<a href="../ed/dict.htm#e19"> Electrolysis</a> is the name given to the chemical process which occurs, for example, when an <a href="../ed/dict.htm#c14"> electric current</a> is passed between two <a href="../ed/dict.htm#c50"> conductors</a> dipped into a liquid solution. A typical example is that of two copper wires connected to a <a href="../ed/dict.htm#e64"> source</a> of <a href="../ed/dict.htm#d11"> direct current</a> and immersed in a solution of copper sulphate in water, as shown in Figure 1. An <a href="../ed/dict.htm#a14"> ammeter</a>, placed in the circuit, will register a flow of current; from this indication, the electric circuit can be deduced to be complete. A significant conclusion that can be made from an experiment of this sort is that the copper sulphate solution obviously has the property that it could conduct electricity. Such solution is termed an <a href="../ed/dict.htm#e12"> electrolyte</a>. The wires are called <a href="../ed/dict.htm#e20"> electrodes</a>, the one with positive <a href="../ed/dict.htm#p59"> polarity</a> being the <a href="../ed/dict.htm#a02"> anode</a>, and the one with negative polarity the <a href="../ed/dict.htm#c03"> cathode</a>. The system of electrodes and electrolyte is referred to as the <a href="../ed/dict.htm#e02"> electrolytic cell</a>, whilst the chemical reactions which occur at the electrodes are called the anodic or cathodic reactions or processes.
+<br clear="left"/>   <p>
+<a name="fig2"></a>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m03/m03-f02b.jpg"><img alt="Electrolytic dissolution" height="288" src="fig/m03/m03-f02.jpg" width="400"/></a></td></tr>
+<tr><td><em> Fig. 2. Electrolytic dissolution of iron. </em></td></tr>
+</table>
+
+
+Electrolytes are different from metallic conductors of electricity in that the current is carried not by <a href="../ed/dict.htm#a33"> electrons</a> but by <a href="../ed/dict.htm#a33"> atoms</a>, or group of atoms, which have either lost or gained electrons, thus acquiring either positive or negative <a href="../ed/dict.htm#e135"> charges</a>. Such atoms are called <a href="../ed/dict.htm#i01"> ions</a>. Ions which carry positive charges move through the electrolyte in the direction of the positive current, that is, toward the cathode, and are called <a href="../ed/dict.htm#c07"> cations</a>. Similarly, the negatively charged ions travel toward the anode and are called <a href="../ed/dict.htm#a04"> anions</a>. The movement of the ions is accompanied by the flow of electrons, in the opposite sense to the positive current in the electrolyte, outside the cell, as shown also in Figure 2 and both reactions are a consequence of the applied <a href="../ed/dict.htm#e65"> potential</a> difference, that is, <a href="../ed/dict.htm#v08"> voltage</a>, from the <a href="../ed/dict.htm#e64"> electric source</a>.
 <p>
-<!-- Include the author's email and date of publication here -->
-</p>
+A cation reaching the cathode is <a href="../ed/dict.htm#n23"> neutralized</a>, or <a href="../ed/dict.htm#d10"> discharged</a>, by the negative electrons on the cathode. Since the cation is usually the positively charged atom of a metal, the result of this reaction is the <a href="../ed/dict.htm#m02"> deposition of metal</a> atoms.
 <p>
-<!-- Main introduction or summary of the article -->
-</p>
-</div>
+To maintain the cathodic reaction, electrons are required to pass around the external circuit. These are obtained from the atoms of the metal anode, and these atoms thus become the positively charged cations which pass into solution. In this case, the reaction is the reverse of the cathodic reaction.
+<p>
+The electrolyte in its bulk must be electrically neutral; that is, there must be equal numbers of opposite charges within it, and thus there must be equal amounts of reaction at both electrodes. Therefore, in the electrolysis of copper sulphate solution with copper electrodes, the overall cell reaction is simply the transfer of copper metal from the anode to the cathode. When the wires are weighted at the end of the experiment, the anodic wire will be found to have lost weight, whilst the cathodic wire will have increased in weight by an amount equal to that lost by the other wire. Some examples of the reactions occurring in these processes are shown in the <a href="#app"> Appendix</a>.
+
+<br clear="left"/>   <p>
+
+These results are embodied in <a href="../ed/dict.htm#f12"> Faradays two laws</a> of electrolysis:
+<p>
+<ol>
+<li> The amount of any substance dissolved or deposited is directly proportional to the amount of electricity which has flowed.
+<li> The amounts of different substances deposited or dissolved by the same quantity of electricity are proportional to their <a href="../ed/dict.htm#e75"> chemical equivalent weights</a>.
+</li></li></ol>
+<p>
+A popular application of electrolysis is the <a href="art-e01-electroplat.htm"><em> electroplating</em></a> process in which metal coatings are deposited upon the surface of a cathodically polarized metal. An example of an anodic dissolution operation is <a href="../ed/dict.htm#e05"> electropolishing</a>. Here, the item which is to be polished is made the anode in an electrolytic cell. Irregularities on its surface are dissolved preferentially so that, on their removal, the surface becomes flat and polished.
+<p>
+ECM is similar to electropolishing in that it also is an anodic dissolution process. But the rates of metal removal offered by the polishing process are considerably less than those needed in metal machining practice.
+<p>
+Some observations relevant to ECM can be made:
+<p>
+<ul>
+<li> Since the anode metal dissolves electrochemically, its rate of dissolution depends only upon the <a href="../ed/dict.htm#a26"> atomic weight</a> and the ionic charge, the current which is passed, and the time for which the current passes. The dissolution rate is not influenced by the hardness or other characteristics of the metal.
+<li> Since only <a href="../ed/dict.htm#h17"> hydrogen gas is evolved</a> at the cathode, the shape that electrode remains unaltered during the electrolysis. This feature is perhaps the most relevant in the use of ECM as a metal shaping process.
+</li></li></ul>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Characteristics of ECM</em></h3>
+<p>
+In ECM, <a href="../ed/dict.htm#e12"> electrolytes</a> serve as <a href="../ed/dict.htm#c50"> conductors of electricity</a> and <a href="../ed/dict.htm#o18"> Ohms law</a> also applies to this type of conductor. The <a href="../ed/dict.htm#r23"> resistance</a> of electrolytes may amount to hundreds of <a href="../ed/dict.htm#o11"> ohms</a>.
+<p>
+Accumulation within the small machining gap of the metallic and gaseous products of the electrolysis is undesirable. If growth were left uncontrolled, eventually a short circuit would occur between the two electrodes. To avoid this crisis, the electrolyte is pumped through the interelectrode gap so that the products of the electrolysis are carried away. The forced movement of the electrolyte is also essential in diminishing the effects both of electrical heating of the electrolyte, resulting from the passage of current and hydrogen gas, which respectively increase and decrease the effective <a href="../ed/dict.htm#c48"> conductivity</a>.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Working principles</em></h3>
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m03/m03-f03b.jpg"><img alt="Working principles" height="422" src="fig/m03/m03-f03.jpg" width="400"/></a></td></tr>
+<tr><td><em> Fig. 3. Working principles of ECM. </em></td></tr>
+</table>
+
+Electrochemical machining is founded on the principles outlined. As shown in Figure 3, the workpiece and tool are the <a href="../ed/dict.htm#a02"> anode</a> and <a href="../ed/dict.htm#c03"> cathode</a>, respectively, of an <a href="../ed/dict.htm#e02"> electrolytic cell</a>, and a constant <a href="../ed/dict.htm#e65"> potential</a> difference, usually at about 10 <a href="../ed/dict.htm#v09"> V</a>, is applied across them. A suitable electrolyte, for example, aqueous sodium chloride (table salt) solution, is chosen so that the cathode shape remains unchanged during <a href="../ed/dict.htm#e19"> electrolysis</a>. The electrolyte is also pumped at a rate 3 to 30 <a href="../ed/dict.htm#m59"> meter</a>/second, through the gap between the <a href="../ed/dict.htm#e20"> electrodes</a> to remove the products of machining and to diminish unwanted effects, such as those that arise with cathodic gas generation and electrical heating. The rate at which metal is then removed from the anode is approximately in inverse proportion to the distance between the electrodes. As machining proceeds, and with the simultaneous movement of the cathode at a typical rate, for example, 0.02 <a href="../ed/dict.htm#m63"> millimeter</a>/second toward the anode, the gap width along the electrode length will gradually tend to a steady-state value. Under these conditions, a shape, roughly complementary to that of the cathode, will be reproduced on the anode. A typical gap width then should be about 0.4 millimeter. Being understood the characteristics and working principles of ECM, its advantages should be stated in short before going further through machining processes:
+<p>
+<img height="1" src="clear.jpg" width="25"/> • <img height="1" src="clear.jpg" width="3"/> the rate of metal machining does not depend on the hardness of the material,<br/>
+<img height="1" src="clear.jpg" width="25"/> • <img height="1" src="clear.jpg" width="3"/> complicated shapes can be machined on hard metals, <br/>
+<img height="1" src="clear.jpg" width="25"/> • <img height="1" src="clear.jpg" width="3"/> there is no tool wear.
+<p>
+The schematic of an industrial electrochemical machine is shown in Figure 4, and an actual example of a cathode tool and anode workpiece are shown in Figure 5.
+<br clear="left"/>   <p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="562">
+<tr><td><a href="fig/m03/m03-f04b.jpg"><img alt=" Industrial machine " height="420" src="fig/m03/m03-f04.jpg" width="542"/></a></td></tr>
+<tr><td><em> Fig. 4. Industrial electrochemical machine. </em></td></tr>
+</table>
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="339">
+<tr><td><a href="fig/m03/m03-f05b.jpg"><img alt=" Example of cathode and anode " height="420" src="fig/m03/m03-f05.jpg" width="317"/></a></td></tr>
+<tr><td><em> Fig. 5. Example of cathode tool (above) and anode workpiece (below). </em></td></tr>
+</table>
+<br clear="left"/>   <p>
+<h3> Electrochemical machining</h3>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Machine components</em></h3>
+<p>
+Industrial electrochemical machines work on the principles outlined. Particular attention has to be paid to the stability of the electrochemical machine tool frame, and to the machining table which should also be stable and firm. The <a href="../ed/dict.htm#e12"> electrolyte</a> has to be filtered carefully to remove the products of machining and often has to be heated in its reservoir to a fixed temperature, for instance 30<sup>o</sup>C (86<sup>o</sup>F), before entering the machining apparatus. This procedure is used to provide constant operating conditions. During machining the electrolyte heats up from the passage of <a href="../ed/dict.htm#c14"> current</a>. Precautions must be taken to avoid a high electrolyte temperature which can cause changes in the electrolyte <a href="../ed/dict.htm#s26"> specific conductivity</a> and subsequent undesirable effects on machining accuracy.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Rates of machining</em></h3>
+<p>
+The rates at which metals can be electrochemically machined is in proportion to the current passed through the electrolyte and the elapsed time for that operation, and is in inverse proportion to the <a href="../ed/dict.htm#e76"> electrochemical equivalent</a> of the anode-metal which corresponds to the <a href="../ed/dict.htm#a26"> atomic weight</a> of the dissolving <a href="../ed/dict.htm#i01"> ions</a> over the ionic charge times the <a href="../ed/dict.htm#f13"> Faradays constant</a>. See the <a href="#app1"> Appendix</a> for more details.
+<p>
+Many factors other than current influence the rate of machining. These involve electrolyte type, rate of electrolyte flow, and some other process conditions. For example <a href="../ed/dict.htm#c15"> current efficiency</a> decreases when <a href="../ed/dict.htm#c09"> current density</a> is increased for a certain metal, for example, for nickel.
+<p>
+If the ECM of titanium is attempted in sodium chloride electrolyte, usually very low (1020%) current efficiencies are obtained. When this solution is replaced by some mixture of fluoride-based electrolytes, to achieve greater efficiencies (&gt;60%), a higher <a href="../ed/dict.htm#v08"> voltage</a> is used.
+<p>
+If the rates of the flow are kept too low, the current efficiency of even the most easily electrochemically machined metal is reduced. Insufficient flow does not allow the products of machining to be so readily flushed from the machining gap. When complex shapes have to be produced the design of tooling incorporating the right kind of flow ports becomes a considerable problem.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Surface finish</em></h3>
+<p>
+Type of <a href="../ed/dict.htm#e12"> electrolytes</a> used in the process affects the quality of surface finish obtained in ECM. Depending on the material, some electrolytes leave an etched finish. This finish results from the nonspecular reflection of light from crystal faces electrochemically dissolved at different rates. Sodium chloride electrolyte tends to produce an etched, matte finish with steels and nickel alloys.
+<p>
+The production of an <a href="../ed/dict.htm#e05"> electrochemically-polished</a> surface is usually associated with the random removal of atoms from the anode workpiece, whose surface has become covered with an oxide film. This is governed by the metal-electrolyte combination used. Nonetheless, the mechanisms controlling high-current density electropolishing in ECM are still not completely understood. For example, with nickel-based alloys, the formation of a nickel oxide film seems to be a prerequisite for obtaining a polished surface; a finish of this quality, of 0.2 <a href="../ed/dict.htm#m67"> µm</a>, has been claimed for Nimonic (a nickel alloy) machined in <a href="../ed/dict.htm#s20"> saturated</a> sodium chloride solution. Surface finishes as fine as 0.1 µm have been reported when nickel-chromium steels are machined in sodium chlorate solution. The formation of an oxide film on the metal surface is considered the key to these conditions of polishing.
+<p>
+Sometimes the formation of oxide film on the metal surface hinders efficient ECM and leads to poor surface finish. For example, the ECM of titanium is rendered difficult in chloride and nitrate electrolytes because the oxide film formed is so <a href="../ed/dict.htm#p40"> passive</a>. Even when higher <a href="../ed/dict.htm#v08"> voltages</a> about 50 <a href="../ed/dict.htm#v09"> V</a> are applied to break the oxide film, its disruption is so non-uniform that deep grain boundary attack of the metal surface can occur.
+<p>
+Occasionally, metals that have undergone ECM have a pitted surface while the remaining area is polished or matte. Pitting normally stems from gas evolution at the anode; the gas bubbles rupture the oxide film.
+<p>
+Process variables also affect surface finish. For example, as the current density is raised the finish generally becomes smoother on the workpiece surface. A similar effect is achieved when the electrolyte velocity is increased. In tests with nickel machined in hydrochloric <a href="../ed/dict.htm#a18"> acid</a> solution the surface finish has been noted to improve from an etched to a polished appearance when the <a href="../ed/dict.htm#c09"> current density</a> is increased from about 8 to 19 <a href="../ed/dict.htm#a21"> A</a>/square <a href="../ed/dict.htm#c108"> centimeter</a> with constant flow velocity.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Accuracy and dimensional control</em></h3>
+<p>
+Electrolyte selection plays an important role in ECM. Sodium chloride, for example, yields much less accurate components than sodium nitrate. The latter electrolyte has far better dimensional control owing to its <a href="../ed/dict.htm#c15"> current efficiency</a> - current density characteristics. Using sodium nitrate electrolyte, the current efficiency is greatest at the highest current densities. In hole drilling these high current densities occur between the leading edge of the drilling tool and the workpiece. In the side gap there is no direct movement between the tool and workpiece surface, so the gap widens and the current densities are lower. The current efficiencies are consequently lower in the side gap and much less metal than predicted from <a href="../ed/dict.htm#f12"> Faradays law</a> is removed. Thus the overcut in the side gap is reduced with this type of electrolyte. If another electrolyte such as sodium chloride solution was used instead, then the overcut could be much greater. Using sodium chloride solutions, its current efficiency remains steady at almost 100% for a wide range of current densities. Thus, even in the side gap, metal removal proceeds at a rate which is mainly determined by current density, in accordance with Faradays law. A wider overcut then ensues.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Shaping</em></h3>
+<p>
+Most metal-shaping operations in ECM utilize the same inherent feature of the process whereby one <a href="../ed/dict.htm#e20"> electrode</a>, generally the <a href="../ed/dict.htm#c03"> cathode</a> tool, is driven toward the other at a constant rate when a fixed <a href="../ed/dict.htm#v08"> voltage</a> is applied between them. Under these conditions, the gap width between the tool and the workpiece becomes constant. The rate of forward movement between the tool and the workpiece becomes constant. The rate of forward movement of the tool is matched by the rate of recession of the workpiece surface resulting from <a href="../ed/dict.htm#m02"> electrochemical dissolution</a>.
+<p>
+Three practical cases are of interest in considering some equations derived for the variation of the interelectrode gap width:
+<p>
+<ol>
+<li> When there is no tool movement, the gap width increases indefinitely with the square root of machining time. This condition is often used in deburring by ECM when surface irregularities are removed from components in a few seconds, without the need for mechanical movement of the electrode.
+<li> When the tool is moved mechanically at a fixed rate toward the workpiece, the gap width tends to a steady value. This inherent feature of ECM, whereby an equilibrium gap width is obtained, is used widely in ECM for reproducing the shape of the cathode tool on the workpiece.
+<li> Under short-circuit conditions the gap width goes to zero. If some process conditions, such as too small equilibrium gap width caused by a too high movement of the tool toward the workpiece, occur, contact between the two electrodes ensues. This causes a short circuit between the electrodes and hence premature termination of machining.
+</li></li></li></ol>
+<p>
+The equilibrium gap is applied widely in the shaping process. Studies of ECM shaping are usually concerned with three distinct problems:
+<p>
+<ol>
+<li> The design of the <a href="../ed/dict.htm#c03"> cathode</a> tool shape needed to produce a required profile geometry of the <a href="../ed/dict.htm#a02"> anode</a> workpiece.
+<li> For a given cathode tool shape, prediction of the resultant anode workpiece geometry, for example, hole drilling by ECM.
+<li> Specification of the shape of the anode workpiece, as machining proceeds. This is most readily predicted for the smoothing of surfaces, although for actual shaping of components by ECM, estimates of the machining times as the shape develops provide useful information about the process.
+</li></li></li></ol>
+<p>
+<h3> Applications</h3>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Smoothing of rough surfaces</em></h3>
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m03/m03-f06b.jpg"><img alt="Smoothing" height="401" src="fig/m03/m03-f06.jpg" width="400"/></a></td></tr>
+<tr><td><em> Fig. 6. Smoothing of rough surfaces. </em></td></tr>
+</table>
+
+Deburring, or smoothing, of surfaces (Figure 6), is the simplest and a common use of ECM. A plane-faced cathode tool is placed opposite a workpiece that has an irregular surface. The <a href="../ed/dict.htm#c09"> current densities</a> at the peaks of the surface irregularities are higher than those in the valleys. The former are, therefore, removed preferentially and the workpiece becomes smooth, admittedly at the expense of stock metal (which is still machined from the valleys of the irregularities, even though at a lower rate). Electrochemical smoothing is the only type of ECM in which the final anode shape may match precisely that of the cathode tool.
+<p>
+Electrochemical deburring is a fast process; typical times for smoothing the surfaces of manufactured components are 5 to 30 seconds. Owing to its speed and simplicity of operation, electrochemical deburring can be performed with a fixed, stationary cathode tool. The process is used in many industries.
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Hole drilling</em></h3>
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m03/m03-f07b.jpg"><img alt="Drilling" height="393" src="fig/m03/m03-f07.jpg" width="400"/></a></td></tr>
+<tr><td><em> Fig. 7. Electrochemical hole drilling.</em></td></tr>
+</table>
+
+Hole drilling is another principal way of using ECM (Figure 7). The cathode-tool is usually made in the form of a tubular electrode. <a href="../ed/dict.htm#e12"> Electrolyte</a> is pumped down the central bore of the tool, across the main machining gap, and out between the sidegap that forms between the wall of the tool and the hole. Reversal of the electrolyte flow can often produce considerable improvement in machining accuracy.
+<p>
+The main machining action is carried out in the gap formed between the leading edge of the drill tool and the base of the hole in the workpiece. ECM also proceeds laterally between the side walls of the tool and component, where the current density is lower than at the leading edge of the advancing tool. Since the lateral gap width becomes progressively larger than that at the leading edge, the side-ECM rate is lower. The overall effect of the side-ECM is to increase the diameter of the hole produced. The distance between the side wall of the workpiece and the central axis of the cathode tool is larger than the external radius of the cathode. This difference is known as the "overcut". The amount of overcut can be reduced by several methods. A common procedure involves the insulation of the external walls of the tool (Figure 7), which inhibits side-current flow. Another practice lies in the choice of an electrolyte such as sodium nitrate, which has the greatest <a href="../ed/dict.htm#c15"> current efficiency</a> at the highest current densities. In hole drilling these high current densities occur between the leading edge of the drill and the base of the workpiece. If another electrolyte such as sodium chloride were used the overcut could be much greater. The current efficiency for sodium chloride remains steady at almost 100% for a wide range of current densities. Thus, even in the side gap, metal removal proceeds at a rate that is mainly determined by the current density, in accordance with <a href="../ed/dict.htm#f12"> Faraday's law</a>.
+<p>
+Holes with diameters of 0.05 to 75 <a href="../ed/dict.htm#m63"> millimeter</a> have been achieved with ECM. For holes of 0.5 to 1.0 millimeter diameter, depths of up to 110 millimeter have been produced. Drilling by ECM is not restricted to round holes; the shape of the workpiece is determined by that of the tool electrode.
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Full-form shaping</em></h3>
+<p>
+Full-form shaping utilizes a constant gap across the entire workpiece and the tool is moved mechanically at a fixed rate toward the workpiece in order to produce the type of shape used for the production of compressor and turbine blades. In this procedure, <a href="../ed/dict.htm#c09"> current densities</a> as high as 100 <a href="../ed/dict.htm#a21"> A</a>/square <a href="../ed/dict.htm#c108"> centimeter</a> are used, and across the entire face of the workpiece, the current density remains high.
+<p>
+Electrolyte flow plays an even more influential role in full-form shaping than in drilling and smoothing of surfaces. The entire large cross-sectional area of the workpiece has to be supplied by the electrolyte as it flows between electrodes. The larger areas of electrodes involved mean that comparatively higher pumping pressures and volumetric flow rates are needed.
+
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Electrochemical grinding</em></h3>
+<p>
+The main feature of electrochemical grinding (ECG) is the use of a grinding wheel in which an <a href="../ed/dict.htm#i24"> insulating</a> abrasive, such as diamond particles, is set in a <a href="../ed/dict.htm#c50"> conducting</a> material. This wheel becomes the <a href="../ed/dict.htm#c03"> cathode</a> tool. The <a href="../ed/dict.htm#n38"> nonconducting</a> particles act as a spacer between the wheel and workpiece, providing a constant interelectrode gap, through which electrolyte is flushed.
+<p>
+Accuracies achieved by ECG are usually about 0.125 <a href="../ed/dict.htm#m63"> millimeter</a>. A drawback of ECG is the loss of accuracy when inside corners are ground. Because of the <a href="../ed/dict.htm#e138"> electric field</a> effects, radii better than 0.25  0.375 millimeter can seldom be achieved.
+<p>
+A wide application of electrochemical grinding is the production of tungsten carbide cutting tools. ECG is also useful in the grinding of fragile parts such as hypodermic needles.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Electrochemical arc machining</em></h3>
+<p>
+A process that relies on electrical discharges in electrolytes, thereby permitting metal erosion as well as ECM in that medium, has been developed. Because this process relies on the onset of arcs rather than sparks, it has been named electrochemical arc machining (ECAM). A spark has been defined as a sudden transient and noisy discharge between two electrodes; an arc is a stable thermionic phenomenon. Duration discharges of approximately 1 second to 1 millisecond are described as sparks, whereas for durations of about 0.1 second said discharges can be considered arcs. Because in the ECAM process duration, energy, and time of ignition of sparks are under control, it is valid to regard them as arcs.
+<p>
+An attraction of the ECAM technique is the very fast rates of metal removal attainable by the combined effects of sparking and ECM. The ECAM technique can be applied in all the ways discussed for ECM, thus surfaces can be smoothed and drilled. Turning is also possible, as is wire machining.
+<p>
+One form of this process relies on a pulsed <a href="../ed/dict.htm#d11"> direct current</a>, that is, full-wave <a href="../ed/dict.htm#r04"> rectified</a> <a href="../ed/dict.htm#a41"> ac</a> <a href="../ed/dict.htm#e64"> power supply</a> that is locked in phase with a vibrating tool head. The oscillation of the tool gives rise to a set of conditions whereby ECM occurs over each wave cycle. The interelectrode gap narrows as the tool vibrates over one cycle. During the same period the <a href="../ed/dict.htm#c14"> current</a> rises until sparking takes place by breakdown of the <a href="../ed/dict.htm#e12"> electrolyte</a> and/or generation of electrolytic gas or steam bubbles in the gap, the production of which aids the discharge process.
+<p>
+For drilling, the discharge action occurs at the leading edge of the tool, whereas ECM takes place on the side walls between the tool and the workpiece. The combined spark erosion and ECM action yields fast rates of metal removal. Because ECM is still possible, any metallurgical damage to the components caused by the sparking action can be removed by a short period of ECM after the main ECAM action. Currents of 250 <a href="../ed/dict.htm#a21"> A</a> at 30 <a href="../ed/dict.htm#v09"> V</a> are typically used in the process.
+<p>
+<h3> Economic aspects</h3>
+<p>
+The industrial sectors utilizing ECM technology fall into five main categories: tool and die, automotive, aerospace, power generation, and oil and gas industries. Leading the worlds principle machine tool manufacturing nations in production and export of tools in the 1980s were Japan followed by the former West Germany. The United States led in imports and consumption; consumption was high for both Japan and W. Germany as well. Unconventional machine tools including ECM are generally considered to account for only 1% of total production. Electrodischarge machining (EDM) holds the largest share, possibly as much as 50% and ECM about 15% lagging behind laser processes which are 20%.
+<p>
+Manufacturing engineers wishing to use ECM processes in industry need to address the challenge of proper tool design. The cost of design can be as much as 20% of the cost of an electrochemical machine for complex components. Predictability of overcuts obtained for specific applications and the particular electrolytes to be used for the alloy metals that have to be machined must also be considered along with specific controls and limits on the ECM equipment needed.
+<p>
+Computer-controlled equipment and sensors are available for electrochemical machining systems. However in the 1990s practical ECM systems are often favored because the amount of control and/or monitoring of the process is far less than that which was required in the 1970s. Thus machines are used successfully in which electrical spark detection is eliminated and machining products control, for example, <a href="../ed/dict.htm#p13"> pH</a> monitoring, is nonexistent.
+<p>
+<h3> The present and future status of ECM</h3>
+<p>
+High-rate <a href="../ed/dict.htm#a02"> anodic</a> electrochemical dissolution is a practical method of smoothing and shaping hard metals by employment of simple aqueous electrolyte solutions without wear of the <a href="../ed/dict.htm#c03"> cathodic</a> tool. ECM can offer substantial advantages in a wide range of cavity-sinking and shaped-hole production operations.
+<p>
+Control of the ECM process is improving all the time, with more sophisticated servo-systems, and better insulating coatings. However there is still a need for basic information on <a href="../ed/dict.htm#e20"> electrode</a> phenomena at both high <a href="../ed/dict.htm#c09"> current densities</a> and electrolyte flow-rates.
+<p>
+Tool design continues to be of paramount importance in any ECM operation. The use of computer-aided design to predict cathode tool profiles will continue to advance.
+<p>
+Recently developments in ECM practice have dwelt on the replacement of constant <a href="../ed/dict.htm#d47"> dc</a> by pulsed currents (PECM). Significant improvements in surface quality have been claimed. Much smaller electrode gaps may be obtained, for example, below 0.1 <a href="../ed/dict.htm#m63"> millimeter</a> leading to improved control of accuracy, for example to 0.02 to 0.10 millimeter, with dies, turbine blades, and precision electronic components. The key to further advancement in PECM lies in development of a low cost power supply. Successful development of technique will enable on-line monitoring of the gap size, enabling closer process control.
+<p>
+Despite these attractions, PECM should be regarded as complementary to, and not a substitute for, established ECM technology; the former is expensive and metal removal rates can be lower than these of the latter.
+<p>
+The advent of new technology for controlling the ECM process and the development of new and improved metal alloys, which are difficult to machine by conventional means, will assure the future of electrochemical machining.
+
+<p>
+<a name="app"><h3> Appendix</h3></a>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Electrolysis</em></h3>
+<p>
+
+Reactions that occur during the <a href="../ed/dict.htm#e19"> electrolysis</a> of copper sulphate (<a href="#fig1">Figure 1</a>) are as follows. The <a href="../ed/dict.htm#a02"> anodic</a> reaction is <a href="../ed/dict.htm#i01"> ionizing</a> of copper:
+<p>
+Cu ==&gt; Cu<sup>2+</sup>(aq) + 2e<sup>-</sup>
+<p>
+While at the <a href="../ed/dict.htm#c03"> cathode</a> the copper ions are <a href="../ed/dict.htm#d10"> discharged</a> to form copper metal:
+<p>
+Cu<sup>2+</sup>(aq) + 2e<sup>-</sup>  ==&gt; Cu
+<p>
+Reactions that occur during the electrolysis of iron (<a href="#fig2">Figure 2</a>) are as follows. The anodic reaction is ionizing of iron:
+<p>
+Fe ==&gt; Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>
+<p>
+At the cathode, the reaction is likely to be the <a href="../ed/dict.htm#h17"> generation of hydrogen gas</a> and the production of hydroxyl ions:
+<p>
+H<sub>2</sub>O + 2e<sup>-</sup>   ==&gt; H<sub>2</sub> + 2OH<sup>-</sup>
+<p>
+The net reaction is thus:
+<p>
+Fe + 2H<sub>2</sub>O ==&gt; Fe(OH)<sub>2</sub>(s) + H<sub>2</sub>
+<p>
+The ferrous hydroxide may react to form ferric hydroxide:
+<p>
+4Fe(OH)<sub>2</sub> + 2H<sub>2</sub>O + O<sub>2</sub> ==&gt; 4Fe(OH)<sub>3</sub>
+<p>
+<a name="app1"></a>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Characteristics of ECM</em></h3>
+<p>
+
+By use of <a href="../ed/dict.htm#f12"> Faradays laws</a>, if m<sub>d</sub> (<a href="../ed/dict.htm#k16">kg</a>) is the mass of metal dissolved, and because m<sub>d</sub> = vd where v (<a href="../ed/dict.htm#m91">m<sup>3</sup></a>) is the corresponding volume and d (kg/<a href="../ed/dict.htm#m91">m<sup>3</sup></a>) the density of the anode metal, the volumetric removal rate of anode metal (<a href="../ed/dict.htm#m91">m<sup>3</sup></a>/second) is given by:
+<p>
+<img height="1" src="clear.jpg" width="50"/> <img src="fig/m03/m03-eq-1.gif"/>
+<p>
+Where a (kg/<a href="../ed/dict.htm#m44">mol</a>) is the atomic weight of the anode metal, I (<a href="../ed/dict.htm#a15">ampere</a>) is the <a href="../ed/dict.htm#c14"> current</a> flowing, z is the ionic charge of the anode metal, and the <a href="../ed/dict.htm#f13"> Faraday constant</a> F equals 96,487 <a href="../ed/dict.htm#c40"> coulombs</a>/mol. If a machining operation has to be carried out on an iron workpiece at a typical rate of 2.6 × 10<sup>-8</sup> kg/<a href="../ed/dict.htm#c63">C</a>, for this removal rate to be achieved by ECM, the current in the cell must be about 700 <a href="../ed/dict.htm#a21"> A</a>, because a/zF = 29 × 10<sup>-8</sup> and d= 7,860 kg/<a href="../ed/dict.htm#m91">m<sup>3</sup></a> for iron.
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Rates of machining</em></h3>
+<p>
+By use of Faradays laws the rates at which metals can be electrochemically machined can be calculated.
+<p>
+<img height="1" src="clear.jpg" width="50"/> <img src="fig/m03/m03-eq-2.gif"/>
+<p>
+Where m<sub>d</sub> (<a href="../ed/dict.htm#k16">kg</a>) is the mass of metal electrochemically machined by current I (ampere) passed for a time t (second). The quantity a/zF is called the <a href="../ed/dict.htm#e76"> electrochemical equivalent</a> of the anode metal as mentioned before.
+
+<p>
+Table I shows the metal machining rates that can be obtained when a current of 1000 <a href="../ed/dict.htm#a21"> A</a> is used in ECM. Metal removal rates in terms of volumetric machining are often more useful than mass removal rates, and both quantities are included. (It is assumed that the anodic <a href="../ed/dict.htm#c15"> current efficiency</a> is 100%, that is all the current is used to remove metal, which is not always the case.)
+
+<p>
+<table align="left" border="1" cellpadding="1" cellspacing="1" hspace="10" rules="none" vspace="10">
+<tr><td colspan="6"> <img src="clear.jpg"/> </td></tr>
+<tr><td align="center" colspan="6"> <u><strong> Table I. Metal machining rates </strong></u></td></tr>
+<tr><td colspan="6"> <img src="clear.jpg"/> </td></tr>
+<tr><td> <strong> Metal </strong> </td> <td> <strong> Atomic </strong> </td> <td> <strong> Ionic </strong> </td> <td> <strong> Density </strong> </td> <td align="center" colspan="2"> <strong> Removal rate</strong> </td> </tr>
+<tr><td> </td> <td> <strong> weight </strong> </td> <td> <strong> charge </strong> </td> <td> <strong> 10<sup>3</sup> kg/m<sup>3</sup> </strong> </td> <td> <strong> 10<sup>-3</sup> kg/s </strong> </td> <td> <strong> 10<sup>-6</sup> m<sup>3</sup>/s </strong> </td> </tr>
+<tr><td colspan="6"> <img src="clear.jpg"/> </td></tr>
+<tr> <td> Aluminum <img height="1" src="clear.jpg" width="30"/> </td> <td> 26.97 <img height="1" src="clear.jpg" width="40"/></td> <td> 3 <img height="1" src="clear.jpg" width="60"/></td> <td> 2.67<img height="1" src="clear.jpg" width="60"/> </td> <td> 0.093 <img height="1" src="clear.jpg" width="40"/></td> <td> 0.035 <img height="1" src="clear.jpg" width="30"/></td> </tr>
+<tr> <td> Beryllium </td> <td> 9.0 </td> <td> 2 </td> <td> 1.85 </td> <td> 0.047 </td> <td> 0.025 </td> </tr>
+<tr> <td> Chromium </td> <td> 51.99 </td> <td> 2 </td> <td> 7.19 </td> <td> 0.269 </td> <td> 0.038 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 3 </td> <td> </td> <td> 0.180 </td> <td> 0.025 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 6 </td> <td> </td> <td> 0.090 </td> <td> 0.013 </td> </tr>
+<tr> <td> Cobalt </td> <td> 58.93 </td> <td> 2 </td> <td> 8.85 </td> <td> 0.306 </td> <td> 0.035 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 3 </td> <td> </td> <td> 0.204 </td> <td> 0.023 </td> </tr>
+<tr> <td> Niobium </td> <td> 92.91 </td> <td> 3 </td> <td> 9.57 </td> <td> 0.321 </td> <td> 0.034 </td> </tr>
+<tr> <td> (Columbium) </td> <td> </td> <td> 4 </td> <td> </td> <td> 0.241 </td> <td> 0.025 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 5 </td> <td> </td> <td> 0.193 </td> <td> 0.020 </td> </tr>
+<tr> <td> Copper </td> <td> 63.57 </td> <td> 1 </td> <td> 8.96 </td> <td> 0.660 </td> <td> 0.074 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 2 </td> <td> </td> <td> 0.329 </td> <td> 0.037 </td> </tr>
+<tr> <td> Iron </td> <td> 55.85 </td> <td> 2 </td> <td> 7.86 </td> <td> 0.289 </td> <td> 0.037 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 3 </td> <td> </td> <td> 0.193 </td> <td> 0.025 </td> </tr>
+<tr> <td> Magnesium </td> <td> 24.31 </td> <td> 2 </td> <td> 1.74 </td> <td> 0.126 </td> <td> 0.072 </td> </tr>
+<tr> <td> Manganese </td> <td> 54.94 </td> <td> 2 </td> <td> 7.43 </td> <td> 0.285 </td> <td> 0.038 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 4 </td> <td> </td> <td> 0.142 </td> <td> 0.019 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 6 </td> <td> </td> <td> 0.095 </td> <td> 0.013 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 7 </td> <td> </td> <td> 0.081 </td> <td> 0.011 </td> </tr>
+<tr> <td> Molybdenum </td> <td> 95.94 </td> <td> 3 </td> <td> 10.22 </td> <td> 0.331 </td> <td> 0.032 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 4 </td> <td> </td> <td> 0.248 </td> <td> 0.024 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 6 </td> <td> </td> <td> 0.166 </td> <td> 0.016 </td> </tr>
+<tr> <td> Nickel </td> <td> 58.71 </td> <td> 2 </td> <td> 8.90 </td> <td> 0.304 </td> <td> 0.034 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 3 </td> <td> </td> <td> 0.203 </td> <td> 0.023 </td> </tr>
+<tr> <td> Silicon </td> <td> 28.09 </td> <td> 4 </td> <td> 2.33 </td> <td> 0.073 </td> <td> 0.031 </td> </tr>
+<tr> <td> Tin </td> <td> 118.69 </td> <td> 2 </td> <td> 7.30 </td> <td> 0.615 </td> <td> 0.084 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 4 </td> <td> </td> <td> 0.307 </td> <td> 0.042 </td> </tr>
+<tr> <td> Titanium </td> <td> 47.9 </td> <td> 3 </td> <td> 4.51 </td> <td> 0.165 </td> <td> 0.037 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 4 </td> <td> </td> <td> 0.124 </td> <td> 0.028 </td> </tr>
+<tr> <td> Tungsten </td> <td> 183.85 </td> <td> 6 </td> <td> 19.3 </td> <td> 0.317 </td> <td> 0.016 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 8 </td> <td> </td> <td> 0.238 </td> <td> 0.012 </td> </tr>
+<tr> <td> Uranium </td> <td> 238.03 </td> <td> 4 </td> <td> 19.1 </td> <td> 0.618 </td> <td> 0.032 </td> </tr>
+<tr> <td> </td> <td> </td> <td> 6 </td> <td> </td> <td> 0.412 </td> <td> 0.022 </td> </tr>
+<tr> <td> Zinc </td> <td> 65.37 </td> <td> 2 </td> <td> 7.13 </td> <td> 0.339 </td> <td> 0.048 </td> </tr>
+<tr><td colspan="6"> <img src="clear.jpg"/> </td></tr>
+</table>
+<br clear="left"/>   <p>
+<h3> Bibliography </h3>
+<p>
+<ul>
+<p>
+<li><u>Electrochemical machining,</u> J. A. McGeough, in Kirk-Othmer Encyclopedia of Chemical Technology (5<sup>th</sup> edition), Vol. 9, pp 590-606, J. I. Kroschwitz (editor), Wiley-Interscience, NY 2005.
+<p>
+<li><u>Machining methods: electrochemical,</u> J. A. McGeough and X. K. Chen, in Kirk-Othmer Encyclopedia of Chemical Technology (4<sup>th</sup> edition), Vol. 15, pp 608-622, J. I. Kroschwitz and M. Howe-Grant (editors), Wiley-Interscience, NY 1995.
+<p>
+<li><u> A Study of Electrical Discharges in Electrolyte by High-Speed Photography,</u> X. Ni, J. A. McGeough, and C. A. Greated, Journal of Electrochemical Society Vol. 140, pp 3505-3512, 1993.
+<p>
+<li><u> Study of Pulse Electrochemical Machining Characteristics,</u> K. P. Rajurkar, J. Kozak, and B. Wei, Annals International College for Production Research Vol. 42, pp 231-234, 1993.
+<p>
+<li><u> Jet and Laser-Jet Electrochemical Micromachining of Nickel and Steel,</u> M. Datta, L. T. Romankiw, D. R. Vigliotti, and R. J. Von Gutfeld, Journal of Electrochemical Society Vol. 136, pp 2251-2256, 1989.
+<p>
+<li><u> Advanced Methods of Machining,</u> J. A. McGeough, Chapman and Hall, London, 1988.
+<p>
+<li><u> Analysis of Electrochemical Arc Machining by Stochastic and Experimental Methods,</u> A. B. M. Khayry and J. A. McGeough, Proceedings of the Royal Society of London Vol. A412, pp 403-429, 1987.
+<p>
+<li><u> An Electrochemical Machining Method for Removal of Samples and Defective Zones in Metal Pipes, Vessels and Structures,</u> D. Clifton, J. W. Midgley, and J. A. McGeough, Proceedings of the Institution of Mechanical Engineers, Part B, Journal of Engineering Manufacture Vol 201, pp 229-231, 1987.
+<p>
+<li><u> Surface Effects on Alloys Drilled by Electrochemical Arc Machining,</u> A. DeSilva and J. A. McGeough, Proceedings of the Institution of Mechanical Engineers, Part B, Journal of Engineering Manufacture Vol. 200, pp 237-246, 1986.
+<p>
+<li><u> Analysis of Taper Produced on Side Zone During ECD,</u> V. K. Jain and V. N. Nanda, Precision Engineering, Journal of the American Society for Precision Engineering Vol. 8, No. 1, pp 27-33, 1986.
+<p>
+<li><u> Electrochemical Wirecutting,</u> S. R. Ghabrail and C. F. Noble, in Proceedings of the 24<sup>th</sup> International Machine Tool Design and Research Conference pp 323-328, B. J. Davies (editor), Macmillan, Manchester, UK 1984.
+<p>
+<li><u> Drilling Without Drills,</u> G. Bellows and J. D. Kohls, American Machinist pp 178-183, 1982.
+<p>
+<li><u> Deburring-2: Electrochemical Machining,</u> D. Graham, The Production Engineering Vol. 61, No. 6, pp 27-30, 1982.
+<p>
+<li><u> Comparative Studies of ECM, EDM and ECAM,</u> I. M. Crichton, J. A. McGeough, W. Munro, and C. White, Precision Engineering Vol. 3, pp 155-160, 1981.
+<p>
+<li><u> Aspects of Drilling by Electrochemical Arc Machining,</u> T. Drake and J. A. McGeough, in Proceedings of the 21<sup>th</sup> Machine and Tool Design and Research Conference pp 362-369, J. M. Alexander (editor), Macmillan, New York, 1981.
+<p>
+<li><u> Basic Study of ECDM-II,</u> M. Kubota, Y. Tamura, H. Takahahi, and T. Sugaya, Journal Association Electro-Machining Vol. 13, No. 26, pp 42-57, 1980.
+<p>
+<li><u> Basic Study of ECDM-I,</u> M. Kubota, Y. Tamura, J. Omori, and Y. Hirano, Journal Association Electro-Machining Vol. 12, No. 23, pp 24-33, 1978.
+<p>
+<li><u> Newcomers for Production,</u> G. Bellows, in Non-Traditional Machining Guide 26 pp 28-29, Metcut Research Associates Inc., Cincinnati, Ohio, 1976.
+<p>
+<li><u> Electrochemical machining,</u> J. Kaczmarek, in Principles of Machining by Cutting, Abrasion and Erosion pp 487-513, Peregrinus, Stevenage UK, 1976.
+<p>
+<li><u> Principles of Electrochemical Machining,</u> J. A. McGeough, Chapman and Hall, London, 1974.
+<p>
+</p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></ul>
 </section>
-<!-- Subsection 1 -->
-<section>
-<h3>
-<!-- Subtitle 1 -->
-</h3>
-<p>
-<!-- Content for subsection 1 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 1 - paragraph 2 -->
-</p>
-</section>
-<!-- Subsection 2 -->
-<section>
-<h3>
-<!-- Subtitle 2 -->
-</h3>
-<p>
-<!-- Content for subsection 2 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 2 - paragraph 2 -->
-</p>
-</section>
-<!-- Other subsections -->
-<!-- Other Resources Section -->
-<section id="other-resources">
-<h2><i class="fas fa-flask"></i>
-                    Other Resources
-                </h2>
-<p>
-                    Listings of electrochemistry <a href="../../estir/books.htm"> books</a>, <a href="../../estir/chap.htm"> review chapters</a>, <a href="/estir/proc.htm"> proceedings volumes</a>, and full text of some <a href="/estir/history.htm"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+
+            <section>
+                <h2><i class="fas fa-flask"></i>Other Resources</h2>
+                <p>
+                    Listings of electrochemistry <a href="../../estir/books.html"> books</a>, <a href="../../estir/chap.html"> review chapters</a>, <a href="/estir/proc.html"> proceedings volumes</a>, and full text of some <a href="/estir/history.html"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
                 </p>
-</section>
-<!-- Other sections -->
-</main>
-</div>
-<footer>
-<img alt="ECS Logo" src="../../images/ECS_Logo-removebg.png"/>
-<div class="footer-text">
-<p>
+            </section>
+        </main>
+    </div>
+
+    <!-- END OF CONTENT -->
+
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+
+    <!-- FOOTER CODE -->
+
+    <footer>
+        <img src="../../images/ECS_Logo-removebg.png" alt="ECS Logo">
+        <div class="footer-text">
+            <p>
                 Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
                 <a href="/copyright.html">Copyright Notice</a>
-</p>
-<p>
+            </p>
+            <p>
                 Edited by: <a href="/estir/editor.html">Zoltan Nagy</a> <a href="mailto:nagyz@email.unc.edu">(nagyz@email.unc.edu)</a> | 
                 <a href="http://www.chem.unc.edu/" target="_blank">Dept. of Chemistry</a> | 
                 <a href="http://www.unc.edu/" target="_blank">UNC at Chapel Hill</a></p>
-<p>
-<a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
+            <p>
+                <a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
                 <a href="http://www.ecsblog.org/" target="_blank">Redcat Blog</a> | 
                 <a href="http://ecsdl.org/" target="_blank">ECS Digital Library</a>
-</p>
-</div>
-</footer>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-<script defer="" src="../../js/analytics.js"></script>
+            </p>
+        </div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
+    <script src="../../js/analytics.js" defer></script>
 </body>
 </html>

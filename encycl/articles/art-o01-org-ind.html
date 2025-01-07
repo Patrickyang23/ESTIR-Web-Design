@@ -1,129 +1,470 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc." name="description"/>
-<meta content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry" name="keywords"/>
-<meta content="index, follow, noodp, noydir" name="robots"/>
-<link href="https://knowledge.electrochem.org/" rel="canonical"/>
-<link href="https://knowledge.electrochem.org/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="../../css/html5reset.css" rel="stylesheet"/>
-<link href="../../css/main.css" rel="stylesheet"/>
-<title>No Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
+    <meta name="keywords" content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry">
+    <meta name="robots" content="index, follow, noodp, noydir">
+    <link rel="canonical" href="https://knowledge.electrochem.org/">
+    <link rel="icon" href="https://knowledge.electrochem.org/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/html5reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Electrochemistry Encyclopedia -- Industrial organics </title>
 </head>
 <body>
-<header>
-<nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../estir/index.html">ESTIR</a></li>
+                <li><a href="../../encycl/index.html">Encyclopedia</a></li>
+                <li><a href="../../ed/dict.html">Dictionary</a></li>
+                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="../../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
+        </a>
+    </header>
+
+    <!-- Main content container -->
+    <div class="main-container">
+        <aside>
+            <div class="fixed-sidebar">
+                <h3 class="subtitle">Search</h3>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Navigation menu for sections -->
+                <h3 class="subtitle">Navigation</h3>
+                <ul>
+                    <li><a href="#article">> Main Content</a></li>
+                    <li><a href="#appendix">> Appendix</a></li>
+                    <li><a href="#acknowledgements">> Acknowledgements</a></li>
+                    <li><a href="#bibliography">> Bibliography</a></li>
+                    <li><a href="#other-resources">> Other Resources</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="article">
+                <h1><i class="fas fa-flask"></i> INDUSTRIAL ORGANIC ELECTROSYNTHESIS<br>
+With Some Advice on Approaches to Scaleup</h1>
+                <div class="author-info">
+                    
+<em> Norman L. Weinberg <br>
+   Consultant<br>
+   East Amherst NY, USA</em><br>
+   E-mail: <a href="mailto:nweinberg@adelphia.net">nweinberg@adelphia.net</a><br>
+   (May, 2002)<p></p>
+                </div>
+            </section>
+            <section>
+               <p>
+                  Thousands of <a href="../../ed/dict.html#e16"> electrochemical reactions</a> of organics have been catalogued to date. These comprise direct <a href="../../ed/dict.html#c02"> electron transfer reactions</a> at <a href="../../ed/dict.html#a02"> anodes</a> for <a href="../../ed/dict.html#o01"> oxidation</a> and at <a href="../../ed/dict.html#c03"> cathodes</a> for <a href="../../ed/dict.html#o01"> reduction</a>. Thousands of these also include <a href="../../ed/dict.html#i21"> indirect electron transfer reactions</a> using <a href="../../ed/dict.html#r03"> redox species</a>. Of these, not more than a few hundred pilot and industrial scale organic <a href="../../ed/dict.html#e113"> electrosyntheses</a> have been described (see <a href="#table1"> Tables I-III</a> below for examples).</p>
+                  <p>
+                     
+The essential difference between chemical and electrochemical processing is that the reactor is an <a href="../../ed/dict.html#e02"> electrolytic cell</a> powered by a <a href="../../ed/dict.html#e64"> current source</a>. The electrolytic cell contains positively <a href="../../ed/dict.html#e135"> charged</a> <a href="../../ed/dict.html#a02"> anodes</a> and negatively charged <a href="../../ed/dict.html#c03"> cathodes</a>; an <a href="../../ed/dict.html#e12"> electrolyte solution</a> containing <a href="../../ed/dict.html#i01"> ions</a> to carry the <a href="../../ed/dict.html#c14"> current</a> and in which the <a href="../../ed/dict.html#r17"> reactant</a> and product are usually at least partially dissolved; maybe, <a href="../../ed/dict.html#s02"> separators</a> (membranes or porous diaphragms) to separate the processes at the anodes and cathodes; and, some means for stirring or agitating the cell contents. The <a href="../../ed/dict.html#e20"> electrodes</a> may be made of special catalytic material, that is these may be <a href="../../ed/dict.html#e46"> electrocatalytic</a> coatings with special properties for optimizing the yield, increasing product specificity, extending electrode life, and/or lowering <a href="../../ed/dict.html#c19"> cell voltage</a>. The electrodes are preferably spaced as close together as possible without touching to avoid shorting, so as to minimize the cell voltage (See <a href="#econ"> Economics</a>).The <a href="../../ed/dict.html#d47"> dc</a> <a href="../../ed/dict.html#e64"></a>power supplies</a> or <a href="../../ed/dict.html#r04"> rectifiers</a> electrify the cell, at relatively low cell voltages usually in the range of about 3 to 15 <a href="../../ed/dict.html#v07"> volts</a>. 
+                  </p>
+                  <p>
+                     There are many other differences seen in organic <a href="../../ed/dict.html#e113"> electrosynthesis</a> compared to conventional organic synthesis. Useful concentrations of highly reactive <a href="../../ed/dict.html#c07"> cation</a> or <a href="../../ed/dict.html#a04"> anion</a> <a href="../../ed/dict.html#r36"> radicals</a>, not easily or so far impossible to make chemically, can be easily and conveniently produced electrochemically. The resulting electrosynthesis products can be unique (that is not before synthesized by chemical means, or so difficultly made by chemical means that many steps would be required). Many other reactive species can be made conveniently, including superoxide ion, hydroxyl radicals, peroxide, CO<sub>2</sub> anion radicals, hydrogen <a href="../../ed/dict.html#a33"> atoms</a> and metal hydrides, and halogens, including fluorine. On the <a href="../../ed/dict.html#c03"> cathode</a> side of the cell, at high negative <a href="../../ed/dict.html#e66"> potentials</a>, solutions of <a href="../../ed/dict.html#s24"> solvated electrons</a> can be readily made and on the <a href="../../ed/dict.html#a02"> anode</a> side, at high positive potentials, powerful <a href="../../ed/dict.html#o27"> oxidants</a> like fluorine, persulfate salts, and ozone. <a href="../../ed/dict.html#a18"> Acid</a> can be made at the anode and <a href="../../ed/dict.html#b07"> alkali</a> at the cathode. </p>
+            </section>
+            <section>
+<h3> Advantages and disadvantages of electrosynthesis </h3>
+
+
+There are advantages and disadvantages to organic electrochemical processing. Most important among the advantages is the very wide range of <a href="../../ed/dict.html#o01"> oxidation and reduction</a> reactions possible. Other advantages that may be realized are: significantly less <a href="../../ed/dict.html#e69"> energy</a> requirement; less hazardous process; elimination or minimization of polluting byproducts requiring disposal; process simplification so that an otherwise multistep chemical route is simplified to one or two steps; use of cheaper more readily available starting materials; the possibility of reaching very high levels of product purity and selectivity; development of valuable intellectual property; and, in many instances, considerably improved capital and operating costs over conventional methods.
+<p>
+Electrosynthesis certainly has disadvantages too. Electrosynthesis usually requires the use of a solvent to solubilize the <a href="../../ed/dict.html#r17"> reactants</a> and products. Water is the ideal solvent but too often organic solvents or co-solvents are required. In addition, <a href="../../ed/dict.html#s03"> supporting electrolytes</a> to carry the <a href="../../ed/dict.html#c14"> current</a> are very often needed. The solvent/supporting electrolyte system can be too expensive or even the source of unacceptable pollutants if not recovered and recycled. <a href="../../ed/dict.html#e02"> Electrolytic cells</a> require stable <a href="../../ed/dict.html#e20"> electrode</a> materials, <a href="../../ed/dict.html#s02"> separators</a> and other components, which may have limited lifetimes and can affect the economics adversely. Electricity is required in all electrochemical processing which may or may not be a critical factor, depending on where the process is located. (Note, however, that the cost of electricity is not at all a deciding factor where higher value added products such as pharmaceuticals are the products).
+<p>
+Considering the advantages, critics question why there are so few commercial scale organic electrosyntheses. Indeed, there are many ongoing successful processes (See <a href="#table1"> Tables I-III</a>), but as in conventional processes, some have been discontinued or may never reach commercial scale for various reasons, including:
+
 <ul>
-<li><a href="../../index.html">Home</a></li>
-<li><a href="../../estir/index.html">ESTIR</a></li>
-<li><a href="../../encycl/index.html">Encyclopedia</a></li>
-<li><a href="../../ed/dict.html">Dictionary</a></li>
-<li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
-</ul>
-</nav>
-<a href="index.html">
-<img alt="Electrochemical Encyclopedia Banner" src="../../images/banner_encyclopedia.jpg"/>
-</a>
-</header>
-<!-- Main content container -->
-<div class="main-container">
-<aside>
-<div class="fixed-sidebar">
-<h3 class="subtitle">Search</h3>
-<div class="search-container">
-<input placeholder="Search" type="text"/>
-<button type="button"><i class="fas fa-search"></i></button>
-</div>
-<!-- Navigation menu for sections -->
-<h3 class="subtitle">Navigation</h3>
+<li> The product became a pollutant (for example tetraalkyl lead from lead and alkyl halide); </li>
+<li> The market for the product disappeared (for example 1,2-dihydrophthalic acid); </li>
+<li> An established market for the products never existed (for example Philip's electrofluorination of hydrocarbons). A new process for a new product is bound to have a tough upward battle to achieve market entry;</li>
+<li> Toxic byproducts could not be eliminated (for example p-aminophenol produced from nitrobenzene is contaminated with carcinogenic benzidine);</li>
+<li> Improved methods of <a href="../../ed/dict.html#c100"> catalytic</a> hydrogenation became more practical (for example sorbitol from glucose or aniline from nitrobenzene); </li>
+<li> Methods of catalytic oxidation became more practical (for example hydroquinone from benzene or phenol or propylene oxide from propylene); </li>
+<li> The capital cost is considered too high for the company in its present financial state.</li>
+<li> <strong>Courage!</strong> For various reasons, the product or process has no upper level corporate "champion" willing to support it, despite the promising opportunity and economics; </li>
+<li> <strong>Politics!</strong> If the company manufactures this product, the company perceives it may lose an important customer or partner, who may see this as competition.
+
+</li></ul>
+
+It should not be surprising that the above list of reasons why electrochemical processes never reach commercialization or are discontinued pertains to conventional processing as well.
+<p>
+<h3> Chemical industry's attraction to electrosynthesis </h3>
+
+The advantages cited above are good reasons for companies to be aware of advances in electrochemical processing. There are also good reasons for chemical companies to have on hand at least the basic laboratory tools and the necessary skills to evaluate potential electrochemical routes alongside conventional methods. But, all too often the primary reason why companies investigate electrochemical processing alternatives is because the company has tried every conceivable chemical method available without success. Then someone in the company, perhaps an electrochemist, an external consultant, or a scientist reading the literature has asked if electrosynthesis might be the long-sought answer. In reality, except for rare instances, there are usually no easy <a href="../../ed/dict.html#e113"> electrosynthesis</a> answers, if no chemical route works.
+<p>
+<h3> Attaining successful industrial organic electrochemical processes </h3>
+
+The importance of adopting a strategic approach cannot be overemphasized, especially where a company does not have the necessary in-house expertise. Reaching an informed decision on whether or not to pursue a proposed electrochemical route requires consideration of all of the following:
+<p>
 <ul>
-<li><a href="#article">&gt; Main Content</a></li>
-<li><a href="#appendix">&gt; Appendix</a></li>
-<li><a href="#acknowledgements">&gt; Acknowledgements</a></li>
-<li><a href="#bibliography">&gt; Bibliography</a></li>
-<li><a href="#other-resources">&gt; Other Resources</a></li>
-<!-- Other sections -->
-</ul>
-</div>
-</aside>
-<main>
-<section id="article">
-<h1><i class="fas fa-flask"></i>
-<!-- Insert the article's title here -->
-</h1>
-<div class="author-info">
-<em>
-<!-- Provide the author's information here -->
-</em><br/>
+<li> The electrochemical literature, including patents on the electrosynthesis of the product and its nearest analogues. 
 <p>
-<!-- Include the author's email and date of publication here -->
-</p>
+<li> For the most promising route, write the equations for the <a href="../../ed/dict.html#a02"> anode</a> and <a href="../../ed/dict.html#c03"> cathode</a> processes, including products and byproducts. Then decide what needs to be demonstrated in the laboratory in a limited series of studies during small scale feasibility testing. Usually some <a href="../../ed/dict.html#e37"> electroanalytical</a> method such as <a href="../../ed/dict.html#v04"> cyclic voltammetry</a> is useful to follow the <a href="../../ed/dict.html#e116"> electrooxidation</a> or <a href="../../ed/dict.html#e117"> electroreduction</a> of the <a href="../../ed/dict.html#r17"> reactants</a>. Calculate the <a href="../../ed/dict.html#c19"> cell voltage</a> (if not indicated in the literature) and estimate the cell requirements, the <a href="../../ed/dict.html#e20"> electrode</a> area and the number of cells. And, do at least a first pass economic evaluation of capital and operating costs. 
 <p>
-<!-- Main introduction or summary of the article -->
-</p>
-</div>
+<li> If not already performed, compare the economics of the most promising chemical route. Based on the economics, decide on what variables, if any, are likely to be critical in the electrochemical route. Nothing can be done about certain factors like the number of <a href="../../ed/dict.html#a33"> electrons</a> required, the <a href="../../ed/dict.html#m30"> molecular weight</a> of the starting material or products, but the economics may be influenced positively, for example, by increasing the product yield, <a href="../../ed/dict.html#c15"> current efficiency</a> and selectivity, or by lowering the cell voltage, and by the choice of solvent, operating temperature and cell components like electrode and <a href="../../ed/dict.html#s02"> separator</a> materials.
+<p>
+<li> A limited number of the feasibility experiments are performed in the laboratory using a simple cell. Glass cells and small flow cells are commercially available. Is the desired product formed? What are the yields and current efficiencies of the products and byproducts? If the answers are found acceptable, a series of well designed experiments will normally follow, preferably in a small flow cell with good flow characteristics to begin to optimize some of the critical variables of the early experiments. All along the way, "go/no go" decisions will be made. Further work may be discontinued in a "no go" decision upon discovery of unacceptable byproducts or the requirement of a too expensive solvent. 
+<p>
+<li> Recalculate the economics, based on the results to this point.
+<p>
+<li> If still promising, the engineering team may come in to produce a preliminary process flow diagram and assist with advice and design of the scale facility. 
+
+<p>
+<table>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="310">
+<tr><td><a href="fig/o01/o01-f01b.jpg"><img alt="Electrosynthesis cell" height="279" src="fig/o01/o01-f01.jpg" width="288"/></a></td></tr>
+<tr><td><em> Fig. 1. An example of electrosynthesis cells: Progenica™ Cell (Photo reproduced with permission of Regenesys Technologies Limited). </em></td></tr>
+</table>
+<table align="left" border="0" cellpadding="5" cellspacing="5">
+<!--   a figure to provide "white space" next to the Fig. 1.   -->
+<tr><td><img height="390" src="clear.jpg" width="20"/></td></tr>
+</table>
+
+In many instances, especially for high value added products, pilot scale may be the plant scale. <strong>Designing your own electrochemical cell may be unnecessary. Modern cells are highly engineered reactors and are commercially available in a variety of sizes and with a range of cell components (Figure 1). The following are a few companies that offer cells:</strong>
+<p>
+<img height="1" src="clear.jpg" width="25"/> — <img height="1" src="clear.jpg" width="3"/> ElectroCell
+<a href="http://www.chematur.se/">http://www.chematur.se/</a> <br/>
+<img height="1" src="clear.jpg" width="25"/> — <img height="1" src="clear.jpg" width="3"/> IneosChlor
+<a href="http://www.ineoschlor.com/">http://www.ineoschlor.com/</a> <br/>
+<img height="1" src="clear.jpg" width="25"/> — <img height="1" src="clear.jpg" width="3"/> Progenica
+ <a href="http://www.electrosynthesis.com/">http://www.electrosynthesis.com/</a> <br/>
+<img height="1" src="clear.jpg" width="25"/> — <img height="1" src="clear.jpg" width="3"/> C-Tech
+ <a href="http://www.capenhurst.com/">http://www.capenhurst.com/</a> <br/>
+<br clear="left"/>   <p>
+<li> Successful pilot scale evaluation of electrochemical processes initially requires set up of the <a href="../../ed/dict.html#e02"> electrolytic cell</a>, <a href="../../ed/dict.html#e64"> power supply</a>, pumps, flow meters, piping, and controls to adequately simulate what is expected for the plant. The immediate objectives of piloting are proving that the process is viable at larger scale and for longer continuous running. A a rule of thumb, the initial scale can be as little as say production of 1/4 to 1 <a href="../../ed/dict.html#k16"> kg</a>/day of product or an order of magnitude higher. The minimum continuous running time for deeming a process technically promising is 1000 hours. During that period, investigators look for sustained high product yields, purity, and <a href="../../ed/dict.html#c15"> current efficiencies</a>. Any surprises in byproduct formation, stability of cell components, especially <a href="../../ed/dict.html#e20"> electrodes</a> and <a href="../../ed/dict.html#s02"> membranes</a>, increasing <a href="../../ed/dict.html#c19"> cell voltage</a>, etc. may cause reassessment of the process. Experience shows that most problems begin to show up within 1000 hours of operation. The next section delves into engineering considerations critical to the success of the process.
+
+</li></p></p></table></p></li></p></li></p></li></p></li></p></li></p></li></ul>
+<p>
+<h3> Engineering considerations </h3>
+
+After successful R&amp;D/preliminary economics, the optimization of the commercial process requires attention to:
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Mass transfer </em></h3>
+
+The rate of <a href="../../ed/dict.html#m31"> mass transfer</a> of <a href="../../ed/dict.html#r17"> reactants</a> and products across the <a href="../../ed/dict.html#h16"> boundary layer</a> at the electrode can be improved by:
+<p>
+<ol type="A">
+<li> Rotation of a cylindrical or disc electrode: capital investment high
+<li> External pumping of <a href="../../ed/dict.html#e12"> electrolyte</a> between the electrodes, with or without turbulence promoters
+<li> Turbine or propeller agitators
+<li> <a href="../../ed/dict.html#p21"> Fluidized bed</a> of electrode particles: capital investment high
+<li> Fluidized bed of non-<a href="../../ed/dict.html#c50">conducting</a> particles
+<li> Vibration of the <a href="../../ed/dict.html#w02"> working electrode</a>: capital investment high
+<li> Gas sparging
+</li></li></li></li></li></li></li></ol>
+<p>
+The majority of commercial electrochemical cells are parallel plate designs with:
+(a) external electrolyte pumping, or (b) gas sparging
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Heat transfer </em></h3>
+
+Removal of heat generated within cells is usually required for maintaining the optimum <a href="../../ed/dict.html#e19"> electrolysis</a> temperature. This is accomplished by:
+<p>
+<ol type="A">
+<li> Circulation of electrolyte through external heat exchangers: the most predominant method
+<li> Internal cooling of the cell via coils, jackets or tubes
+<li> Internal or external evaporative cooling
+</li></li></li></ol>
+<p>
+Factors in sizing the total heat removal load include calculation of:
+<p>
+<ol type="A">
+<li> Electrolysis <a href="../../ed/dict.html#e70"> power</a> input
+<li> Heats of reaction of main and side reactions
+<li> Heat input of electrolyte pumps
+<li> Heat removed from: humidification of off gasses, evaporation of solvent, reactant, products, or by products
+<li> Heat required to bring the electrolysis system feed stream to operating temperature
+</li></li></li></li></li></ol>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Power usage </em></h3>
+
+The power usage is a function of <a href="../../ed/dict.html#c19"> cell voltage</a> and <a href="../../ed/dict.html#c15"> current efficiency</a>, but it will be also influenced by the <a href="../../ed/dict.html#c93"> current leakage</a> in <a href="../../ed/dict.html#b03"> bipolar</a> cells, parasitic <a href="../../ed/dict.html#e09"> electrode reactions</a>, pumping losses, and <a href="../../ed/dict.html#r04"> rectifier</a> losses.
+
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Electrode life </em></h3>
+
+The <a href="art-c02-corrosion.html"><em> corrosion, passivation,</em></a> and fouling of both <a href="../../ed/dict.html#a02"> anodes</a> and <a href="../../ed/dict.html#c03"> cathodes</a> can only be evaluated after many months of testing. Electrode life can be greatly affected by: 
+<p>
+<ol type="A">
+<li> Electrochemically induced corrosion
+<li> Chemical reaction with solvent, products, or byproducts
+<li> Too high an operating <a href="../../ed/dict.html#c09"> current density</a>
+<li> Mechanical breakage resulting from:
+   <ol type="a">
+<li> high stresses in a cell
+   <li> internal gas pocketing, especially in porous electrode materials, such
+        as <a href="art-c01-carbon.html"><em> carbons</em></a>
+<li> handling, reuse and long term "wear and tear"
+   </li></li></li></ol>
+<li> Fouling from corrosion products, electrolyte impurities, products, and byproducts 
+</li></li></li></li></li></ol>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Separator life </em></h3>
+
+The performance of <a href="../../ed/dict.html#s02"> separators</a>, whether porous diaphragms or <a href="../../ed/dict.html#i04"> ion exchange membranes</a> can only be evaluated after many months of testing. Separator materials can be greatly affected by:
+
+<p>
+<ol type="A">
+<li> Chemical reaction with solvent, products, or byproducts
+<li> Dissolution in solvent, products, or byproducts
+<li> Too high an operating temperature
+<li> Too high an operating <a href="../../ed/dict.html#c09"> current density</a>
+<li> Mechanical breakage resulting from:
+   <ol type="a">
+<li> unbalanced electrolyte pressures
+   <li> unsupported membranes under turbulent flow conditions
+   <li> internal gas pocketing
+   <li> handling, reuse and long term "wear and tear"
+   </li></li></li></li></ol>
+<li> Fouling from <a href="art-c02-corrosion.html"><em> corrosion products,</em></a> electrolyte impurities, products, and byproducts 
+</li></li></li></li></li></li></ol>
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Solvent/supporting electrolyte quality </em></h3>
+
+The buildup of impurities from corrosion and reaction byproducts can only be evaluated after months of pilot testing. Such byproducts can be severely detrimental to overall process performance and optimal performance of cell components. To rectify this situation, it may be necessary to provide for a purge stream or solvent/<a href="../../ed/dict.html#s03"> supporting electrolyte</a> clean-up step to increase quality.
+
+<p>
+<h3> <a name="econ"> Economics of industrial electrosynthesis</a> </h3>
+
+The economics for the electrochemical portion of the process is governed by operating and capital costs as presented in more detail in the <a href="#app1"> Appendix</a>. For the best economics, it can be seen that low <a href="../../ed/dict.html#c19"> cell voltage</a>, high <a href="../../ed/dict.html#c09"> current density</a>, high <a href="../../ed/dict.html#c15"> current efficiency</a>, and high product selectivity are needed.
+
+<p>
+<h3> Examples of commercial scale and piloted organic electrochemical processes </h3>
+<a href="#table1"> Tables I-III</a> below list typical examples of on-going commercial scale processes, piloted processes which have not reached commercialization, and processes which had been commercialized but discontinued for various reasons. More exhaustive compilations can be found in the literature. In addition there are many more <a href="../../ed/dict.html#e113"> electrosynthesis</a> processes, especially of fine chemicals, which are kept proprietary and are not found in the open literature.
+<p>
+Two systems are selected as most interesting examples:
+<p>
+<ol>
+<li> The production of adiponitrile (ADN) is important because this compound in used in the production of the well-known plastic: nylon. The electrohydrodimerization of acrylonitrile (ACN) to adiponitrile is the largest scale commercial electroorganic process, with an estimated total production worldwide of about 340,000 <a href="../../ed/dict.html#m60"> metric ton</a>/year. Discovered by Manuel Baizer in the early 1960's, the "Monsanto Process" was relatively quickly brought to commercialization by a team headed by Donald Danly. Their equipment, cell designs and cell parts such as membranes and electrode materials were primitive by modern standards. Baizer's key innovation was discovery that quaternary ammonium salts such as tetraethylammonium p-toluenesulfonate greatly increased the yield and <a href="../../ed/dict.html#c15"> current efficiency</a> of the conversion of acrylonitrile to adiponitrile (see chemical equation in the <a href="#app2"> Appendix</a>).
+<p>
+The modern-day process uses cadmium <a href="../../ed/dict.html#c03"> cathodes</a> and steel <a href="../../ed/dict.html#a02"> anodes</a> in a <a href="../../ed/dict.html#b03"> bipolar</a> cell containing no <a href="../../ed/dict.html#s02"> membranes</a>, with a two phase recirculating <a href="../../ed/dict.html#a27"> aqueous</a> emulsion of ACN, ADN, a bisquaternary salt (hexamethylene(bisethyltributyl)ammonium phosphate), phosphate <a href="../../ed/dict.html#b08"> buffer</a>, and the anode anticorrosion additives, borax and EDTA. The process is conducted at 55<sup>o</sup>C (131<sup>o</sup>F) and a <a href="../../ed/dict.html#c09"> current density</a> of 2 <a href="../../ed/dict.html#k06"> kA</a>/<a href="../../ed/dict.html#m90">m<sup>2</sup></a>. A fraction of the organic phase is continuously removed from the emulsion reservoir for separation of the product. The aqueous phase also is treated continuously to prevent accumulation of organic byproducts and metallic salts from electrode corrosion.
+<p>
+<li> An excellent example of an innovative industrial organic electrosynthesis process is the following. This process was developed at BASF and was described by Hermann Putter in 1999, at the 13<sup>th</sup> International Forum on Applied Electrochemistry. This paired 4000 metric ton/year process yields two valuable products simultaneously, phthalide and t-butylbenzaldehyde, by electrolysis in an <a href="../../ed/dict.html#u09"> undivided</a> <a href="../../ed/dict.html#b03"> bipolar</a> <a href="../../ed/dict.html#c76"> capillary</a> gap <a href="../../ed/dict.html#e02"> cell</a> with <a href="art-c01-carbon.html"><em> graphite</em></a> <a href="../../ed/dict.html#e20"> electrodes</a> (see chemical equation in the <a href="#app3"> Appendix</a>). Other important features of this process are: 
+<p>
+<ul>
+<li> This is the first commercial example of a paired organic
+        electrosynthesis (useful products are produced both on the
+        <a href="../../ed/dict.html#a02"> anode</a> and on the
+        <a href="../../ed/dict.html#c03"> cathode</a>).
+   <li> Methanol is both a reagent and a solvent: as much methanol is released
+        from reduction of the diester as is consumed in making
+        t-butylbenzaldehyde.
+   <li> <a href="../../ed/dict.html#c09"> Current density</a> is 0.1 to 1
+        kA/<a href="../../ed/dict.html#m90">m<sup>2</sup></a> at a
+        <a href="../../ed/dict.html#c19"> cell voltage</a> of 4
+        to 7 <a href="../../ed/dict.html#v07"> volts</a>.
+   </li></li></li></ul>
+</p></li></p></p></li></ol>
+<p>
+<table align="left" border="1" cellpadding="1" cellspacing="1" hspace="10" rules="none" vspace="10">
+<tr><td align="center" colspan="3"> <u><strong> <a name="table1"> Table I</a>. Commercial processes </strong></u></td></tr>
+<tr><td> <strong> Product </strong> </td> <td> <strong> Starting material </strong> </td> <td> <strong> Company </strong> </td></tr>
+<tr><td> Acetoin </td> <td> Butanone </td> <td> BASF </td></tr>
+<tr><td> Acetylenedicarboxylic Acid </td> <td> 1,4-Butynediol </td> <td> BASF </td></tr>
+<tr><td> Adipoin Dimethyl Acetal </td> <td> Cyclohexanone </td> <td> BASF </td></tr>
+<tr><td> Adiponitrile </td> <td> Acrylonitrile </td> <td> Monsanto (Solutia), BASF, Asahi Chemical <img height="1" src="clear.jpg" width="18"/> </td></tr>
+<tr><td> 4-Aminomethylpyridine </td> <td> 4-Cyanopyridine </td> <td> Reilly Tar </td></tr>
+<tr><td> Anthraquinone </td> <td> Anthracene </td> <td> L. B. Holliday, ECRC </td></tr>
+<tr><td> Azobenzene </td> <td> Nitrobenzene </td> <td>? </td></tr>
+<tr><td> Bleached Montan Wax </td> <td> Raw Montan Wax </td> <td> Hoechst </td></tr>
+<tr><td> Calcium Gluconate </td> <td> Glucose </td> <td> Sandoz, India </td></tr>
+<tr><td> Calcium lactobionate </td> <td> Lactose </td> <td> Sandoz, India </td></tr>
+<tr><td> S-Carbomethoxymethylcysteine </td> <td> Cysteine + Chloroacetic Acid </td> <td> Spain </td></tr>
+<tr><td> L-Cysteine </td> <td> L-Cystine </td> <td> Several </td></tr>
+<tr><td> Diacetone-2-ketogulonic Acid </td> <td> Diacetone-L-sorbose </td> <td> Hoffman-LaRoche </td></tr>
+<tr><td> Dialdehyde Starch </td> <td> Starch </td> <td> India, Others </td></tr>
+<tr><td> 1,4-Dihydronaphthalene </td> <td> Naphthalene </td> <td> Hoechst </td></tr>
+<tr><td> 2,5-Dimethoxy-2,5-dihydrofuran </td> <td> Furan </td> <td> BASF </td></tr>
+<tr><td> 2,5-Dimethoxy-2,5-dihydrofuryl-1-ethanol <img height="1" src="clear.jpg" width="18"/> </td> <td> Furfuryl-1-ethanol </td> <td> Otsuka </td></tr>
+<tr><td> Dimethylsebacate </td> <td> Monomethyladipate </td> <td> Asahi Chemical </td></tr>
+<tr><td> Gluconic Acid </td> <td> Glucose	 </td> <td> Sandoz, India </td></tr>
+<tr><td> Hexafluoropropyleneoxide </td> <td> Hexafluoropropylene </td> <td> Hoechst </td></tr>
+<tr><td> m-Hydroxybenzyl Alcohol </td> <td> m-Hydroxybenzoic Acid </td> <td> Otsuka </td></tr>
+<tr><td> Mucic Acid </td> <td> Galacturonic Acid </td> <td> EDF </td></tr>
+<tr><td> Perfluorinated hydrocarbons </td> <td> Alkyl substrates </td> <td> 3M, Bayer, Hoechst </td></tr>
+<tr><td> Phthalide + t-Butylbenzaldehyde Acetal </td> <td> Dimethyl Phthalate + t-Butyltoluene <img height="1" src="clear.jpg" width="18"/> </td> <td> BASF </td></tr>
+<tr><td> p-Methoxybenzaldehyde </td> <td> p-Methoxytoluene </td> <td> BASF </td></tr>
+<tr><td> Polysilanes </td> <td> Chlorosilanes </td> <td> Osaka Gas </td></tr>
+<tr><td> p-t-Butylbenzaldehyde </td> <td> p-t-Butyltoluene </td> <td> BASF, Givaudan </td></tr>
+<tr><td> Salicylic Aldeyde </td> <td> o-Hydroxybenzoic Acid </td> <td> India </td></tr>
+<tr><td> Succinic Acid </td> <td> Maleic Acid </td> <td> CERCI, India </td></tr>
+<tr><td> 3,4,5-Trimethoxybenzaldehyde </td> <td> 3,4,5-Trimethoxytoluene </td> <td> Otsuka Chemical </td></tr>
+<tr><td> 3,4,5-Trimethoxytolyl Alcohol </td> <td> 3,4,5-Trimethoxytoluene </td> <td> Otsuka Chemical </td></tr>
+</table>
+<br clear="left"/>   <p>
+<p><hr/><p>
+<table align="left" border="1" cellpadding="1" cellspacing="1" hspace="10" rules="none" vspace="10">
+<tr><td align="center" colspan="3"> <u><strong> Table II. Piloted processes/not yet commercialized </strong></u></td></tr>
+<tr><td> <strong> Product </strong> </td> <td> <strong> Starting material </strong> </td> <td> <strong> Company </strong> </td></tr>
+<tr><td> 1-Acetoxynaphthalene </td> <td> Naphthalene </td> <td> BASF </td></tr>
+<tr><td> Acetylenedicarboxylic Acid </td> <td> 2-Butyne-1,4-diol </td> <td> BASF </td></tr>
+<tr><td> 2-Aminobenzyl Alcohol </td> <td> Anthranilic Acid </td> <td> BASF </td></tr>
+<tr><td> Anthraquinone </td> <td> Naphthalene, Butadiene </td> <td> Hydro Quebec </td></tr>
+<tr><td> Arabinose </td> <td> Gluconate </td> <td> Electrosynthesis Co. </td></tr>
+<tr><td> 1,2,3,4-Butanetetracarboxylic Acid <img height="1" src="clear.jpg" width="18"/> </td> <td> Dimethyl Maleate </td> <td> Monsanto </td></tr>
+<tr><td> Ceftibuten </td> <td> Cephalosporin C  </td> <td> Electrosynthesis Co., Schering Plough <img height="1" src="clear.jpg" width="18"/> </td></tr>
+<tr><td> 3,6-Dichloropicolinic Acid </td> <td> 3,4,5,6-tetrachloro-picolinic Acid <img height="1" src="clear.jpg" width="18"/> </td> <td> Dow </td></tr>
+<tr><td> Ditolyliodonium Salts </td> <td> p-Iodotoluene, Toluene </td> <td> Eastman Chemical, Electrosynthesis Co. </td></tr>
+<tr><td> Ethylene Glycol </td> <td> Formaldehyde </td> <td> Electrosynthesis Co. </td></tr>
+<tr><td> Glyoxylic Acid </td> <td> Oxalic Acid </td> <td> Rhone Poulenc, Steetley </td></tr>
+<tr><td> Hydroxymethylbenzoic Acid </td> <td> Dimethyl Terephthalate </td> <td> Hoechst </td></tr>
+<tr><td> Monochloroacetic Acid </td> <td> Tri- and dichloroacetic Acid </td> <td> Hoechst </td></tr>
+<tr><td> Nitrobenzene </td> <td> p-Aminophenol </td> <td> India, Monsanto</td></tr>
+<tr><td> 5-Nitronaphthoquinone </td> <td> 1-Nitronaphthalene </td> <td> Hydro Quebec </td></tr>
+<tr><td> Partially Fluorinated Hydrocarbons </td> <td> Alkanes and Alkenes </td> <td> Phillips Petroleum </td></tr>
+<tr><td> Pinacol </td> <td> Acetone	 </td> <td> BASF, Diamond Shamrock </td></tr>
+<tr><td> Propiolic Acid </td> <td> Propargyl Alcohol </td> <td> BASF </td></tr>
+<tr><td> Propylene Oxide </td> <td> Propylene </td> <td> Kellog, Shell </td></tr>
+<tr><td> Substituted Benzaldehydes </td> <td> Substituted Toluenes </td> <td> Hydro Quebec, W.R. Grace </td></tr>
+</table>
+<br clear="left"/>   <p>
+<p><hr/><p>
+<table align="left" border="1" cellpadding="1" cellspacing="1" hspace="10" rules="none" vspace="10">
+<tr><td align="center" colspan="3"> <u><strong> Table III. Discontinued commercial processes </strong></u></td></tr>
+<tr><td> <strong> Product </strong> </td> <td> <strong> Starting material </strong> </td> <td> <strong> Company </strong> </td></tr>
+<tr><td> 1,2-Dihydrophthalic Acid <img height="1" src="clear.jpg" width="18"/> </td> <td> o-Phthalic Acid </td> <td> BASF </td></tr>
+<tr><td> 2-Methyldihydroindole </td> <td> 2-Methylindole </td> <td> L. B. Holliday, BASF <img height="1" src="clear.jpg" width="18"/> </td></tr>
+<tr><td> Hexahydrocarbazole </td> <td> Tetrahydrocarbazole </td> <td> L. B. Holliday, BASF </td></tr>
+<tr><td> Piperidine </td> <td> Pyridine </td> <td> Robinson Bros. </td></tr>
+<tr><td> Sorbitol </td> <td> Glucose </td> <td> Hercules </td></tr>
+<tr><td> Tetraalkyl Lead </td> <td> Alkyl Halide, Pb (anode) <img height="1" src="clear.jpg" width="18"/> </td> <td> Nalco </td></tr>
+</table>
+<br clear="left"/>   <p>
+<h3> Future trends </h3>
+
+Based on the past, one can comfortably predict that the future of industrial organic electrochemical processing is promising. Certainly discovery and commercialization of high value added products will continue and at a much lesser pace some inroads will be made towards electrochemical manufacture of commodity chemicals so that adiponitrile does not stand as the only example of large-scale production. Perhaps the prize will be <a href="../../ed/dict.html#e113"> electrosynthesis</a> of ethylene glycol or an olefin oxide like propylene oxide. With the advent of less expensive <a href="../../ed/dict.html#e02"> cells</a> and cell components and discovery of new <a href="../../ed/dict.html#e46"> electrocatalytic</a> materials new opportunities could arise that would have been impractical years before. For example, it has been speculated that one day commercialization of an electroenzymatic process will occur. This would be based on the application of enzymes as catalysts, dissolved in the <a href="../../ed/dict.html#e12"> electrolyte solution</a> or fixed to a support, such as an <a href="../../ed/dict.html#e20"> electrode</a> or <a href="../../ed/dict.html#s02"> separator</a>. The goal would be to harness the extraordinary abilities of enzymes to produce highly valuable, unusual products, perhaps having high stereoselectivity. Realization of an industrial scale electroenzymatic process may take many years to fulfill, but work is already underway in a number of laboratories worldwide to one day achieve this goal.
+<p>
+There are at this writing no academic institutions where courses in applied electrochemistry are taught. In the USA, the closest disciplines taught are <a href="art-a03-analytical.html"><em> electroanalytical chemistry</em></a> 
+and <a href="art-e03-engineering.html"><em> electrochemical engineering</em></a>. Fortunately, there is a large literature of resource materials, including excellent books (see <a href="#bibl"> Bibliography</a>). Electrochemical Society meetings (<a href="http://www.electrochem.org">http://www.electrochem.org</a>) and other international symposia, such as the Annual International Forum on Applied Electrochemistry (<a href="http://www.electrosynthesis.com">http://www.electrosynthesis.com</a>) are excellent meetings to explore ideas and find assistance from experts in the field.
+<p>
+What is available also to help those interested in applied organic <a href="../../ed/dict.html#e113"> electrosynthesis</a> are many commercial <a href="../../ed/dict.html#e02"> cells</a> of flexible design; stable cell components, including <a href="../../ed/dict.html#e46"> catalytic</a> <a href="../../ed/dict.html#e20"> electrodes</a>, highly selective <a href="../../ed/dict.html#s02"> membranes</a> and a number of novel electrode/membrane composites; a sound theoretical and practical knowledge base in electrochemistry and electrochemical engineering; and, experienced groups that can advise on R&amp;D, engineering, plant design, construction, and start-up.
+<p>
+<a name="app1"><h3> Appendix</h3></a>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Electric power consumption </em></h3>
+<p>
+<p>
+
+K = ( 100 K<sub>o</sub> n F V ) / ( M<sub>p</sub> E<sub>c</sub> )
+
+<p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Cell costs </em></h3>
+<p>
+
+A = ( 1.12 × 10<sup>3</sup> n P ) / ( M<sub>p</sub> i E<sub>c</sub> )
+
+<p>
+
+where:<p>
+<table align="left" border="0" cellpadding="1" cellspacing="1" hspace="10" rules="none" vspace="10">
+<tr><td>K </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> power cost, (US)cents/<a href="../../ed/dict.html#k16">kg</a> </td></tr>
+<tr><td> K<sub>o</sub> </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> local power cost, (US)cents/<a href="../../ed/dict.html#k08"> kWh</a> </td></tr>
+<tr><td>n </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> number of electrons taking part in the reaction </td></tr>
+<tr><td>F </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> <a href="../../ed/dict.html#f13"> Faraday</a>, 26.8 <a href="../../ed/dict.html#a25"> Ah</a>/mole </td></tr>
+<tr><td>V </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> <a href="../../ed/dict.html#c19"> cell voltage</a>, <a href="../../ed/dict.html#v07"> V</a> </td></tr>
+<tr><td>M<sub>p</sub> </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> <a href="../../ed/dict.html#m30"> molecular weight</a> of product, g/mole </td></tr>
+<tr><td>E<sub>c</sub> </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> <a href="../../ed/dict.html#c15"> current efficiency</a>, % </td></tr>
+<tr><td>A </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> <a href="../../ed/dict.html#e20"> electrode</a> area (for electrode used in the conversion), m<sup>2</sup> </td></tr>
+<tr><td>P </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> production rate, <a href="../../ed/dict.html#k16"> kg</a>/day </td></tr>
+<tr><td>i </td><td> = </td> <td> <img height="1" src="clear.jpg" width="10"/> <a href="../../ed/dict.html#c09"> current density</a>, <a href="../../ed/dict.html#a21"> A</a>/<a href="../../ed/dict.html#m90">m<sup>2</sup></a> </td></tr>
+</table>
+<br clear="left"/>   <p>
+
+To calculate an approximate cell cost, using the above determined electrode area requirement, use $10,000/m<sup>2</sup> for larger installations (say, &gt;10 m<sup>2</sup>) and $15,000/m<sup>2</sup> for smaller installations (&lt;10 m<sup>2</sup>). Theses figures include <a href="../../ed/dict.html#e20"> electrodes</a> (<a href="../../ed/dict.html#a02">anodes</a> and <a href="../../ed/dict.html#c03"> cathodes</a>), <a href="../../ed/dict.html#s02"> membranes</a>, frames, spacers, gaskets or o-rings, end-plates and cell fittings for <a href="../../ed/dict.html#e12"> electrolyte</a>, and electrode connections. Contact the cell manufacturer to determine an exact cell cost. For the best economics, it can be seen that low cell voltage, high current density, high current efficiency, and high product selectivity are needed.
+
+<p>
+<a name="app2"></a>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Conversion of acrylonitrile to adiponitrile </em></h3>
+<p>
+
+2 CH<sub>2</sub> = CHCN + 2 H<sup> + </sup> + 2 e<sup> - </sup> ==&gt;
+NC-CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>-CN
+
+<p>
+<a name="app3"></a>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Simultaneous production of phthalide and t-butylbenzaldehyde </em></h3>
+<p>
+<img alt="Equation" height="185" src="fig/o01/o01-eq-a-II.jpg" width="605"/>
+<p>
+<h3> Related articles</h3>
+<p>
+<a href="art-a01-al-prod.html"><em> Aluminum production</em></a> <br/>
+<a href="art-b01-brine.html"><em> Brine electrolysis</em></a><br/>
+<a href="art-d03-curr-distr.html"><em> Current density distribution in electrochemical cells</em></a><br/>
+<a href="art-m02-metals.html"><em> Extracting metals from sulfide ores </em></a><br/>
+<h3> <a name="bibl"> Bibliography</a></h3>
+<ul>
+<li><u> Organic Electrochemistry</u> (4<sup>th</sup> edition), H. Lund and O. Hammerich (editors), Marcel Dekker, New York, 2001.
+<p>
+<li><u> Perspectives: The Last 15 Years and Beyond,</u> N. L. Weinberg in "Proceedings of the 15<sup>th</sup> Annual Forum on Applied Electrochemistry" Electrosynthesis Company, Lancaster NY, 2001.
+<p>
+<li><u> Electrolytic Processes–Present and Future Prospects,</u> Electrosynthesis Company and Dextra Associates, Report Number TR-107022, EPRI, Palo Alto CA, 1997.
+<p>
+<li> <u> Principles of Electrochemical Engineering and Scaleup,</u> D. E. Danly in "Proceedings of the 5<sup>th</sup> Annual Forum on Applied Electrochemistry" Electrosynthesis Company, Lancaster NY, 1991.
+<p>
+<li><u> Industrial Electrochemistry</u> (2<sup>nd</sup> edition), D. Pletcher and F. C. Walsh, Chapman and Hall, London, 1990.
+<p>
+<li><u> Electrosynthesis–From Laboratory to Pilot, to Production,</u> J. D. Genders and D. Pletcher (editors), Electrosynthesis Company, Lancaster NY, 1990.
+<p>
+<li><u> Proceedings of the Annual Forum on Applied Electrochemistry</u> (15 volumes), Electrosynthesis Company, Lancaster NY, since 1987.
+<p>
+<li><u> Emerging Opportunities for Electroorganic Processes,</u> D. E. Danly, Marcel Dekker, New York, 1984.
+<p>
+<li><u> Techniques of Electroorganic Chemistry </u> (Part III), N. L. Weinberg and B. V. Tilak (editors), Wiley Intersciene, New York, 1982.
+<p>
+<li><u> Workshop on the Status of Industrial Organic Electrochemistry,</u> SRI International, EPRI EM-2173, Project 1086-9, Research Reports Center, Box 50490, Palo Alto CA, 1981.
+<p>
+<li><u> A Survey of Organic Electrolytic Processes,</u> T. R. Beck, R. Alkire, and N. L. Weinberg, DOE Contract Number 31-109-4209, Report No. ANL/OEPM-79-5, Argonne National Laboratory, Argonne IL, 1979.
+
+</p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></ul>
 </section>
-<!-- Subsection 1 -->
-<section>
-<h3>
-<!-- Subtitle 1 -->
-</h3>
-<p>
-<!-- Content for subsection 1 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 1 - paragraph 2 -->
-</p>
-</section>
-<!-- Subsection 2 -->
-<section>
-<h3>
-<!-- Subtitle 2 -->
-</h3>
-<p>
-<!-- Content for subsection 2 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 2 - paragraph 2 -->
-</p>
-</section>
-<!-- Other subsections -->
-<!-- Other Resources Section -->
-<section id="other-resources">
-<h2><i class="fas fa-flask"></i>
-                    Other Resources
-                </h2>
-<p>
-                    Listings of electrochemistry <a href="../../estir/books.htm"> books</a>, <a href="../../estir/chap.htm"> review chapters</a>, <a href="/estir/proc.htm"> proceedings volumes</a>, and full text of some <a href="/estir/history.htm"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+
+            <section>
+                <h2><i class="fas fa-flask"></i>Other Resources</h2>
+                <p>
+                    Listings of electrochemistry <a href="../../estir/books.html"> books</a>, <a href="../../estir/chap.html"> review chapters</a>, <a href="/estir/proc.html"> proceedings volumes</a>, and full text of some <a href="/estir/history.html"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
                 </p>
-</section>
-<!-- Other sections -->
-</main>
-</div>
-<footer>
-<img alt="ECS Logo" src="../../images/ECS_Logo-removebg.png"/>
-<div class="footer-text">
-<p>
+            </section>
+        </main>
+    </div>
+
+    <!-- END OF CONTENT -->
+
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+
+    <!-- FOOTER CODE -->
+
+    <footer>
+        <img src="../../images/ECS_Logo-removebg.png" alt="ECS Logo">
+        <div class="footer-text">
+            <p>
                 Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
                 <a href="/copyright.html">Copyright Notice</a>
-</p>
-<p>
+            </p>
+            <p>
                 Edited by: <a href="/estir/editor.html">Zoltan Nagy</a> <a href="mailto:nagyz@email.unc.edu">(nagyz@email.unc.edu)</a> | 
                 <a href="http://www.chem.unc.edu/" target="_blank">Dept. of Chemistry</a> | 
                 <a href="http://www.unc.edu/" target="_blank">UNC at Chapel Hill</a></p>
-<p>
-<a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
+            <p>
+                <a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
                 <a href="http://www.ecsblog.org/" target="_blank">Redcat Blog</a> | 
                 <a href="http://ecsdl.org/" target="_blank">ECS Digital Library</a>
-</p>
-</div>
-</footer>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-<script defer="" src="../../js/analytics.js"></script>
+            </p>
+        </div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
+    <script src="../../js/analytics.js" defer></script>
 </body>
 </html>

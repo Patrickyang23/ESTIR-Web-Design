@@ -1,129 +1,264 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc." name="description"/>
-<meta content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry" name="keywords"/>
-<meta content="index, follow, noodp, noydir" name="robots"/>
-<link href="https://knowledge.electrochem.org/" rel="canonical"/>
-<link href="https://knowledge.electrochem.org/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="../../css/html5reset.css" rel="stylesheet"/>
-<link href="../../css/main.css" rel="stylesheet"/>
-<title>Electrochemistry Encyclopedia – Micro fuel cells </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
+    <meta name="keywords" content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry">
+    <meta name="robots" content="index, follow, noodp, noydir">
+    <link rel="canonical" href="https://knowledge.electrochem.org/">
+    <link rel="icon" href="https://knowledge.electrochem.org/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/html5reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Electrochemistry Encyclopedia  Micro fuel cells </title>
 </head>
 <body>
-<header>
-<nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../estir/index.html">ESTIR</a></li>
+                <li><a href="../../encycl/index.html">Encyclopedia</a></li>
+                <li><a href="../../ed/dict.html">Dictionary</a></li>
+                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="../../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
+        </a>
+    </header>
+
+    <!-- Main content container -->
+    <div class="main-container">
+        <aside>
+            <div class="fixed-sidebar">
+                <h3 class="subtitle">Search</h3>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Navigation menu for sections -->
+                <h3 class="subtitle">Navigation</h3>
+                <ul>
+                    <li><a href="#article">> Main Content</a></li>
+                    <li><a href="#appendix">> Appendix</a></li>
+                    <li><a href="#acknowledgements">> Acknowledgements</a></li>
+                    <li><a href="#bibliography">> Bibliography</a></li>
+                    <li><a href="#other-resources">> Other Resources</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="article">
+                <h1><i class="fas fa-flask"></i> MICRO FUEL CELLS </h1>
+                <div class="author-info">
+                    <em> fuel cells</em><br>
+                    <p></p>
+                </div>
+            </section>
+            <section>
+<h3> Fuel cells - how they work </h3>
+
+   width of table = width of figure + 22   
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="460">
+<tr><td><a href="fig/f05/f05-f01.png"><img alt="Fuel cell " height="400" src="fig/f05/f05-f01.png" width="438"/></a></td></tr>
+<tr><td><em> Fig. 1. The reactions occurring within a hydrogen-air fuel cell.</em></td></tr>
+</table>
+
+Fuel cells are electrochemical devices that convert chemical energy from a fuel source into <a href="../../ed/dict.htm#e68"> electrical energy</a> by means of <a href="../../ed/dict.htm#o01"> oxidation and reduction</a> reactions. In this section we give a brief description of how conventional fuel cells work, and much more detail can be found in available text books and articles shown in the <a href="#bibl"> Bibliography</a>. The choice of fuels might be hydrogen or methanol, which is oxidized at the <a href="../../ed/dict.htm#a02"> anode</a>, with the <a href="../../ed/dict.htm#o28"> oxidant</a> being oxygen from air which is reduced at the <a href="../../ed/dict.htm#c03"> cathode</a>. Figure 1 shows the reaction of a hydrogen-air <a href="art-f04-fuel-cells-pem.htm"><em> polymer electrolyte fuel cell</em></a>. Hydrogen oxidizes at the anode platinum <a href="../../ed/dict.htm#c101"> catalyst</a>-<a href="../../ed/dict.htm#e12">electrolyte</a> interface causing it to <a href="../../ed/dict.htm#d21"> dissociate</a> into hydrogen <a href="../../ed/dict.htm#i01"> ions</a> and <a href="../../ed/dict.htm#a33"> electrons</a>. Released hydrogen ions are <a href="../../ed/dict.htm#c50"> conducted</a> through the electrolyte <a href="../../ed/dict.htm#m01"> membrane</a> to the cathode. Reduction then occurs at the cathode platinum catalyst-electrolyte interface (see the <a href="#app"> Appendix</a> for details).
+<p>
+A <a href="../../ed/dict.htm#p56"> proton exchange membrane (PEM</a>) serving as the electrolyte is not <a href="../../ed/dict.htm#e15"> electronically conductive</a>, so the electrons that are released from the hydrogen are unable to pass through it, but instead flow through an external circuit from the anode to the cathode. The flow of electrons within the circuit creates an <a href="../../ed/dict.htm#c14"> electric current</a> that can be used to power various electronic devices. The reaction will continue until all of the fuel is consumed; thus, the overall reaction equation in a hydrogen-air PEM fuel cell is
+the formation of water from hydrogen and oxygen.
+<p>
+Another simple fuel for PEM fuel cells is methanol; and the same basic principles apply.  In a direct methanol fuel cell, the oxidation of methanol and the reduction of oxygen  result in the production of water and carbon dioxide and the water can be recycled to be used at the reaction occurring at the anode (see the <a href="#app"> Appendix</a>).
+
+<br clear="left"/>   <p>
+<h3> Components of fuel cells </h3>
+
+The main structural elements of a conventional <a href="art-f04-fuel-cells-pem.htm"><em> 
+PEM fuel cell</em></a> include two flow fields, two <a href="../../ed/dict.htm#e20"> electrodes</a>, a <a href="../../ed/dict.htm#c03"> cathode</a>, an <a href="../../ed/dict.htm#a02"> anode</a>, and a <a href="../../ed/dict.htm#p56"> proton exchange membrane (PEM)</a>.  Figures 2 and 3 show the basic structure of a fuel cell. On the outermost ends of the fuel cell are two end plates that are bolted together to hold the fuel cell components together.  The end plates are often massive because they hold multiple cells compressed together to boost the overall <a href="../../ed/dict.htm#v08"> voltage</a>.  An electronically conducting flow field plate is placed against both the anode and the cathode which allows the gases to be fed to the electrodes. 
+
+<br clear="left"/>   <p>
+<!--   width of table = sum of width of figures + 32   -->
+<table align="center" border="1" cellpadding="10" cellspacing="10" hspace="10" vspace="10" width="918">
+<tr><td><a href="fig/f05/f05-f02.png"><img alt="PEM fuel cell" height="355" src="fig/f05/f05-f02.png" width="363"/></a></td>
+<td><img alt="Deconstructed fuel cell" height="353" src="fig/f05/f05-f03.png" width="523"/></td></tr>
+<tr><td><em> Fig. 2. The basic structure of a PEM fuel cell.</em></td>
+<td><em> Fig. 3. A deconstructed fuel cell.</em></td></tr>
+</table>
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/>Electrolyte</em></h3> 
+
+An important component of the fuel cell is the <a href="../../ed/dict.htm#e12"> electrolyte</a> <a href="../../ed/dict.htm#s02"> separator</a>, as this is the medium through which <a href="../../ed/dict.htm#i01"> ions</a> travel from one electrode to the other, balancing the <a href="../../ed/dict.htm#e135"> charges</a> that occur because of the <a href="../../ed/dict.htm#e09"> reactions</a>. It is also the main structural component that distinguishes one type of fuel cell from another. The electrolyte should have a high ionic <a href="../../ed/dict.htm#c48"> conductivity</a> but also be very <a href="../../ed/dict.htm#a33"> electronically</a> <a href="../../ed/dict.htm#r22"> resistive</a>.
+<p>
+In a <a href="art-f04-fuel-cells-pem.htm"><em> 
+PEM fuel cell</em></a> the electrolyte is a <a href="../../ed/dict.htm#p56"> proton exchange membrane or the PEM</a>. In both methanol and hydrogen fueled cells, the PEM is typically made of perfluorinated sulfonic acid polymer like Duponts Nafion. If the PEM is too thin, a high amount of crossover of <a href="../../ed/dict.htm#r17"> reactants</a> occurs, but if it too thick, there is a high resistance and therefore a lower <a href="../../ed/dict.htm#v08"> voltage</a> output. A Nafion membrane requires <a href="../../ed/dict.htm#h13"> hydration</a> in order to <a href="../../ed/dict.htm#c50"> conduct</a> hydrogen <a href="../../ed/dict.htm#i01"> ions</a>, so operating under ambient conditions is a challenge since too low of hydration will increase cell <a href="../../ed/dict.htm#r23"> resistance</a> and too high hydration will cause water to flood the pores in the <a href="../../ed/dict.htm#c03"> cathode electrode</a>. Also, swelling of the polymer during fuel cell fabrication or during operation is a special challenge with micro fuel cells.
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/>Electrocatalyst/electrodes</em></h3> 
+
+Due to the low operating temperatures of PEM fuel cells, precious metals are required as <a href="../../ed/dict.htm#e79"> electrocatalysts</a>.  In hydrogen-air fuel cells, platinum nanoparticles are supported on the <a href="art-c01-carbon.htm"><em> carbon</em></a> micron-size particles that make up each electrode, but often the electrodes are at different loadings of catalyst material. In the case of methanol-air fuel cells an alloy of platinum and ruthenium is used as the catalyst for the <a href="../../ed/dict.htm#a02"> anode</a> because the ruthenium is able to electro-<a href="../../ed/dict.htm#o01">oxidize</a> the carbon monoxide intermediates that are <a href="../../ed/dict.htm#a28"> absorbed</a> onto the platinum surface.
+<p>
+The <a href="../../ed/dict.htm#e20"> electrode</a> structures of the catalyst layer are constructed to efficiently transport gaseous or liquid <a href="../../ed/dict.htm#r17"> reactants</a>, <a href="../../ed/dict.htm#i01"> ionic</a> products, and <a href="../../ed/dict.htm#a33"> electrons</a>. For this reason the structures are typically porous with a high surface area, and have electronically and ionically <a href="../../ed/dict.htm#c48"> conductive</a> components. The combination of the membrane with the anode and <a href="../../ed/dict.htm#c03"> cathode</a> electrode structures is called the membrane electrode assembly (MEA).
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Gas diffusion layer</em></h3> 
+
+On both sides of the membrane electrode assembly (MEA) is a <a href="../../ed/dict.htm#g21"> gas diffusion layer</a> (GDL). The GDL is an electrical conductor used to transport electrons while uniformly distributing gases to the catalyst layer.  An <a href="../../ed/dict.htm#o12"> ohmic voltage loss</a> often occurring in a PEM fuel cell is due to electrical contact <a href="../../ed/dict.htm#r23"> resistances</a> between the GDL and the flow field plate. In hydrogen and methanol fuel cells, typically the GDL is composed of a version of <a href="art-c01-carbon.htm"><em> carbon paper</em></a> that is very porous and has been treated with a <a href="../../ed/dict.htm#h37"> hydrophobic</a> polymer.
+<p>
+Ideally, the chemical reaction in the fuel cell should happen fast, efficiently, and effectively and the design and materials of these components of the cell determine these rates and efficiencies.
+
+<h3>Design approaches to micro fuel cells</h3>
+
+To enable a <a href="art-f03-fuel-cells.htm"><em> fuel cell</em></a> to completely replace a <a href="../../ed/dict.htm#r01"> battery</a>, there are many design challenges that must first be overcome in order to make the fuel cell self-contained and portable. To be implemented as a battery, a micro fuel cell must operate at room temperature because it cannot contain heating or cooling devices and the membrane cannot require external humidification. Whether the fuel is hydrogen or methanol, the cell must be able to operate under atmospheric pressure and it must act passively, meaning there cannot be any pumps, fans, or compressors used to move the reactants.  Because of the passive nature of the micro fuel cell, those operating on air are often limited in operating <a href="../../ed/dict.htm#c09"> current density</a>, perhaps to less than 40 <a href="../../ed/dict.htm#m14"> mA</a>/<a href="../../ed/dict.htm#c122">cm<sup>2</sup></a>. In addition, the device must be easy and safe to use and reliable. Fabricating the fuel cell device using methods of construction common for microfabricated electronics simplifies manufacturing and reduces cost. An extensive reviews on approaches to micro fuel cell design and materials is summarized in the literature (see the <a href="#bibl"> Bibliography</a>).
+<p>
+Among the pioneers in micro fuel cells were Kelley, Deluga, and Smyrl (2000, 2002) who created a miniature PEM fuel cell where all of the components were analogous to that of a large fuel cell, but made through thin-film electronic microfabrication techniques. Their fuel cell was not completely self-contained however, and components such as the methanol fuel were heated. Their research and experimentation still profoundly affected the study of fuel cells, as they found that the performance of a micro fuel cell is able to very closely match that of a large fuel cell operating under similar conditions.
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="482">
+<tr><td><a href="fig/f05/f05-f04.png"><img alt="Cross section " height="163" src="fig/f05/f05-f04.png" width="466"/></a></td></tr>
+<tr><td><em> Fig. 4. A cross section of three consecutive hydrogen-air fuel cells.</em></td></tr>
+</table>
+Wainright, Savinell, Liu, and Litt (2003) reported a design for a microfabricated polymer based fuel cell with on-board hydrogen storage which can operate passively as Figure 4 shows. The principle of their design lies in a planar array of edge collected cells where the <a href="../../ed/dict.htm#c03"> cathodes</a> would be all exposed directly to air and beneath the <a href="../../ed/dict.htm#a02"> anodes</a> would be a common fuel cartridge. The <a href="../../ed/dict.htm#e20"> electrodes</a> are interconnected through the edge of the individual cells. This is a special ability of the small size electrodes which would lead to high <a href="../../ed/dict.htm#o12"> ohmic losses</a> and non-uniform electrode activity for large electrodes. The main components of the cell such as the <a href="../../ed/dict.htm#c17"> current collector</a>, <a href="../../ed/dict.htm#g21"> gas diffusion layer (GDL)</a>, <a href="../../ed/dict.htm#c101"> catalyst layers</a>, and <a href="../../ed/dict.htm#e12"> electrolyte</a> were manufactured through a process of thick film printing. They report using a Nafion membrane deposition technique that gives a good quality and stable membrane film. On-board fuel storage was a main feature in the design shown in Figure 4. One way of storing hydrogen is to print a metal hydride ink, which has high volumetric hydrogen storage density, into the anode compartment. The anode can then be charged with hydrogen. For this to be a viable on-board storage, the metal hydride has to be charged with hydrogen relatively fast at low to moderate pressures and hydrogen must be delivered to the fuel cell at adequate rates. Another means of storing hydrogen fuel is through a chemical form, for example, such as stabilized sodium borohydride in aqueous solution because it is stable at room temperature for several months when its <a href="../../ed/dict.htm#p13"> pH</a> is about 14. When this solution comes into contact with a catalyst, a reaction occurs to separate out the hydrogen which is fed to fuel the cell (see the <a href="#app"> Appendix</a>). To design the cartridge with the catalyst included, a small well might be etched into the support structure with the catalyst printed at the bottom of the well (see Figure 4). To activate the fuel cell, sodium borohydride solution is injected into the well. Upon solution contact with the catalyst, hydrogen bubbles up to the anode electrode structure. One drawback of this design is the orientation dependency of the cell.
+<p>
+Methanol has been receiving much attention as a potential fuel source for micro fuel cells because it is cheap, easily stored and handled, and in a fuel cell can <a href="../../ed/dict.htm#o01"> oxidize</a> at room temperature with an appropriate catalyst. Problems are still posed, however, including its slow reaction and many design challenges that come when one tries to shrink a conventional fuel cell.
+<p>
+One challenge in developing a methanol micro fuel cell is designing a fuel tank that holds enough fuel to run for a reasonable period of time before needing to be refueled. For methanol fueled cells, there is a small range of concentration of the methanol in water within which it will function. A high methanol concentration level seems to be more desirable because the fuel has a higher energy density. However, typically the methanol <a href="../../ed/dict.htm#c26"> concentration</a> must be only between 0.5 and 2.0 <a href="../../ed/dict.htm#m27"> M</a> because if it is too concentrated, crossover rates (rate at which methanol permeates across the membrane) are too high for the fuel cell to function properly. When a large amount of cross-over occurs, the methanol begins to <a href="../../ed/dict.htm#s04"> self-discharge</a> which provides the cell with additional heat instead of electricity while greatly reducing the <a href="../../ed/dict.htm#v08"> voltage</a> of the <a href="../../ed/dict.htm#c03"> cathode</a>. For this reason, much effort has been put into finding a more efficient membrane that can handle high concentrations of methanol fuel.
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="454">
+<tr><td><a href="fig/f05/f05-f05.png"><img alt="Fuel cell with microchannels " height="308" src="fig/f05/f05-f05.png" width="432"/></a></td></tr>
+<tr><td><em> Fig. 5. Design of a cross section of a fuel cell with a composite Nafion and silicon dioxide membrane with fuel microchannels (from Li, ... 2006).</em></td></tr>
+</table>
+When designing a fuel cell, the key idea is to increase the cells <a href="../../ed/dict.htm#e51"> energy</a> and <a href="../../ed/dict.htm#p20"> power density</a> while also maintaining reliability. In a portable fuel cell, each and every individual component of the fuel cell must be reduced in size proportionately.  This creates issues with the Nafion membrane because when the membrane becomes thin, more fuel crossover occurs. In addition, a Nafion membrane needs to be humidified, which is difficult to maintain without external humidification and operating in a variety of atmospheric conditions. Kohl and coworkers (Moore, ... 2005, Li, ... 2006) proposed a silicon dioxide membrane as a potential solution to this problem because silicon dioxide does not swell with water and is less susceptible to environmental changes or even drying out. The silicon dioxide membrane, however, is a thin glass membrane that is brittle and can be easily cracked or formed defectively. An ideal membrane may be fabricated by layering Nafion on top of silicon dioxide as a composite structure because this helps to ensure long term reliability. They have focused attention on developing such a membrane for a microfabricated fuel cell, and Figure 5 shows their design approach. They have found that by doping silicon dioxide with phosphorus they were able to increase the hydrogen <a href="../../ed/dict.htm#i01"> ion</a> <a href="../../ed/dict.htm#c48"> conductivity</a> of the membrane. They could therefore make the membrane thicker in order to increase the mechanical strength of the membrane without sacrificing any of the cells performance because of the higher membrane resistance.
+
+<br clear="left"/>   <p>
+<h3>A look into the future</h3>
+
+Even after micro fuel cells are improved enough to be implemented as portable batteries, they still need to be made marketable. Companies must demonstrate that the fuel cell batteries are not too expensive to be replaced or recharged. Some believe that the ideal solution may be to combine lithium ion <a href="../../ed/dict.htm#r01"> batteries</a> with micro <a href="art-f03-fuel-cells.htm"><em> fuel cells</em></a>, thus forming a hybrid <a href="../../ed/dict.htm#e72"> energy storage</a> system. The hybrid system would have high <a href="../../ed/dict.htm#e51"> energy density</a> from methanol fuel and also high <a href="../../ed/dict.htm#p20"> power density</a> from the lithium-ion battery. Currently there are three major potential markets for micro fuel cells: portable electronics, portable military equipment and devices, and healthcare segments (Kundu, ... 2007). If researchers are able to develop efficient, reliable, and cost-effective micro <a href="../../ed/dict.htm#d56"> direct methanol fuel cells</a>, the method by which small electronic devices are powered could undergo a paradigm change. Current cell phone batteries last about five hours of talk time or two weeks on stand-by; however, Manhattan Scientific Inc. (MSI) expects that a cellphone powered by micro methanol fuel cells would have enough power to last for one week of talk time or six months on stand-by. While micro fuel cells still have a long way to go before their efficiency outweighs there higher cost, when compared to lithium-ion batteries, there are very high hopes for their implementation in the future.
+
+<a name="app"><h3> Appendix</h3></a>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Hydrogen-oxygen fuel-cell reactions</em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="0" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="544">
+<tr>
+<td width="20"> [1] </td>
+<td width="300"> H<sub>2</sub>  ==&gt; 2H<sup>+</sup> + 2e<sup>-</sup> </td>
+<td width="200"> (<a href="../../ed/dict.htm#o01">oxidation</a> reaction) </td>
+</tr>
+<tr>
+<td width="20"> [2] </td>
+<td width="300"> ½O<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>-</sup> ==&gt; H<sub>2</sub>O </td>
+<td width="200"> (<a href="../../ed/dict.htm#o01">reduction</a> reaction) </td>
+</tr>
+<tr><td width="20"> [3] </td>
+<td width="300"> H<sub>2</sub> + ½O<sub>2</sub> ==&gt; H<sub>2</sub>O </td>
+<td width="200"> (overall reaction) </td>
+</tr>
+</table>
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Direct-methanol fuel-cell reactions</em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="0" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="544">
+<tr>
+<td width="20"> [4] </td>
+<td width="350"> CH<sub>3</sub>OH + H<sub>2</sub>O ==&gt; CO<sub>2</sub> + 6H<sup>+</sup> + 6e<sup>-</sup></td>
+<td width="200"> (oxidation reaction) </td>
+</tr>
+<tr>
+<td width="20"> [5] </td>
+<td width="300"> 3/2O<sub>2</sub> + 6H<sup>+</sup> + 6e<sup>-</sup> ==&gt; 3H<sub>2</sub>O </td>
+<td width="200"> (reduction reaction) </td>
+</tr>
+<tr><td width="20"> [6] </td>
+<td width="300"> CH<sub>3</sub>OH + 3/2O<sub>2</sub> ==&gt; CO<sub>2</sub>+ 2H<sub>2</sub>O</td>
+<td width="200"> (overall reaction) </td>
+</tr>
+</table>
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Hydrogen storage in sodium borohydride</em></h3>
+<img height="1" src="fig/clear.jpg" width="8"/> [7] <img height="1" src="fig/clear.jpg" width="8"/> NaBH<sub>4</sub> + 2H<sub>2</sub>O ==&gt; 4H<sub>2</sub> + NaBO<sub>2</sub>
+<br clear="left"/>   <p>
+<h3> Acknowledgements </h3>
+
+The authors wish to thank Rachel Kapelle of CWRU for her early editorial suggestions and the CWRU SAGES program for support.
+
+<h3> Related articles </h3>
+<a href="art-f03-fuel-cells.htm"><em> Fuel cells</em></a><br/>
+<a href="art-f04-fuel-cells-pem.htm"><em> PEM fuel cells</em></a><br/>
+<a href="art-f02-sofc.htm"><em> Solid-oxide fuel cells</em></a><br/>
+<a name="bibl"><h3> Bibliography</h3></a>
 <ul>
-<li><a href="../../index.html">Home</a></li>
-<li><a href="../../estir/index.html">ESTIR</a></li>
-<li><a href="../../encycl/index.html">Encyclopedia</a></li>
-<li><a href="../../ed/dict.html">Dictionary</a></li>
-<li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
-</ul>
-</nav>
-<a href="index.html">
-<img alt="Electrochemical Encyclopedia Banner" src="../../images/banner_encyclopedia.jpg"/>
-</a>
-</header>
-<!-- Main content container -->
-<div class="main-container">
-<aside>
-<div class="fixed-sidebar">
-<h3 class="subtitle">Search</h3>
-<div class="search-container">
-<input placeholder="Search" type="text"/>
-<button type="button"><i class="fas fa-search"></i></button>
-</div>
-<!-- Navigation menu for sections -->
-<h3 class="subtitle">Navigation</h3>
-<ul>
-<li><a href="#article">&gt; Main Content</a></li>
-<li><a href="#appendix">&gt; Appendix</a></li>
-<li><a href="#acknowledgements">&gt; Acknowledgements</a></li>
-<li><a href="#bibliography">&gt; Bibliography</a></li>
-<li><a href="#other-resources">&gt; Other Resources</a></li>
-<!-- Other sections -->
-</ul>
-</div>
-</aside>
-<main>
-<section id="article">
-<h1><i class="fas fa-flask"></i>
-<!-- Insert the article's title here -->
-</h1>
-<div class="author-info">
-<em>
-<!-- Provide the author's information here -->
-</em><br/>
+<li><u> Progress and Perspectives in Micro Direct Methanol Fuel Cell,</u> S. Sundarrajan, S. Allakhverdiev, and S. Ramakrishna, International Journal of Hydrogen Energy Vol. 7, pp 8765-8786, 2012.
 <p>
-<!-- Include the author's email and date of publication here -->
-</p>
+<li><u> Microfuel Cells: Modern State and Future Development, A Review,</u> V. A. Grinberg and A. M. Skundin, Russian Journal of Electrochemistry Vol. 46, pp 963-978, 2010.
 <p>
-<!-- Main introduction or summary of the article -->
-</p>
-</div>
+<li><u> Investigations on Fabrication and Lifetime Performance of Self-Air Breathing Direct Hydrogen Micro Fuel Cells,</u> S. Giddey, S. P. S. Badwal, F. T. Ciacchi, D. Fini, B. A. Sexton, F. Glenn, and P. W.Leech, International Journal of Hydrogen Energy Vol. 35, pp 2506-2516, 2010.
+<p>
+<li><u> Performance of Micro-PEM Fuel Cells with Different Flow Fields,</u> Y. Lu and R. G. Reddy, Journal of Power Sources Vol. 195, pp 503-508, 2010.
+<p>
+<li><u> Designing Microfuel Cells for Portable Electronics,</u>  B. Flipsen, Journal of Fuel Cell Science and Technology Vol. 7, pp 061014-1 - 061014-8, 2010.
+<p>
+<li><u> Fuel Cell Engines,</u> M. M. Mench, John Wiley &amp; Sons, Hoboken, NJ, 2008.
+<p>
+<li><u> Overview on the Challenges and Developments of Micro-Direct Methanol Fuel Cells (DMFC),</u> S. K. Kamarudin, W. R. W.  Daud, S. L. Ho, and U. A. Hasran, Journal of Power Sources Vol. 163, pp 743-754, 2007.
+<p>
+<li><u> Micro-Fuel Cells  Current Development and Applications,</u> A. Kundu, J. H. Jang, J. H. Gil, C. R. Jung,  H. R. Lee, S. H. Kim, B. Ku, and Y. S. Oh, Journal of Power Sources Vol. 170, pp 67-78, 2007.
+<p>
+<li><u> Microfabricated Fuel Cell with Composite Glass/Nafion Proton Exchange Membrane,</u> J. Li, J. C. W. Moore, D. Bhusari, S. Prakask, and P. A. Kohl, Journal of The Electrochemical Society Vol. 153, pp A343-A347, 2006.
+<p>
+<li><u> Microfabricated Fuel Cells with Thin-Film Silicon Dioxide Proton Exchange Membranes,</u> C. W. Moore, J. Li, and P. A. Kohl, Journal of The Electrochemical Society Vol. 152, pp A1606-A1612, 2005.
+<p>
+<li><u> PEM Fuel Cells,</u> F. Barbir, Elsevier-Academic Press, Burlington, MA, 2005.
+<p>
+<li><u> Investigation of Acidic Methanol Solution as a Fuel for Microchannel Fuel Cells,</u> J. Li, C. Moore, and P. Kohl, Journal of Power Sources Vol. 138, pp 211-216,(2004).
+<p>
+<li><u> Microfabricated Fuel Cells,</u> J. S. Wainright, R. F. Savinell, C. C. Liu, and M. Litt, Electrochimica Acta Vol. 48, pp 2869-2877, 2003.
+<p>
+<li><u> Miniature Fuel Cells Fabricated on Silicon Substrates,</u> S. C. Kelley, G.A. Deluga, and W. H. Smyrl, Journal of the American Institute of Chemical Engineers Vol. 48, pp 1071-1081, 2002.
+<p>
+<li><u> A Miniature Methanol/Air Polymer Electrolyte Fuel Cell,</u> S. C. Kelley, G. A. Deluga, and W. H. Smyrl, Electrochemical and Solid-State Letters Vol. 3, pp 407-409, 2000.
+<p>
+</p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></ul>
+
 </section>
-<!-- Subsection 1 -->
-<section>
-<h3>
-<!-- Subtitle 1 -->
-</h3>
-<p>
-<!-- Content for subsection 1 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 1 - paragraph 2 -->
-</p>
-</section>
-<!-- Subsection 2 -->
-<section>
-<h3>
-<!-- Subtitle 2 -->
-</h3>
-<p>
-<!-- Content for subsection 2 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 2 - paragraph 2 -->
-</p>
-</section>
-<!-- Other subsections -->
-<!-- Other Resources Section -->
-<section id="other-resources">
-<h2><i class="fas fa-flask"></i>
-                    Other Resources
-                </h2>
-<p>
-                    Listings of electrochemistry <a href="../../estir/books.htm"> books</a>, <a href="../../estir/chap.htm"> review chapters</a>, <a href="/estir/proc.htm"> proceedings volumes</a>, and full text of some <a href="/estir/history.htm"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+
+            <section>
+                <h2><i class="fas fa-flask"></i>Other Resources</h2>
+                <p>
+                    Listings of electrochemistry <a href="../../estir/books.html"> books</a>, <a href="../../estir/chap.html"> review chapters</a>, <a href="/estir/proc.html"> proceedings volumes</a>, and full text of some <a href="/estir/history.html"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
                 </p>
-</section>
-<!-- Other sections -->
-</main>
-</div>
-<footer>
-<img alt="ECS Logo" src="../../images/ECS_Logo-removebg.png"/>
-<div class="footer-text">
-<p>
+            </section>
+        </main>
+    </div>
+
+    <!-- END OF CONTENT -->
+
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+
+    <!-- FOOTER CODE -->
+
+    <footer>
+        <img src="../../images/ECS_Logo-removebg.png" alt="ECS Logo">
+        <div class="footer-text">
+            <p>
                 Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
                 <a href="/copyright.html">Copyright Notice</a>
-</p>
-<p>
+            </p>
+            <p>
                 Edited by: <a href="/estir/editor.html">Zoltan Nagy</a> <a href="mailto:nagyz@email.unc.edu">(nagyz@email.unc.edu)</a> | 
                 <a href="http://www.chem.unc.edu/" target="_blank">Dept. of Chemistry</a> | 
                 <a href="http://www.unc.edu/" target="_blank">UNC at Chapel Hill</a></p>
-<p>
-<a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
+            <p>
+                <a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
                 <a href="http://www.ecsblog.org/" target="_blank">Redcat Blog</a> | 
                 <a href="http://ecsdl.org/" target="_blank">ECS Digital Library</a>
-</p>
-</div>
-</footer>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-<script defer="" src="../../js/analytics.js"></script>
+            </p>
+        </div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
+    <script src="../../js/analytics.js" defer></script>
 </body>
 </html>

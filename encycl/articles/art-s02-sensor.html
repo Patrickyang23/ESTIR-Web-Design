@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
+    <meta name="keywords" content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry">
+    <meta name="robots" content="index, follow, noodp, noydir">
+    <link rel="canonical" href="https://knowledge.electrochem.org/">
+    <link rel="icon" href="https://knowledge.electrochem.org/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/html5reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Electrochemistry Encyclopedia -- Electrochemical sensors </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../estir/index.html">ESTIR</a></li>
+                <li><a href="../../encycl/index.html">Encyclopedia</a></li>
+                <li><a href="../../ed/dict.html">Dictionary</a></li>
+                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="../../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
+        </a>
+    </header>
+
+    <!-- Main content container -->
+    <div class="main-container">
+        <aside>
+            <div class="fixed-sidebar">
+                <h3 class="subtitle">Search</h3>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Navigation menu for sections -->
+                <h3 class="subtitle">Navigation</h3>
+                <ul>
+                    <li><a href="#article">> Main Content</a></li>
+                    <li><a href="#appendix">> Appendix</a></li>
+                    <li><a href="#acknowledgements">> Acknowledgements</a></li>
+                    <li><a href="#bibliography">> Bibliography</a></li>
+                    <li><a href="#other-resources">> Other Resources</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="article">
+                <h1><i class="fas fa-flask"></i>ELECTROCHEMICAL SENSORS</h1>
+                <div class="author-info">
+                    
+<em> Jiri Janata <br>
+    School of Chemistry and Biochemistry<br>
+    Georgia Institute of Technology<br>
+    Atlanta, GA 30332-0400, USA</em><br>
+    E-mail: <a href="mailto:jiri.janata@chemistry.gatech.edu">
+            jiri.janata@chemistry.gatech.edu</a><br>
+    (September, 2010)
+                </div>
+            </section>
+            <section>
+                <p>
+                    Electrochemical sensors are the largest group of chemical sensors, representing approximately 58% of the total. Other types include optical (24%), mass (12%) and thermal (6%). This categorization is based on the general transduction principles, that is, how the information is obtained. But it can be misleading, because the term �sensor� is often incorrectly applied to an �analytical assay�, which distorts the count and the overall picture. Both are valid and often useful analytical tools, but there is an important difference. Sensor is a device, which provides information about the sample <u>continuously</u>, while analytical assay yields information in <u>discrete steps</u>. For example, a well-known <a href="art-g01-glucose.html"><em> blood glucose test</em></a>
+                    performed by a diabetic patient is an assay (that is, one value per test), while an enzymatic glucose electrode is capable of following changes of blood glucose continuously, up and down. Generally, a chemical sensor follows the changes of <a href="../../ed/dict.html#c26"> concentration</a> of some chemical in a predictable and continuous fashion. But even that caveat is not always true; a very popular, and useful sensor � the smoke detector, will provide information about �house being on fire� but not about �how much is the house on fire�. Similarly, the pregnancy test (an assay) gives a �yes/no� answer, but not �how much�. So, right at the beginning of this paper we run into problems with definitions and meanings. However, we can agree on certain terminology and its usage and leave the arguments about it to whoever wants to argue about it. A consistency of terminology is most important, in this case.</p>
+                    <table align=left width=392 border=1 cellspacing=5 cellpadding=5 vspace=10 hspace=10>
+
+                        <tr><td><img src="fig/s02/s02-f01.png" width=370 height=289 alt=" Closed electrical circuit "></a></td></tr>
+                        
+                        <tr><td><em> Fig. 1. Closed electrical circuit is a common requirement of all electrochemical sensors. The chemical selectivity (recognition) comes from the <a href="../../ed/dict.html#i16"> ion selective electrode</a> connected to the amplifier.</em></td></tr></table>
+                        <p>
+                            As the name implies, electrochemistry is about <a href="art-a03-analytical.html"><em>interaction of electricity and chemistry</em></a>. Plenty has been written about this very important area of physical chemistry. Electrochemical sensors are devices that extract information about sample from measurement of some electrical parameter. It is easy to categorize them according to the measured electrical parameter, because the three are linked together by Ohm�s Law (stating that the <a href="../../ed/dict.html#e65"> potential difference</a> in a circuit is equal to the product of the <a href="../../ed/dict.html#c14"> current</a> and the <a href="../../ed/dict.html#r23"> resistance</a>, that is, <a href="../../ed/dict.html#v07"> volt</a> = <a href="../../ed/dict.html#a15"> ampere</a> times <a href="../../ed/dict.html#o11"> ohm</a>). So, if we measure difference of two potentials (in volts) we talk about �potentiometric sensors�, if the parameter of interest is current (in amperes) we talk about �amperometric sensors�, and if we measure resistance (in ohms) or <a href="../../ed/dict.html#c49"> conductance</a> (the reciprocal of resistance) we talk about �chemiresistors� or �conductometric sensors�. In the following text these three groups of electrochemical sensors are discussed separately. However, they all have two things in common. First, the measurement must be done with closed electrical circuit, meaning that a hypothetical (test) <a href="../../ed/dict.html#e135"> charge</a> can be passed through the electrical circuit and returned to its origin. Second, <a href="../../ed/dict.html#e77"> electrical neutrality</a> must be preserved. That means that if, for example, a positive charge is added at one place of the closed circuit another positive charge must be taken out (or a negative charge added) somewhere else. A closed electrochemical circuit used for selective determination of <a href="../../ed/dict.html#p13"> pH</a> is shown in Figure 1.</p>
+            </section>
+            <section><table align=left width=425 border=1 cellspacing=5 cellpadding=5 vspace=10 hspace=10>
+
+                <tr><td><a href="fig/s02/s02-f02.png"><img src="fig/s02/s02-f02.png" width=403 height=230 alt="Response curve"></a></td></tr>
+                
+                <tr><td><em> Fig. 2. Response curve of any chemical sensor showing three most important regimes of operation. Note that increasing level if interferants decreases the dynamic range and increases the detection limit. </em></td></tr>
+                
+                </table>
+                <p>
+
+                    A question, which is often asked is, �which is the best sensor�? The true answer to such tricky question is �whichever does the job best�. It means that the application itself always defines the most important performance parameters of a sensor and its quality. This is true of any sensor, not only of electrochemical ones. Nevertheless, there are some performance parameters that are generally more important than the others. We call them <u>figures of merit</u>. At the top of the list is probably <u>selectivity</u>. It is defined as the ability of a sensor to respond to the species of interest, regardless of the presence of other species, which are called <u>interferants</u> (Figure 2). Therefore, if I want to measure <a href="../../ed/dict.html#c26"> concentration</a> of some <a href="../../ed/dict.html#i01"> ion</a>, for example chloride ion, it is much more difficult to measure it in a �dirty� sample, containing many other ions and other chemicals, than in the pure solution containing only dissolved sodium chloride. A good, highly selective sensor will do the job even in the complex sample. The importance of other figures of merit also very much depends on the application. Thus, for example <u>dynamic range</u> is the span of concentrations in which the signal from the sensor matches the concentration of what is being sensed. At concentrations below and above the dynamic range the sensor does not respond. Therefore, concentration of the species defines which sensor can or cannot be used. The speed of response is another important figure of merit, but generally speaking the sensor does not need to be �faster� than the fastest event which is being sensed. We could go on and on, and the details and examples of other figures of merit could be given. The purpose of these examples is to show that they are common to all sensors. Yet, most of these definitions have been developed for electrochemical sensors.
+                    </p>
+            </section>
+            <section>
+<h3>Potentiometric sensors</h3>
+
+
+The set-up for most representative potentiometric sensor, <a href="../../ed/dict.html#i16"> ion-selective electrode</a> (ISE) is shown in Figure 1. There the recognition of hydrogen ion is done by the <a href="../../ed/dict.html#g04"> glass electrode</a>, which is coupled with the <a href="../../ed/dict.html#r06"> reference electrode</a> to complete the electrical circuit; and the sensor measures the <a href="../../ed/dict.html#e66"> potential difference</a> between these two electrodes. As the name implies the electrode is selective for one ion, in preference to other ions. The mother of all ion-selective electrodes is the glass electrode, which is selectively sensitive to hydrogen ions (<a href="../../ed/dict.html#p13">pH</a>). It has an astonishing dynamic range of ~36 pH units, it is highly selective, that is, only very few other ions would interfere, and it is also the oldest of all electrochemical sensors. Its first description appeared in 1909 (Haber). Because it has very high <a href="../../ed/dict.html#r23"> resistance</a> (millions of <a href="../../ed/dict.html#o11"> ohms</a>), due to its thin glass membrane, it requires a high input <a href="../../ed/dict.html#i33"> impedance</a> amplifier for its operation (Figure 3A), which was introduced by Arnold Beckmann in the late 1930s. The analytical potentiometry has flourished ever since.
+
+<br clear="left"/>   <p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="425">
+<tr><td><a href="fig/s02/s02-f03.png"><img alt=" Miniaturization " height="405" src="fig/s02/s02-f03.png" width="403"/></a></td></tr>
+<tr><td><em> Fig. 3. Miniaturization of potentiometric sensors. (A) Conventional ion-selective electrode (ISE) with reference electrode connected to the field-effect transistor amplifier. (B) The electrical connection between ISE and the amplifier is made shorter. (C) Electrical connection is eliminated and the ISE membrane is placed directly at the input of the amplifier, thus forming an ISFET (D).</em></td></tr>
+</table>
+
+We will examine operation of glass electrode in detail, because its principle is common to all ISEs. Glass, after it has been exposed to water, adsorbs water and develops a very thin hydrated, gel-like layer at its surface. Hydrogen ion which is in the solution likes to be in this gel layer, more so than in the solution. Therefore it <u>partitions</u> between the solution and the hydrated glass and establishes a partitioning equilibrium. Because hydrogen <a href="../../ed/dict.html#i01"> ion</a> carries positive <a href="../../ed/dict.html#e135"> charge</a> and because it likes the glass more than water, the gel layer becomes positively charged with respect to the solution. In other words, the charges have been separated and when that happens an <a href="../../ed/dict.html#e29"> equilibrium potential</a> is formed. If the <a href="../../ed/dict.html#c26"> concentration</a> of hydrogen ion changes in the solution, more or less ions are partitioned into the glass, tracking the concentration changes. What about other ions that may have similar <u> affinity</u> for glass, such as sodium ion, potassium ion, etc. They also partition to the glass but to a much, much smaller extent. How much is much is described by the functional response equation for this electrode for <u>interferants</u> (Figure 2). It is called Eisenmann-Nikolskii equation and it is an extension of the fundamental thermodynamic <a href="../../ed/dict.html#n02"> Nernst Equation</a>. It is such an important relationship that it is shown in the <a href="#app"> Appendix</a>.
+<p>
+The art of making better and better ISEs has been subject of study of generations of researchers and some truly remarkable results have been achieved over the years. One particularly spectacular achievement has been the introduction of fluoride-selective ISE in 1966 (Frant). Its key functional element is single crystal of lanthanum fluoride, which is doped with europium ion. Fluoride <a href="../../ed/dict.html#i01"> ion</a> likes to partition into this crystal, in preference to all other ions, except one - hydroxyl ion and the europium ensures its mobility in the crystal. Hydroxyl ion which also likes to move inside lanthanum fluoride is an interferant. We speak of the affinity of these ions for the membrane. A simple way of eliminating hydroxide ion interference is by working at low <a href="../../ed/dict.html#p13"> pH</a> where the activity of OH<sup>-</sup> ions is low and negligible.
+<p>
+Another important trend in the development of potentiometric ion sensors has been miniaturization. It took place in the mid seventies and continues to date. It is illustrated in Figures 3B and 3C. We have seen that ISEs in general have high <a href="../../ed/dict.html#r23"> resistance</a> and therefore require high input <a href="../../ed/dict.html#i33"> impedance</a> amplifier for its operation. Invariably, that amplifier is a field-effect transistor (FET) in most modern pH meters. So, the idea arose to make the connection between the selective membrane and the amplifier input shorter and shorter (Figure 3B), leading to <u>solid contact ISEs</u>. Finally, the wire is eliminated entirely and the selective membrane has been placed directly at the <a href="../../ed/dict.html#i24"> insulator</a> of the FET input gate. Thus a chemically selective field-effect transistor (CHEMFET) was born. The development of ion-sensitive field-effect transistors (ISFET) paralleled, or rather borrowed from the ISEs. Obviously, protection of the FET part of the device from <a href="../../ed/dict.html#e12"> electrolyte solutions</a> presented challenge, but that too was relatively quickly overcome. With the significant reduction of size came also a hope of taking advantage of large scale combination of <u>electronics</u> and <u>chemical selectivity</u>. Unfortunately, it has not happened yet, due to mostly economic reasons. Soon other forms of CHEMFET appeared, enzymatically sensitive FET (ENFET) and work function gas FET WF-FET. At the level of this article there is no apparent connection between the <a href="../../ed/dict.html#o18"> Ohms Law</a> and the Eisenmann-Nikolskii equation (<a href="#app">Appendix</a>). Nevertheless, such connection does exist and is very important for explanation of mechanism of selectivity of potentiometric sensors (Janata, 2009).
+
+<br clear="left"/>   <p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="496">
+<tr><td><img alt=" Potentiometric signal " height="295" src="fig/s02/s02-f04.png" width="474"/></td></tr>
+<tr><td><em> Fig. 4. Analytical potentiometric signal is equally divided between the ISE and the reference electrode. </em></td></tr>
+</table>
+
+Another powerful factor in the miniaturization game has to be considered. We know already that potentiometric sensor requires a stable and reproducible <a href="../../ed/dict.html#r06"> reference electrode</a> (Figure 3B). The principal requirement on reference electrode is precisely that: stability and reproducibility. From the electrical circuit point of view it satisfies the basic requirement of the closed electrical circuit. From the analytical viewpoint it is necessary to realize that exactly 50% of information from the measurement comes from the reference electrode. In other words, even the best ISE without equally good reference electrode is worthless. In conventional, macroscopic potentiometric measurements, the reference electrode is realized along the same principles as the ISE itself (Figure 4). A reservoir of <a href="../../ed/dict.html#e12"> electrolyte</a> of constant composition is provided, which is connected to the sample via <u>liquid junction</u>, which has its own <a href="../../ed/dict.html#l02"> potential</a> associated with it. In the practical side of a potentiometric measurement the liquid junction has been always the most troublesome element. Because it is an open channel there is a leakage of electrolyte associated with it, which ultimately determines its useful lifetime. Roughly speaking, the larger the volume of the reference electrode compartment the longer its lifetime. Thus, the quest for miniaturization contradicts another figure of merit  the lifetime of the device. The goal of achieving miniature reference electrode remains elusive.
+<p>
+Earlier on a glucose potentiometric sensor has been mentioned. Glucose is an electrically neutral molecule. Therefore, partitioning of glucose, or of any other electrically neutral molecule, to the membrane does not yield a signal. In other to design a potentiometric sensor for such molecules another step has to be made first. The neutral molecule has to be <u>converted</u> into <a href="../../ed/dict.html#i01"> ions</a>, which are then <u>selectively</u> detected. In case of glucose this can be accomplished by enzymatic <a href="../../ed/dict.html#o01"> oxidation</a> of glucose to gluconic acid and the subsequent measurement of the generated hydrogen ions. Likewise, hydrolysis of carbon dioxide in water yields carbonic acid, which dissociates to carbonate ion and hydrogen ion, and the latter can be again detected by a <a href="../../ed/dict.html#p14"> pH electrode</a>. Other formats for sensing of electrically neutral species exist, but they are outside the scope of this article.
+<p>
+The often mentioned pH sensor is the most important and most widely used potentiometric sensor as it measures the <a href="../../ed/dict.html#a13"> acidity</a>/<a href="../../ed/dict.html#a23">alkalinity</a> of solutions; a parameter important in many practical areas, such as <a href="art-e02-environm.html"><em> environmental protection</em></a>, agriculture, biology, medicine, and many chemical processes.
+
+<h3>Amperometric sensors</h3>
+
+When the information is obtained from measurement of <a href="../../ed/dict.html#c14"> current</a>, that is in amperometric sensors, the role of the <a href="../../ed/dict.html#o18"> Ohms Law</a> becomes immediately apparent. The <a href="../../ed/dict.html#e20"> electrode</a> and its operation represents a <a href="../../ed/dict.html#r23"> resistance</a>, which at a given constant <a href="../../ed/dict.html#e65"> potential</a> results in current. It is proportional to the <a href="../../ed/dict.html#c26"> concentration</a> of the species, which are being electrochemically transformed (that is, <a href="../../ed/dict.html#o01"> reduced or oxidized</a>) at the electrode. The <a href="../../ed/dict.html#r03"> redox process at the electrode</a> represent <a href="../../ed/dict.html#c02"> charge transfer</a> reactions that can proceed in either direction (oxidation or reduction) each with its own velocity. Those velocities relate to the value of the <a href="../../ed/dict.html#c67"> charge transfer resistance</a> of the redox reaction. Some electrochemical reactions proceed very fast in both directions and their charge transfer resistance is very low. We call such reactions reversible. On the other hand some reactions are very slow and their charge transfer resistance is very high. We call such electrode reactions irreversible. Thus, the relative speed of an electrochemical reaction can be related to its equivalent charge transfer resistance. This concept will become important when we discuss the principles of amperometric sensors, namely their selectivity.
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="423">
+<tr><td><a href="fig/s02/s02-f05.png"><img alt=" Current  voltage curve " height="457" src="fig/s02/s02-f05.png" width="401"/></a></td></tr>
+<tr><td><em> Fig. 5. Highly non-linear current  voltage curve obtained in electrochemical experiments, using electrochemical cell shown in the insert. The domains of potentiometric and amperometric sensors are indicated in the diagram. Explanation of the magnified region (circle) of the I  V curve can be found in Chapter 5 of Janata, 2009.</em></td></tr>
+</table>
+
+The aforementioned reaction velocities depend on the applied <a href="../../ed/dict.html#e66"> potential</a>. Therefore, at a more negative potential the reduction becomes faster and its charge transfer resistance becomes smaller. The same is true for the reverse process, that is, for the oxidation. It is easily understood that if we apply high enough potential, in either direction, every <a href="../../ed/dict.html#e83"> electroactive molecule</a> at the surface of the electrode is immediately transformed. That is all very well. But what about the molecules that are <u>not at the surface</u>, but are farther away, in the bulk of the solution? They must be brought to the surface of the electrode by some <a href="../../ed/dict.html#m31"> mass transport</a>, such as <a href="../../ed/dict.html#d19"> diffusion</a> (in unstirred solution), by <a href="../../ed/dict.html#c66"> convection</a> (in stirred solution) or by the combination of both. Once again, the efficiency of this mass transport can be seen as a resistance. If the process is efficient, the <a href="../../ed/dict.html#m87"> mass transport resistance</a> is low, or it is inefficient it is high. Interestingly, both the <a href="../../ed/dict.html#c67"> charge transfer resistance</a> and the mass transport resistance are highly non-linear and variable. That gives rise to the characteristic, highly non-linear shapes of the <a href="../../ed/dict.html#c79"> current-voltage curves</a> of every electrochemical process (Figure 5).
+<p>
+The flat portion of the I-V curve is called the mass transport limiting region. It is flat because every molecule that reaches the surface of the <a href="../../ed/dict.html#e20"> electrode</a> is immediately <a href="../../ed/dict.html#o01"> reduced or oxidized</a>. The <a href="../../ed/dict.html#c14"> current</a> is therefore limited by the rate with which the <a href="../../ed/dict.html#e83"> electroactive molecules</a> can be brought to the surface of the electrode. If we supply more electroactive molecules to the surface, for example, by stirring more vigorously or by increasing their <a href="../../ed/dict.html#c26"> concentration</a> in the bulk, the current increases and vice versa. Under constant experimental conditions, the current is directly proportional to the concentration of the electroactive species in the bulk of the solution as long as the mass transport remains constant. So, although the relationship between the applied <a href="../../ed/dict.html#v08"> voltage</a>, the resulting current and the <a href="../../ed/dict.html#r23"> resistance</a> of an <a href="../../ed/dict.html#e01"> electrochemical cell</a> is governed by the same <a href="../../ed/dict.html#o18"> Ohms Law</a> as in any other electrical circuit, the non-linearity and the time variation of the resistance makes the electrochemical <u>equivalent electrical circuit</u> non-linear. That is both bad and good news. It would be ever so simple to treat the electrochemical cells as linear elements. On the other hand their non-linear behavior allows us to study them and learn more about the nature of the electrochemical processes involved. That is what most electrochemists do for living.
+<p>
+The size of the electrode plays also a very important role in the performance of amperometric sensor. Electrodes whose diameter is smaller than 20 <a href="../../ed/dict.html#m67"> µm</a>, so called <u>microelectrodes</u> have the best performance as chemical sensors . The explanation of this behavior is beyond the scope of this article, can be found in standard electrochemical texts.
+<p>
+Selectivity is as important for amperometric sensors as it is for any other type of chemical sensor. The choice of applied potential offers surprisingly little in terms of selectivity. Much better approach is to attack the problem through the resistances. Imagine, that the sample solution contains species A, B, C, etc, and that neither is electroactive (that is, it cannot be reduced or oxidized) because its <a href="../../ed/dict.html#c67"> charge transfer resistance</a> or the <a href="../../ed/dict.html#m87"> mass transport resistances</a> are too high. In such case, no current would flow through the electrode. This situation is represented in Figure 6. If we <u>selectively</u> lower the resistance in such a way that a current path opens up, the electrode becomes <u>selective</u> for that species. That is shown in Figure 6 where the biocatalyst lowers the charge transfer resistance R<sub>ct</sub>(l) and the current corresponding to the <a href="../../ed/dict.html#c101"> catalyzed</a> substance can flow. That is precisely the principle of operation of one of the most successful amperometric sensor, the glucose sensitive electrode. There, the biocatalyst is a highly selective enzyme glucose oxidase. An example of amperometric sensor deriving its selectivity from the mass transport resistance is oxygen sensor. Here a <a href="../../ed/dict.html#h37"> hydrophobic</a> Teflon membrane allows penetration of oxygen, but blocks the transport of most other chemical species.
+<p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="399">
+<tr><td><a href="fig/s02/s02-f06.png"><img alt=" Origin of selectivity " height="239" src="fig/s02/s02-f06.png" width="377"/></a></td></tr>
+<tr><td><em> Fig. 6. Origin of selectivity in amperometric sensors. The path R<sub>ct</sub>(l)/R<sub>mt</sub>(l) has the lowest resistance and therefore the highest current flow. </em></td></tr>
+</table>
+
+Formulating and examining behavior of sensors in terms of <u>equivalent electrical circuit elements</u> is a very powerful approach. In the above example we have represented physical phenomena such as <a href="../../ed/dict.html#d19"> diffusion</a> or <a href="../../ed/dict.html#c02"> electron transfer</a> by resistances. The <a href="../../ed/dict.html#e20"> electrode</a> surface is commonly represented by a <a href="../../ed/dict.html#c05"> capacitor</a>, etc. The equivalent electrical elements can be readily arranged relative to each other, forming an equivalent electrical circuit, such as the one shown in Figure 6. This approach is common in electrochemistry. It makes the study and the interpretation of responses of an electrochemical experiment much easier.
+<p>
+
+The above mentioned oxygen sensor (often called the <a href="../../ed/dict.html#c70"> Clark electrode</a>) is an important amperometric sensor, much used in water quality measurements as the dissolved oxygen content of the water is an important environmental factor affecting aquatic life. Many amperometric sensors are used in gas analysis (as an <a href="art-n01-nose.html"><em>electrochemical nose</em></a>) in diverse areas such as the food and beverage industry, and in hazardous materials emergency response to detect dangerous (explosive or poisonous) gases.
+
+<br clear="left"/>   <p>
+<h3>Conductometric sensors</h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="420">
+<tr><td><a href="fig/s02/s02-f07.png"><img alt=" Conductometric sensors " height="290" src="fig/s02/s02-f07.png" width="398"/></a></td></tr>
+<tr><td><em> Fig. 7. Two types of conductometric sensors with their corresponding equivalent electrical circuit diagrams: (A) chemiresistor configuration typical for gas sensing; (B) conductometric biosensor.</em></td></tr>
+</table>
+
+The last group of electrochemical sensors discussed in the article is based on modulation of <a href="../../ed/dict.html#r22"> resistivity</a> of the selective material. Because the reciprocal of resistivity is <a href="../../ed/dict.html#c48"> conductivity</a>, these sensors are interchangeably called conductometric sensors or chemiresistors. The two main formats in which these sensors come are shown in Figure 7. In the first one, some material, which can change its conductivity upon interaction with chemical species is clamped between two contact electrodes and the resistance of the entire device is measured. Such arrangement is typical for chemiresistors, used for sensing in gases. In the second version the chemically interactive layer is at the top of an <a href="../../ed/dict.html#e20"> electrode</a>, which is immersed in the <a href="../../ed/dict.html#e12"> solution of electrolyte</a>. A suitable <a href="../../ed/dict.html#c20"> counter-electrode</a> is provided that completes the electrical circuit. This arrangement can be typically found in various <u>biosensors</u>, where the selectivity of the response comes from some biological interaction.
+
+<br clear="left"/>   <p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="367">
+<tr><td><img alt=" Typical chemiresistors " height="345" src="fig/s02/s02-f08.png" width="305"/></td></tr>
+<tr><td><em> Fig. 8. Photograph of typical chemiresistors with interdigitated contact electrodes.</em></td></tr>
+</table>
+
+A common feature of all conductometric sensors is the low cost of their fabrication. By comparison with other electrochemical sensors they are really inexpensive, which makes them very popular. However, in terms of performance, you get what you pay for. The interpretation of their signal is very difficult and often impossible. The reason for this difficulty can be seen in Figure 7 in which both types are represented by their equivalent electrical circuit diagrams. Their resistance is interrogated by applying <a href="../../ed/dict.html#d47"> dc</a> or <a href="../../ed/dict.html#a41"> ac</a> <a href="../../ed/dict.html#v08"> voltage</a> between the terminals 1 and 2 (or 3 and 4, respectively) and reporting the result as the <a href="../../ed/dict.html#c14"> current</a>. If dc voltage is used and dc current is measured the conductometric sensors are formally similar to amperometric sensors. The contacts between the metal electrode and the chemically sensitive layers are represented by <u>contact resistances</u>. In type A, the three equivalent resistances shown in parallel. They correspond to the surface, the bulk, and the interface resistance respectively. Thus, in the <u>equivalent electrical circuit diagram</u> of a common chemiresistor we have at least five resistances to account for. The problem is that any one of them, or any combination of them can be modulated by the chemical sensing interaction. That makes the task of optimization, or rational design of their selectivity exceptionally difficult. There is also no rational relationship between their response and the <a href="../../ed/dict.html#c26"> concentration</a> of species that they measure. A photo of a typical chemiresistor is shown in Figure 8.
+
+<br clear="left"/>   <p>
+<h3>Summary</h3>
+
+Electrochemical sensors are <u>electroanalytical devices</u> that owe their popularity and success to the discipline of electrochemistry, which provides the strong scientific base on which they stand. Their purpose is to provide information about the chemical environment and the growing need for reliable sources of information guarantees their future. There is a strong engineering aspect of any sensor research and electrochemical sensors are no exception. The current trend in miniaturization of electronics and the rapid increase of the dedicated computational capacity leads to development of various electrochemical <u>sensing arrays</u> in which the information is obtained simultaneously through multiple sensing channels. The processing of this information is often done in situ, on dedicated processors.
+
+
+<a name="app"><h3> Appendix</h3></a>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Selectivity </em></h3> 
+
+The key performance parameter of any sensor is its ability to respond to the primary species in the presence of interfering species. The original formal definition of selectivity belongs to the <a href="../../ed/dict.html#p13"> pH</a> measuring <a href="../../ed/dict.html#g04"> glass electrode</a>, which can track hydrogen <a href="../../ed/dict.html#i01"> ion</a> <a href="../../ed/dict.html#a10"> activity</a> over many decades in the presence of interfering species. It is known as the Eisenmann-Nikolskii Equation. For measurement of pH in the presence of interfering sodium ion it expresses the <a href="../../ed/dict.html#e66"> potential</a> of the glass electrode, <i>E<sub>glass</sub></i>, as the function of activity of hydrogen ion, <i>a<sub>H</sub></i>, in the presence of interfering species. In the simplest case the interferant is sodium ion and its activity is <i>a<sub>Na</sub></i>.
+
+<p>
+<i>E<sub>glass</sub> = const + S</i> × log (<i>a<sub>H</sub> + K<sub>H,Na</sub>a<sub>Na</sub></i>)
+<p>
+
+The figure of merit is the selectivity constant <i>K<sub>H,Na</sub></i>. The smaller it is the more selective is the electrode for the primary ion. The <i>const</i> on the right-hand side of the equation represents the fact that a <a href="../../ed/dict.html#r06"> reference electrode</a> is needed for this measurement, and <i>S</i> is the <a href="../../ed/dict.html#n02"> Nernst slope</a>.
+
+
+<h3> Acknowledgement </h3>
+
+All figures are reproduced with permission from Principles of Chemical Sensors (2<sup>nd</sup> edition) J. Janata, Copyright 2009 by Springer.
+
+
+<h3> Related articles </h3>
+<a href="art-g01-glucose.html"><em> Electrochemical blood glucose test </em></a><br/>
+<a href="art-n01-nose.html"><em> Electrochemical nose</em></a><br/>
+<a href="art-p03-polarography.html"><em> Jaroslav Heyrovsky and polarography </em></a><br/>
+<a href="art-a03-analytical.html"><em> The past, present, and future of electroanalytical chemistry</em></a> <br/>
+<h3> Further reading </h3>
+<ul>
+<li><u>Principles of Chemical Sensors</u> (2<sup>nd</sup> edition), J. Janata, Springer, New York, 2009.
+<p>
+<li><u>Electrochemical Methods, Fundamentals and Applications</u> (2<sup>nd</sup> edition), A.J. Bard and L. R. Faulkner, Wiley, New York, 2001.
+<p>
+<li><u>Principles of Electrochemistry</u> (2<sup>nd</sup> edition), J. Koryta, J. Dvorak, and L. Kavan, Wiley, New York, 1993.
+<p>
+</p></li></p></li></p></li></ul>
+<h3> Bibliography </h3>
+<ul>
+<li><u>Principles of Chemical Sensors</u> (2<sup>nd</sup> edition), J. Janata, Springer, New York, 2009.
+<p>
+<li><u>Electrode for Sensing Fluoride Ion Activity in Solution,</u> M.S. Frant and J.W. Ross, Science Vol. 154, pp 1553-1555, 1966.
+<p>
+<li><u>Uber elektrische Phasengrenzkrafte,</u> F. Haber and Z. Klemensiewicz, Zeitschrift fur physikalische Chemie, Stochiometrie und Verwandtschaftslehre Vol. 67, pp 385-431, 1909. <a href="/estir/history.html"> Available on the WWW.</a>
+</li></p></li></p></li></ul></section>
+
+            <section>
+                <h2><i class="fas fa-flask"></i>Other Resources</h2>
+                <p>
+                    Listings of electrochemistry <a href="../../estir/books.html"> books</a>, <a href="../../estir/chap.html"> review chapters</a>, <a href="/estir/proc.html"> proceedings volumes</a>, and full text of some <a href="/estir/history.html"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <!-- END OF CONTENT -->
+
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+
+    <!-- FOOTER CODE -->
+
+    <footer>
+        <img src="../../images/ECS_Logo-removebg.png" alt="ECS Logo">
+        <div class="footer-text">
+            <p>
+                Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
+                <a href="/copyright.html">Copyright Notice</a>
+            </p>
+            <p>
+                Edited by: <a href="/estir/editor.html">Zoltan Nagy</a> <a href="mailto:nagyz@email.unc.edu">(nagyz@email.unc.edu)</a> | 
+                <a href="http://www.chem.unc.edu/" target="_blank">Dept. of Chemistry</a> | 
+                <a href="http://www.unc.edu/" target="_blank">UNC at Chapel Hill</a></p>
+            <p>
+                <a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
+                <a href="http://www.ecsblog.org/" target="_blank">Redcat Blog</a> | 
+                <a href="http://ecsdl.org/" target="_blank">ECS Digital Library</a>
+            </p>
+        </div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
+    <script src="../../js/analytics.js" defer></script>
+</body>
+</html>

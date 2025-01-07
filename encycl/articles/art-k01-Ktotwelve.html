@@ -1,129 +1,666 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc." name="description"/>
-<meta content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry" name="keywords"/>
-<meta content="index, follow, noodp, noydir" name="robots"/>
-<link href="https://knowledge.electrochem.org/" rel="canonical"/>
-<link href="https://knowledge.electrochem.org/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="../../css/html5reset.css" rel="stylesheet"/>
-<link href="../../css/main.css" rel="stylesheet"/>
-<title>No Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
+    <meta name="keywords" content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry">
+    <meta name="robots" content="index, follow, noodp, noydir">
+    <link rel="canonical" href="https://knowledge.electrochem.org/">
+    <link rel="icon" href="https://knowledge.electrochem.org/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/html5reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Electrochemistry Encyclopedia -- Electrochemistry for K-12 </title>
 </head>
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="../../index.html">Home</a></li>
-<li><a href="../../estir/index.html">ESTIR</a></li>
-<li><a href="../../encycl/index.html">Encyclopedia</a></li>
-<li><a href="../../ed/dict.html">Dictionary</a></li>
-<li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
-</ul>
-</nav>
-<a href="index.html">
-<img alt="Electrochemical Encyclopedia Banner" src="../../images/banner_encyclopedia.jpg"/>
-</a>
-</header>
-<!-- Main content container -->
-<div class="main-container">
-<aside>
-<div class="fixed-sidebar">
-<h3 class="subtitle">Search</h3>
-<div class="search-container">
-<input placeholder="Search" type="text"/>
-<button type="button"><i class="fas fa-search"></i></button>
-</div>
-<!-- Navigation menu for sections -->
-<h3 class="subtitle">Navigation</h3>
-<ul>
-<li><a href="#article">&gt; Main Content</a></li>
-<li><a href="#appendix">&gt; Appendix</a></li>
-<li><a href="#acknowledgements">&gt; Acknowledgements</a></li>
-<li><a href="#bibliography">&gt; Bibliography</a></li>
-<li><a href="#other-resources">&gt; Other Resources</a></li>
-<!-- Other sections -->
-</ul>
-</div>
-</aside>
-<main>
-<section id="article">
-<h1><i class="fas fa-flask"></i>
-<!-- Insert the article's title here -->
-</h1>
-<div class="author-info">
-<em>
-<!-- Provide the author's information here -->
-</em><br/>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../estir/index.html">ESTIR</a></li>
+                <li><a href="../../encycl/index.html">Encyclopedia</a></li>
+                <li><a href="../../ed/dict.html">Dictionary</a></li>
+                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="../../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
+        </a>
+    </header>
+
+    <!-- Main content container -->
+    <div class="main-container">
+        <aside>
+            <div class="fixed-sidebar">
+                <h3 class="subtitle">Search</h3>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Navigation menu for sections -->
+                <h3 class="subtitle">Navigation</h3>
+                <ul>
+                    <li><a href="#article">> Main Content</a></li>
+                    <li><a href="#appendix">> Appendix</a></li>
+                    <li><a href="#acknowledgements">> Acknowledgements</a></li>
+                    <li><a href="#bibliography">> Bibliography</a></li>
+                    <li><a href="#other-resources">> Other Resources</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="article">
+                <h1><i class="fas fa-flask"></i>ELECTROCHEMISTRY FOR K-12: THE POTATO CLOCK AND BEYOND</h1>
+                <div class="author-info">
+                    <em> Ann Abraham,<sup>1</sup> Attila Palencsar,<sup>2</sup> and Daniel Scherson<sup>2</sup> <br>
+                        <sup>1</sup>Department of Chemistry, Kent State University, Ashtabula Campus<br>
+                        Ashtabula, OH 44004, USA<br>
+                        E-mail: <a href="mailto:aabraha3@kent.edu">aabraha3@kent.edu</a><br>
+                        <sup>2</sup>Department of Chemistry, Case Western Reserve University<br>
+                        Cleveland, OH 44106, USA<br>
+                        E-mail: <a href="mailto:dxs16@cwru.edu">dxs16@cwru.edu</a></em><br>
+                        </p>
+                        (August, 2007)<p>
+                        
+                        <!--  last editorial revision:   September 14, 2014    -->                        
+                </div>
+            </section>
+            <section>
+                
+Hybrid vehicles, <a href="art-f03-fuel-cells.html"><em> fuel cells</em></a>, and,
+particularly, market demands
+for longer lasting <a href="../ed/dict.html#b01"> batteries</a> to
+power portable communication and
+entertainment devices have propelled
+electrochemistry to the forefront of news media and advertisement. Despite this
+welcome awakening, an understanding
+of the fundamental principles that govern
+this highly multidisciplinary field
+by the public at large appears to be lacking.
+This state of affairs can be traced,
+at least in part, to our K-12 educational
+system, which fails, in great measure, to
+introduce electrochemistry as part of the
+curriculum. Regrettably, a golden opportunity
+to capitalize on batteries and rust,
+terms familiar to children very early in
+life and precious sources of experiential
+learning, is irrevocably lost. It thus
+becomes of pressing interest to explore
+possible avenues to remedy this situation
+and bring awareness to the next
+generation of the importance of electrochemistry
+as a scientific and technical
+discipline and its impact on energy and
+the environment.
 <p>
-<!-- Include the author's email and date of publication here -->
-</p>
+The challenges we face as a community
+toward accomplishing this laudable
+goal are by no means minor. Glamorous
+topics, such as space and dinosaurs, have
+captured the minds not only of children
+but their parents as well, through
+the Hollywood industry and its glitz.
+Nothing of this sort can be said about
+electrochemistry. Our field continues to
+hide behind a perceived lack of luster,
+exacerbated by the unfortunate paucity
+of eye-catching, adrenaline-powered
+experiments and classroom material with
+which to engage such fierce and formidable
+attention-seeking competitors.
+Even if these seemingly insurmountable
+hurdles are overcome, it still remains a
+delicate pedagogical duty for educators
+to maximize conceptual simplicity, without
+compromising scientific accuracy.
 <p>
-<!-- Main introduction or summary of the article -->
-</p>
-</div>
+This article seeks to prospect the
+problem and trace a possible road map
+toward achieving the desired educational
+aims. We review as a starting point, the
+recommendations of the National Science
+Education Standards (hereinafter, "the
+Standards") that bear relevance to electrochemistry,
+and highlight the ways in
+which electrochemical concepts are gradually
+introduced through the various
+stages of schooling. Later, we critically
+assess the pedagogical value and scientific
+accuracy of selected books and videos
+available to K-12 educators and students,
+and, finally, we share our personal field
+experiences teaching electrochemistry
+through experiments to a younger
+audience.
+
+            </section>
+            <section>
+<h3> National Science Education Standards</h3>
+ 
+
+The website for the Standards (<a href="http://www.nap.edu/readingroom/books/nses/html">http://www.nap.edu/readingroom/books/nses/html</a>)
+provides guidelines for achieving scientific
+literacy through the K-12 educational
+system. The sections in italics below
+are excerpts with relevance to electrochemistry
+extracted from that document.
+
+
+<h3><em> K-4 grades: </em></h3> 
+
+<blockquote>
+<p><i>" In most children's
+minds, electricity begins at a source and
+goes to a target. This mental model can be
+seen in students' first attempts to light a
+bulb using a battery and wire by attaching
+one wire to a bulb. Repeated activities will
+help students develop an idea of a circuit
+late in this grade range and begin to grasp
+the effect of more than one battery. ...
+Electricity in circuits can produce light, heat,
+sound, and magnetic effects. Electrical circuits
+require a complete loop through which
+an electrical <a href="../../ed/dict.html#c14"> current</a> can pass".</i>
+</p></blockquote>
+<p>
+
+At this early stage of education, <a href="../../ed/dict.html#b01"> batteries</a>
+are introduced within the context
+of electricity, as devices which can power
+other devices, for example, lighting a
+bulb. Utility takes priority over principles
+of operation – emphasis is placed
+on what batteries can do, NOT on how
+batteries work.
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> 5-8 grades: </em></h3>
+<blockquote>
+<p><i>" <a href="../../ed/dict.html#e105"> Chemical elements</a> do not
+break down during normal laboratory reactions
+involving such treatments as heating,
+exposure to electric current, or reaction with
+<a href="../../ed/dict.html#a18"> acids</a>. There are more than 100 known elements
+that combine in a multitude of ways
+to produce compounds, which account for
+the living and nonliving substances that we
+encounter. ... Electrical circuits provide a
+means of transferring electrical energy when
+heat, light, sound, and chemical changes
+are produced. In most chemical and nuclear
+reactions, energy is transferred into or out of
+a system. Heat, light, mechanical motion,
+or electricity might all be involved in such
+transfers".</i>
+</p></blockquote>
+<p>
+
+In this intermediate stage, electricity
+and chemistry become intertwined.
+Electricity provides a means of doing
+chemistry. General aspects of <a href="../../ed/dict.html#e71"> energy
+conversion</a> are first introduced.
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> 9-12 grades: </em></h3>
+<blockquote>
+<p><i>" When students observe
+and integrate a wide variety of evidence,
+such as seeing copper "dissolved" by an
+acid into a solution and then retrieved as
+pure copper when it is <a href="../../ed/dict.html#m40"> displaced</a> by zinc, the
+idea that copper atoms are the same for any
+copper object begins to make sense. In each
+of these reactions, the knowledge that the
+mass of the substance does not change can
+be interpreted by assuming that the number
+of particles does not change during their
+rearrangement in the reaction. ... A large
+number of important reactions involve the
+transfer of either <a href="../../ed/dict.html#a33"> electrons</a> (<a href="../../ed/dict.html#o01">oxidation/reduction</a>
+reactions), or hydrogen <a href="../../ed/dict.html#i01"> ions</a> (<a href="../../ed/dict.html#a18">acid</a>/<a href="../../ed/dict.html#b07">base</a>
+reactions) between reacting ions, <a href="../../ed/dict.html#m34"> molecules</a>,
+or <a href="../../ed/dict.html#a33"> atoms</a>. In other reactions, chemical bonds
+are broken by heat or light to form very
+reactive <a href="../../ed/dict.html#r36"> radicals</a> with electrons ready to
+form new bonds".</i>
+</p></blockquote>
+<p>
+
+The last four years of basic education
+address <a href="../../ed/dict.html#r03"> redox</a> chemistry per se, although
+the term electrochemistry is not being
+mentioned explicitly. Redox reactions
+are a kind of chemical reaction. It must
+be recognized that chemistry at this
+stage is only a part of their science academic
+requirements, which also includes
+physics and biology. It is our view that
+at this stage, electrochemistry should
+be used to illustrate the commonality
+of processes, which to the K-12 student
+would seem utterly disparate, such as
+respiration and <a href="art-p01-plants.html"><em> photosynthesis</em></a> and the
+operation of <a href="art-f03-fuel-cells.html"><em> fuel cells</em></a> and Graetzel's dyesensitized
+<a href="art-p06-photoel.html"><em> photoelectrochemical cells</em></a>.
+Nature is governed by only a surprisingly
+small set of rules, a concept that permeates
+college science education.
+
+<h3> What are they teaching our children? </h3> 
+
+Advantage can be taken within
+the framework of the Standards, to
+design well-conceived experiments and
+graphic material, as vehicles to instill
+electrochemical curiosity among the
+young. Aware of this potential market,
+a few commercial enterprises have
+produced attractive educational videos,
+books, and kits. A few Sunday afternoon
+journeys to the local bookstores, coupled
+with several hours of browsing the
+Web, unveiled a number of surprising
+and often puzzling results. Although
+by no means exhaustive, some of
+our most interesting findings of the
+extent to which electrochemistry is
+presented as a scientific discipline, and
+the wide spectrum of the quality of the
+information available are summarized
+next.
+
+<h3> Video material – a great idea!</h3>
+<!--     original filename:    no name or number      -->
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="281">
+<tr><td><img alt="Dennis the menace" height="318" src="fig/k01/k01-f01.gif" width="259"/></td></tr>
+<tr><td><em> Fig. 1. © North America Syndicate. Reproduced by permission.
+ </em></td></tr>
+</table>
+
+It was exciting to find a set of
+commercial educational videos devoted
+solely to electrochemistry, and be able
+to examine their content free of charge
+thanks to the kind willingness of the
+distributor, <a href="http://www.films.com">http://www.films.com</a>. This series consists of six, 10 min modules: Building
+Blocks of Electrochemistry, <a href="../../ed/dict.html#e01"> Electrochemical
+Cells</a>, Designing Electrochemical Cells,
+Commercial Electrochemical Cells,
+<a href="art-c02-corrosion.html"> <em>Corrosion</em></a>, and <a href="art-e01-electroplat.html"> <em>Electroplating</em></a>. The choice
+of topics is highly appropriate, as it
+capitalizes on everyone's familiarity with
+<a href="../../ed/dict.html#b01"> batteries</a> (as electrochemical devices) and
+corrosion (as an electrochemical process)
+to introduce some of the underlying
+principles involved. Somewhat
+charming, at least initially, was the
+introduction of a robot as the central
+character, equipped with a battery
+heart and a metallic body particularly
+prone to corrosion when exposed to
+the salty tear drops of the (non-robot)
+woman of his dreams. Although such
+an organic-inorganic amorous liaison
+may well be effective in grasping the
+short attention span of the youngest
+viewers, the degree of complexity of
+the more serious subject matter is
+definitely targeted toward a much older
+audience, who may regard the motif as
+too childish and thus beneath them. It
+did not remain unnoticed, at the outset,
+that about 10% of the precious time
+was just filler, and, also, that segments
+of the technical material were repeated
+in many of the modules. A sizable
+amount of corrosion was included in the
+<a href="../../ed/dict.html#e06"> electrodeposition</a> module. Nevertheless,
+and with only a few exceptions, most of
+the material presented was technically
+correct. Particularly noteworthy was
+the emphasis placed on both positive
+and negative <a href="../../ed/dict.html#i01"> ions</a> as responsible for
+<a href="../../ed/dict.html#c50"> electrical conduction</a> in the <a href="../../ed/dict.html#e13"> electrolyte
+solution</a> (for which the <a href="../../ed/dict.html#c26"> concentrations</a>
+are forgivably expressed in highly
+unconventional <a href="../../ed/dict.html#k14">kmol</a>/<a href="../../ed/dict.html#m91">m<sup>3</sup></a> units), as well
+as on <a href="art-c02-corrosion.html"> corrosion</a>, as being a two-<a href="../../ed/dict.html#r03">redox
+reaction</a> process. The introduction
+to <a href="art-c06-cathodic.html"><em>cathodic protection</em></a> was especially
+well delivered. Also welcome were
+analogies to common experiences, such
+as a pitcher-catcher duet representing
+<a href="../../ed/dict.html#o01"> oxidation-reduction</a>, with the baseball
+playing the role of the <a href="../../ed/dict.html#a33"> electron</a>. In stark
+contrast, attention to detail was lacking,
+ranging from the anachronic (such as an
+original <a href="../../ed/dict.html#v03"> Volta pile</a> powering a light bulb)
+to the outdated (a <a href="../../ed/dict.html#l10"> Leclanche battery</a>
+as a model <a href="../../ed/dict.html#e72"> energy storage</a> device, or a
+museum-type <a href="../../ed/dict.html#v06"> voltmeter</a> displaying a
+needle that flickered mystifyingly when
+connected to an <a href="../../ed/dict.html#e01"> electrochemical cell</a>).
+A cursory review by expert consultants
+would have uncovered far more serious
+errors, such as referring to the release
+of electrons by zinc metal as a reduction,
+the generation of hydrogen <a href="../../ed/dict.html#a33"> atoms</a> in the
+<a href="../../ed/dict.html#e13"> electrolyte solution</a>, and depicting the
+role of the <a href="../../ed/dict.html#s02"> separator</a> as the element that
+prevents contact of the <a href="../../ed/dict.html#a02"> anode</a> with the
+<a href="../../ed/dict.html#e12"> electrolyte</a>.
+
+<br clear="left"/>   <p>
+<h3> Printed material – is anyone watching? </h3> 
+
+Our pilgrimage through the limited
+array of electrochemically-related material
+available at the local national chain
+bookstore outlets was eventful. In contrast
+with the very small selection of science
+resources for children, and the few
+paragraphs devoted to electrochemistry
+within those sources, the conceptual
+electrochemical errors we found, without
+looking very hard, were comparatively
+many and highly disconcerting. A brief,
+and by no means comprehensive, selection
+of errors included: <i>"All batteries
+contain two <a href="../../ed/dict.html#e20"> electrodes</a> and an electrolyte,
+which produces the chemical reaction
+with the electrodes resulting in a
+<a href="../../ed/dict.html#c14"> current</a>;" "In 'dry' batteries, the electrolyte
+is a paste of powdered chemicals;"</i>
+and <i>"A car battery produces a strong
+current by using a number of cells linked
+together"</i>. Furthermore, while explaining
+the principle of operation of a lemon
+battery, another publication states, in
+one case, that <i>"The lemon juice will
+take electrodes (although probably the
+authors meant electrons) from the copper
+and transfer them to the iron creating
+an electric current"</i>; and in another,
+involving copper and zinc electrodes, that
+<i>"The experiment creates an electric current
+of almost 1 <a href="../../ed/dict.html#v07"> volt</a>"!</i>
+<h3> Experiences in the field </h3>
+<!--     original filename:  fig. 1      -->
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="425">
+<tr><td><a href="fig/k01/k01-f02b.gif"><img alt="Potato clock" height="195" src="fig/k01/k01-f02.gif" width="403"/></a></td></tr>
+<tr><td><em> Fig. 2. Potato clock experiment in progress. Drawing © Brianna Abraham, reproduced with permission. </em></td></tr>
+</table>
+
+One of the authors (A.A.), a parent of
+school age children and a Ph.D. in organic
+chemistry, has had an opportunity to
+teach "Kid Chemistry" to K-8 graders
+as a volunteer for the past eight years.
+Intrigued by the uncertainties of the outcome,
+she used students as the subject of
+an experiment aimed at assessing their
+reaction when exposed to electrochemistry-related materials. Following a thorough search in science and educational
+supply catalogues, she encountered the
+Two Potato Clock™, a kit (<a href="http://www.starmagic.com/">http://www.starmagic.com/</a>) that incorporates a
+digital clock that runs on two fresh
+potatoes (not included) hooked together
+by three metal wires (included). In
+addition to the plastic container, the
+kit included two zinc and two copper
+<a href="../../ed/dict.html#e20"> electrodes</a> attached to the ends of the
+wires. Students were asked to follow the
+instructions provided with the kit and
+to draw a diagram of the setup (Figure 2).
+Surprisingly, the more diligent students
+invariably failed to make the clock work.
+Far more successful was the plug-and-play
+cohort of students, who had not
+bothered to read the instructions that
+had erroneously directed them to <i>"insert
+the copper probe end ... into the first
+potato with the copper probe ...",</i> but
+who simply tried all possible combinations.
+After all, electrochemistry (as with
+chemistry in general) is an experimental
+science! This experience illustrates
+the two-track approach to education:
+do and learn and/or learn and do, as
+underscored by the Standards: <i>"'Hands-on'
+activities, while essential, are not
+enough. Students must have 'minds-on'
+experiences as well".</i> The harmonious
+interplay between theory and experiments
+is the key to research progress, as
+we professional scientists already know
+and practice.
+<p>
+Incidentally, the ball now is in the
+reader's court to figure out (without
+looking at the instructions) how to wire
+the potatoes correctly, and the nature
+of the electrochemical processes responsible
+for the battery operation. So, write
+down the balanced <a href="../../ed/dict.html#h03"> half-cell reactions</a>,
+and with the help of suitable tables,
+make some predictions as to the <a href="../../ed/dict.html#c19"> cell
+voltage</a> the device should display. As a
+hint, other nourishing and non-nourishing
+products, such as tomatoes, lemons,
+and cola, also work. We will not divulge
+at this juncture whether a single, as
+opposed to the suggested two potatoes
+in series, may be sufficient to run the
+clock. Nevertheless, you are invited to
+report back to us at <a href="mailto:yces@yces.case.edu"> yces@yces.case.edu</a>.
+
+<h3> Beyond the potato clock </h3>
+<!--     original filename:  fig. 2      -->
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="323">
+<tr><td><a href="fig/k01/k01-f03b.gif"><img alt="Conductivity experiment" height="254" src="fig/k01/k01-f03.gif" width="301"/></a></td></tr>
+<tr><td><em> Fig. 3. Conductivity experiment in progress. Middle scientist is testing solution in well-plate with a blinking LED indicator. Test solutions in dropper bottles and data sheet are also shown. </em></td></tr>
+</table>
+
+In yet another experiment (Figure 3),
+students were given a variety of relatively
+inexpensive <a href="../../ed/dict.html#c48"> conductivity</a> indicators
+available in the educational catalogues,
+including a ringing bell of variable
+intensity and pitch, and two different
+blinking LEDs (red light) of variable
+intensity and <a href="../../ed/dict.html#f23"> frequency</a> (<a href="http://www.sciencekit.com">http://www.sciencekit.com</a>; 
+<a href="http://www.lab-aids.com">http://www.lab-aids.com</a>). 
+Students (4-6 graders) received a
+set of solutions of <a href="../../ed/dict.html#a18"> acids</a> and <a href="../../ed/dict.html#b07"> bases</a>, and
+a salt, of various <a href="../../ed/dict.html#c26"> concentrations</a>, and
+well water, orange juice, milk, and a few
+soft drinks, together with two different
+types of indicators and a data sheet.
+Students were encouraged to use their
+own words to describe the outcome of
+their experiments, in terms of what they
+heard or saw. Once the initial thrill of
+listening to the ringing bell had quelled,
+students, appropriately classified, with
+little guidance, the responses obtained
+with the various solutions, as loud,
+medium, no sound, extra loud, and soft.
+Similar, descriptive words were used to
+explain the results observed with the
+blinking LED indicators, e.g., consistent
+blinking, doesn't blink, faint light, bright
+light, very faint light, very very faint
+light, and blinking rapidly. One group,
+in an attempt to make the response of a
+qualitative indicator more quantitative,
+tried to record the number of blinks
+in 10 s. A range of 0 to 13 blinks was
+recorded for the various samples.
+Overall, the quantitative indicators
+(those showing actual numbers) were
+preferred by the students (an informal
+poll was conducted at the end of the
+experiment) because the response
+needed only a single number on the data
+sheet. As intended, the different types
+of indicators allowed students to match
+qualitative results with quantitative data.
+<p>
+Both the potato clock and the conductivity
+indicators fall within the
+Standards guidelines. In particular, both
+the conductivity measurements and the
+potato battery involve a complete loop
+through which an electrical <a href="../../ed/dict.html#c14"> current</a> can
+pass, or circuit. In addition, they show
+that circuits (when wired properly) can
+be used to run a clock, elicit sounds,
+or generate light as in the conductivity
+experiments (K-4). Furthermore, the
+potato clock could, although no such
+experiment was performed, help students
+grasp the effect of more than one
+<a href="../../ed/dict.html#b01"> battery</a>. They also illustrate, as suggested
+for grades 5-8, that electrical circuits
+provide a means of transferring <a href="../../ed/dict.html#e68"> electrical
+energy</a> when heat, light, sound, and
+chemical changes are produced.
+
+<br clear="left"/>   <p>
+<h3> The teenage years </h3> 
+
+As was mentioned earlier, K-8 should
+set the stage for introducing in grades
+9-12 the principles underlying the, by
+then familiar, electrochemically oriented
+experiments through experiential
+learning. Although not as yet tested
+by the authors in the field, commercial
+vendors have been identified who
+offer a variety of equipment suitable to
+meet the high school Standards. These
+include <a href="../../ed/dict.html#e06"> electrodeposition</a> kits, which
+could serve to illustrate that the same
+metals <a href="../../ed/dict.html#a33"> atoms</a> can be part of a solid or
+dissolve in a solution in a reversible
+fashion. Particularly interesting is a
+small car that incorporates an array of
+solar cells, which upon illumination
+generate sufficient <a href="../../ed/dict.html#p29"> power</a> to <a href="../../ed/dict.html#w01"> electrolyze
+water</a> to produce hydrogen and oxygen
+gas (<a href="http://www.fuelcellstore.com/">http://www.fuelcellstore.com/</a>). 
+In a second stage, these gases are fed to
+the appropriate <a href="../../ed/dict.html#e20"> electrodes</a> in a <a href="art-f03-fuel-cells.html"><em> fuel cell</em></a>,
+which then serves to power an electric
+motor that sets the car in motion. This
+ingenious instructional toy provides
+numerous opportunities to explore issues
+of <a href="../../ed/dict.html#e71"> energy conversion</a> and <a href="../../ed/dict.html#e72"> storage</a> and
+perhaps, with a bit more effort, introduce
+the concept of <a href="../../ed/dict.html#e28"> conversion efficiencies</a>.
+Pedagogical links to biology can be
+readily introduced using the <a href="../../ed/dict.html#c03"> cathode</a> of
+the fuel cell as a breathing component,
+in that it mimics respiration which
+involves the enzymatic reduction of oxygen
+to yield water.
+<p>
+Yet another equally ingenious kit
+(<a href="http://www.solideas.com/solrcell/cellkit.html">http://www.solideas.com/solrcell/cellkit.html</a>) 
+provides glass plates coated first
+with a transparent <a href="../../ed/dict.html#c50"> conductive</a> layer
+(tin oxide), and then a porous titanium
+dioxide film, which is soaked into either
+freshly crushed raspberries or blackberries,
+pomegranate seeds mixed with a
+tablespoon of water, or red hibiscus tea
+(not included). A drop or two of a premade
+iodide/iodine solution (included)
+is then placed on the stained portion of
+the film to serve as the (<a href="../../ed/dict.html#r03">redox</a> active)
+<a href="../../ed/dict.html#e12"> electrolyte</a> in the solar cell to complete
+the circuit. The cell is closed by placing
+a second tin oxide coated glass piece
+(<a href="../../ed/dict.html#c20">counter electrode</a>) on the porous film.
+Once assembled and exposed to full sun
+through the titanium dioxide side, the
+cell outputs approximately 0.43 <a href="../../ed/dict.html#v09"> V</a> of <a href="../../ed/dict.html#c19"> voltage</a> and 1
+<a href="../../ed/dict.html#m14"> mA</a>/<a href="../../ed/dict.html#c122">cm<sup>2</sup></a> <a href="../../ed/dict.html#c09"> current density</a>. This device is capable of using
+light to carry out a <a href="../../ed/dict.html#r03"> redox reaction</a> and,
+as such, shares common features with
+<a href="art-p01-plants.html"><em> photosynthesis</em></a>, which fundamentally is
+an electrochemical process.
+<p>
+We close this brief article by supporting
+wholeheartedly the National
+Science Education Standards general
+view that: 
+<blockquote>
+<p><i>"No one group can implement
+the Standards. The challenge extends to
+everyone within the education system,
+including teachers, administrators, science
+teacher educators, curriculum
+designers, assessment specialists, local
+school boards, state departments of education,
+and the federal government. It
+also extends to all those outside the system
+who have an influence on science
+education, including students, parents,
+scientists, engineers, businesspeople,
+taxpayers, legislators, and other public
+officials. All of these individuals have
+unique and complementary roles to play
+in improving the education that we provide
+to our children." </i>
+</p></blockquote>
+<p>
+<h3> Acknowledgement </h3>
+
+This article was reproduced from <a href="http://www.electrochem.org/dl/interface/"> The Electrochemical Society Interface</a> (Vol. 15, No. 3, Fall 2006) with permission of <a href="http://www.electrochem.org/"> The Electrochemical Society, Inc.</a> and the authors.
 </section>
-<!-- Subsection 1 -->
-<section>
-<h3>
-<!-- Subtitle 1 -->
-</h3>
-<p>
-<!-- Content for subsection 1 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 1 - paragraph 2 -->
-</p>
-</section>
-<!-- Subsection 2 -->
-<section>
-<h3>
-<!-- Subtitle 2 -->
-</h3>
-<p>
-<!-- Content for subsection 2 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 2 - paragraph 2 -->
-</p>
-</section>
-<!-- Other subsections -->
-<!-- Other Resources Section -->
-<section id="other-resources">
-<h2><i class="fas fa-flask"></i>
-                    Other Resources
-                </h2>
-<p>
-                    Listings of electrochemistry <a href="../../estir/books.htm"> books</a>, <a href="../../estir/chap.htm"> review chapters</a>, <a href="/estir/proc.htm"> proceedings volumes</a>, and full text of some <a href="/estir/history.htm"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+
+            <section>
+                <h2><i class="fas fa-flask"></i>Other Resources</h2>
+                <p>
+                    Listings of electrochemistry <a href="../../estir/books.html"> books</a>, <a href="../../estir/chap.html"> review chapters</a>, <a href="/estir/proc.html"> proceedings volumes</a>, and full text of some <a href="/estir/history.html"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
                 </p>
-</section>
-<!-- Other sections -->
-</main>
-</div>
-<footer>
-<img alt="ECS Logo" src="../../images/ECS_Logo-removebg.png"/>
-<div class="footer-text">
-<p>
+            </section>
+        </main>
+    </div>
+
+    <!-- END OF CONTENT -->
+
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+
+    <!-- FOOTER CODE -->
+
+    <footer>
+        <img src="../../images/ECS_Logo-removebg.png" alt="ECS Logo">
+        <div class="footer-text">
+            <p>
                 Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
                 <a href="/copyright.html">Copyright Notice</a>
-</p>
-<p>
+            </p>
+            <p>
                 Edited by: <a href="/estir/editor.html">Zoltan Nagy</a> <a href="mailto:nagyz@email.unc.edu">(nagyz@email.unc.edu)</a> | 
                 <a href="http://www.chem.unc.edu/" target="_blank">Dept. of Chemistry</a> | 
                 <a href="http://www.unc.edu/" target="_blank">UNC at Chapel Hill</a></p>
-<p>
-<a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
+            <p>
+                <a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
                 <a href="http://www.ecsblog.org/" target="_blank">Redcat Blog</a> | 
                 <a href="http://ecsdl.org/" target="_blank">ECS Digital Library</a>
-</p>
-</div>
-</footer>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-<script defer="" src="../../js/analytics.js"></script>
+            </p>
+        </div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
+    <script src="../../js/analytics.js" defer></script>
 </body>
 </html>

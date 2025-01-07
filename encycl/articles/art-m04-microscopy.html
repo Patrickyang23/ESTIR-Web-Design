@@ -1,129 +1,460 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc." name="description"/>
-<meta content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry" name="keywords"/>
-<meta content="index, follow, noodp, noydir" name="robots"/>
-<link href="https://knowledge.electrochem.org/" rel="canonical"/>
-<link href="https://knowledge.electrochem.org/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="../../css/html5reset.css" rel="stylesheet"/>
-<link href="../../css/main.css" rel="stylesheet"/>
-<title>No Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
+    <meta name="keywords" content="popular science, K-12, homeschooling, educational outreach, battery, fuel cell, energy storage, electrolysis, electroanalysis, corrosion, bioelectrochemistry, electrosynthesis, electrowinning, electrorefining, electroforming, electromachining, photoelectrochemistry, electroplating, electrode kinetics, electrokinetics, electrochemical engineering, electrochemical double layer, electrodialysis, electrophoresis, spectroelectrochemistry, electrochemical sensors, charge transfer, electron transfer, voltammetry, potentiometry, amperometry, electroanalytical chemistry">
+    <meta name="robots" content="index, follow, noodp, noydir">
+    <link rel="canonical" href="https://knowledge.electrochem.org/">
+    <link rel="icon" href="https://knowledge.electrochem.org/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/html5reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <title>Electrochemistry Encyclopedia -- Scanning electrochemical microscopy </title>
 </head>
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="../../index.html">Home</a></li>
-<li><a href="../../estir/index.html">ESTIR</a></li>
-<li><a href="../../encycl/index.html">Encyclopedia</a></li>
-<li><a href="../../ed/dict.html">Dictionary</a></li>
-<li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
-</ul>
-</nav>
-<a href="index.html">
-<img alt="Electrochemical Encyclopedia Banner" src="../../images/banner_encyclopedia.jpg"/>
-</a>
-</header>
-<!-- Main content container -->
-<div class="main-container">
-<aside>
-<div class="fixed-sidebar">
-<h3 class="subtitle">Search</h3>
-<div class="search-container">
-<input placeholder="Search" type="text"/>
-<button type="button"><i class="fas fa-search"></i></button>
-</div>
-<!-- Navigation menu for sections -->
-<h3 class="subtitle">Navigation</h3>
-<ul>
-<li><a href="#article">&gt; Main Content</a></li>
-<li><a href="#appendix">&gt; Appendix</a></li>
-<li><a href="#acknowledgements">&gt; Acknowledgements</a></li>
-<li><a href="#bibliography">&gt; Bibliography</a></li>
-<li><a href="#other-resources">&gt; Other Resources</a></li>
-<!-- Other sections -->
-</ul>
-</div>
-</aside>
-<main>
-<section id="article">
-<h1><i class="fas fa-flask"></i>
-<!-- Insert the article's title here -->
-</h1>
-<div class="author-info">
-<em>
-<!-- Provide the author's information here -->
-</em><br/>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../estir/index.html">ESTIR</a></li>
+                <li><a href="../../encycl/index.html">Encyclopedia</a></li>
+                <li><a href="../../ed/dict.html">Dictionary</a></li>
+                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="../../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
+        </a>
+    </header>
+
+    <!-- Main content container -->
+    <div class="main-container">
+        <aside>
+            <div class="fixed-sidebar">
+                <h3 class="subtitle">Search</h3>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Navigation menu for sections -->
+                <h3 class="subtitle">Navigation</h3>
+                <ul>
+                    <li><a href="#article">> Main Content</a></li>
+                    <li><a href="#appendix">> Appendix</a></li>
+                    <li><a href="#acknowledgements">> Acknowledgements</a></li>
+                    <li><a href="#bibliography">> Bibliography</a></li>
+                    <li><a href="#other-resources">> Other Resources</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="article">
+                <h1><i class="fas fa-flask"></i> SCANNING ELECTROCHEMICAL MICROSCOPY (SECM)</h1>
+                <div class="author-info">
+                    
+<em> Francois Laforge <br>
+    Department of Chemistry and Biochemistry <br>
+    Queens College - City University of New York <br>
+    Flushing, NY 11367, USA</em><br>
+    E-mail: <a href="mailto:francoislaforge@yahoo.com">francoislaforge@yahoo.com</a><br>
+    (December, 2007)
+                </div>
+            </section>
+            <section>
+                <p>
+                    
+Scanning electrochemical microscopy (SECM; the same abbreviation is also used 
+for the device, that is, the microscope) is a technique capable of probing surface 
+reactivity of materials at microscopic scales. Oftentimes chemical reactions 
+occur at the interface between two regions, for example, <a href="art-c02-corrosion.html"><em> corrosion</em></a> (metal/air or 
+metal/sea interface), <a href="../../ed/dict.html#r03"> redox reaction</a> in <a href="art-b02-batt-nonr.html"><em> batteries</em></a>, <a href="art-p01-plants.html"><em> photosynthesis</em></a> in the cell 
+membrane, dissolution of compounds, etc. SECM enables scientists to investigate 
+the pathways and speed of such reactions with spatial resolution.</p>
 <p>
-<!-- Include the author's email and date of publication here -->
-</p>
-<p>
-<!-- Main introduction or summary of the article -->
-</p>
-</div>
-</section>
-<!-- Subsection 1 -->
-<section>
-<h3>
-<!-- Subtitle 1 -->
-</h3>
-<p>
-<!-- Content for subsection 1 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 1 - paragraph 2 -->
-</p>
-</section>
-<!-- Subsection 2 -->
-<section>
-<h3>
-<!-- Subtitle 2 -->
-</h3>
-<p>
-<!-- Content for subsection 2 - paragraph 1 -->
-</p>
-<p>
-<!-- Content for subsection 2 - paragraph 2 -->
-</p>
-</section>
-<!-- Other subsections -->
-<!-- Other Resources Section -->
-<section id="other-resources">
-<h2><i class="fas fa-flask"></i>
-                    Other Resources
-                </h2>
-<p>
-                    Listings of electrochemistry <a href="../../estir/books.htm"> books</a>, <a href="../../estir/chap.htm"> review chapters</a>, <a href="/estir/proc.htm"> proceedings volumes</a>, and full text of some <a href="/estir/history.htm"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+Figure 1 is a scheme of the instrument. Like other scanning probe techniques, 
+SECM is based on the possibility of precisely positioning a probe close to the 
+object under investigation (substrate). In the case of SECM, the probe is an ultramicroelectrode, which is an <a href="../../ed/dict.html#e20"> electrode</a> of <a href="../../ed/dict.html#n26"> nanometer</a> to <a href="../../ed/dict.html#m66"> micrometer</a> 
+dimension (Figure 2). Ultramicroelectrode and substrate are both immersed into an <a href="../../ed/dict.html#e13"> electrolyte 
+solution</a> containing either an <a href="../../ed/dict.html#o01"> oxidizable</a> (or reducible) chemical species. The 
+ultramicroelectrode is <a href="../../ed/dict.html#e157"> electrically biased</a> so that a redox <a href="../../ed/dict.html#c14"> current</a>, the tip-current, is 
+generated. When the ultramicroelectrode is brought near the substrate the tip-current changes 
+and information about the surface reactivity of the substrate can be extracted. 
+By scanning the ultramicroelectrode laterally above the substrate one can acquire an image of 
+its topography and/or its surface reactivity. 
                 </p>
-</section>
-<!-- Other sections -->
-</main>
-</div>
-<footer>
-<img alt="ECS Logo" src="../../images/ECS_Logo-removebg.png"/>
-<div class="footer-text">
+            </section>
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="fig/m04/m04-f01b.png"><img src="fig/m04/m04-f01.png" width=407 height=308 alt=" Schematics of SECM "></a>
+                        </td>
+                    </tr>
+                    
+<tr><td><em> Fig. 1. Schematics of an SECM setup. (The <a href="../../ed/dict.html#b15"> bipotentiostat</a> controls the <a href="../../ed/dict.html#e66"> potential</a> of both the tip and the substrate against the <a href="../../ed/dict.html#r06"> reference electrode</a> and the current between these and the <a href="../../ed/dict.html#a07"> auxiliary electrode</a>.) </em></td></tr>
+
+<tr><td><a href="fig/m04/m04-f02b.bmp"><img src="fig/m04/m04-f02.bmp" width=301 height=338 alt=" Schematics of a tip "></a></td></tr>
+
+<tr><td><em> Fig. 2. (A) Schematics of a tip <a href="../../ed/dict.html#u05"> ultramicroelectrode</a>. The exposed metal is the active part of the electrode. (B) Optical micrograph of a tip. The platinum wire (orange) is sealed inside a glass sheath. </em></td></tr>
+                </table>
+            </section>
+            <section>
+<h3> History </h3>
+ 
+
+The invention of the scanning tunneling microscope in early 1980s by Binnig and 
+Rohrer almost coincided with the introduction of <a href="../../ed/dict.html#u05"> ultramicroelectrodes</a>. Since that time, the idea 
+of scanning electrochemical microscopy was in the air. Several groups employed 
+small and mobile electrochemical probes to make measurements of <a href="../../ed/dict.html#c26"> concentration</a> of 
+chemical species in localized spaces, examine and modify <a href="../../ed/dict.html#e20"> electrode</a> surfaces. 
+However, the SECM technique, as we know it, only became possible after the 
+introduction of the feedback concept by the group of A. J. Bard at the University of Texas at Austin (1989).
+
+
+
+   width of table = width of figure + 22   
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="327">
+<tr><td><a href="fig/m04/m04-f03b.bmp"><img alt=" Feedback modes " height="248" src="fig/m04/m04-f03.bmp" width="305"/></a></td></tr>
+<tr><td><em> Fig. 3. Feedback modes: (A) bulk oxidation - no feedback, (B) oxidation near a 
+perfect <a href="../../ed/dict.html#c50"> conductor</a> - positive feedback, (C) oxidation near a perfect insulator - 
+negative feedback. (D) Approach curves corresponding to B and C. </em></td></tr>
+</table>
+
+Suppose we immerse a substrate into a solution containing a <a href="../../ed/dict.html#r42"> redox active species</a> 
+in its <a href="../../ed/dict.html#o01"> reduced</a> form "R". An <a href="../../ed/dict.html#u05"> ultramicroelectrode</a> is also immersed into the solution and is <a href="../../ed/dict.html#e157"> electrically 
+biased</a> to a <a href="../../ed/dict.html#e66"> potential</a> such that "R" is <a href="../../ed/dict.html#o01"> oxidized</a> into "O" at its tip.
 <p>
+While the tip is far from the substrate (Figure 3A) the <a href="../../ed/dict.html#f04"> faradaic current</a> at the tip 
+generated by this reaction is constant and limited by the speed at which "R" 
+<a href="../../ed/dict.html#d19"> diffuses</a> toward the <a href="../../ed/dict.html#e20"> electrode</a>. When the tip is brought to within a few tip radii 
+of a conductive substrate surface (Figure 3B), the "O" species formed at the tip diffuses to the substrate, where it can be instantly reduced back to "R". 
+
+<p>
+This cycling increases the flux of "R" to the tip and hence creates a "positive 
+feedback", that is, the tip-current increases. The closer the tip is to the 
+substrate, the larger the tip-current. 
+<p>
+If the substrate is an electrical <a href="../../ed/dict.html#i24"> insulator</a> (for example, glass), the tip-generated 
+species, "O", cannot react at its surface. In this case "R" is not regenerated by 
+the substrate and its diffusion toward this tip is hindered. The tip-current 
+decreases as the tip approaches the substrate ("negative feedback"; Figure 3C). 
+
+<br clear="left"/>   <p>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="325">
+<tr><td><a href="fig/m04/m04-f04b.bmp"><img alt=" SECM approach curve " height="255" src="fig/m04/m04-f04.bmp" width="303"/></a></td></tr>
+<tr><td><em> Fig. 4. SECM approach curve in the case where substrate reaction rate is limited. </em></td></tr>
+</table>
+
+There is an intermediate situation where regeneration of "R" occurs at a limited rate. 
+Figure 4 shows a tip-current versus tip-substrate distance curve (also called 
+approach curve) for that situation. When the tip is approached a few radii from 
+the substrate, regeneration of "R" is fast enough to "beat" the speeds of diffusion of 
+species "R" and "O" thus the tip-current increases. As the tip gets closer the 
+diffusion of species "R" and "O" within the thin <a href="../../ed/dict.html#e12"> electrolyte</a> layer between the tip 
+and the substrate gets faster, regeneration of "R" now limits the feedback and the 
+tip-current decreases. 
+<p>
+Using the well-developed quantitative theory for each situation, one can 
+simulate tip-<a href="../../ed/dict.html#c14">current</a> against distance curves with the help of computers. A fit 
+between experimental and numerical data will give quantitative information about 
+the rate of the regeneration reactiom. 
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Substrate imaging </em></h3>
+<h4> <img height="1" src="fig/clear.jpg" width="50"/> Topography </h4>
+
+When scanning the <a href="../../ed/dict.html#u05"> ultramicroelectrode</a> in a horizontal plane over an <a href="../../ed/dict.html#i24"> insulating</a> substrate the 
+tip-substrate distance varies. In turn, changes in tip-substrate distance affect 
+the tip-current (Figure 5A). By recording the tip-current for every tip position a 
+three-dimensional image of the substrate can be acquired (Figure 5B). Depending on 
+the nature of the feedback (positive or negative) one can convert the three-dimensional image 
+into a topographical image of the substrate. The resolution of the image 
+is determined by the tip radius and the average tip-substrate distance. This is 
+why the SECM instrument is effectively a microscope. 
+<p>
+It is also possible to directly acquire a topographical image of the substrate 
+if its surface is chemically homogeneous. The trick is to maintain the 
+tip-current constant, while horizontally scanning the substrate. This is done by 
+constantly adjusting the tip-substrate distance. For example one can obtain an 
+SECM image of a human breast cell (considering that its membrane is an 
+insulator) in the constant <a href="../../ed/dict.html#c14"> current</a> mode. The SECM image in this mode is a direct 
+representation of the cell shape (Figure 6). 
+
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m04/m04-f05b.bmp"><img alt=" Substrate imaging " height="211" src="fig/m04/m04-f05.bmp" width="400"/></a></td></tr>
+<tr><td><em> Fig. 5. Substrate imaging. (A) Tip is maintained at constant height while 
+scanning horizontally. (B) SECM image of a portion (1 <a href="../../ed/dict.html#m67"> µm</a> × 1 µm) of a human 
+breast cell membrane acquired with a 47 <a href="../../ed/dict.html#n27"> nm</a> radius ultramicroelectrode. </em></td></tr>
+</table>
+<!--   width of table = width of figure + 22   -->
+<table align="center" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m04/m04-f06b.bmp"><img alt=" Substrate imaging " height="184" src="fig/m04/m04-f06.bmp" width="402"/></a></td></tr>
+<tr><td><em> Fig. 6. Substrate imaging (constant current mode). (A) SECM image of a portion 
+(10 µm × 10 µm) of a human breast cell using a 120 nm radius tip. (B) Optical 
+micrograph of the same cell showing the SECM image area delimited by a white 
+square. </em></td></tr>
+</table>
+<br clear="left"/>   <p>
+<h4> <img height="1" src="fig/clear.jpg" width="50"/> Chemical reactivity </h4>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="426">
+<tr><td><a href="fig/m04/m04-f07b.bmp"><img alt=" Boron-doped diamond " height="202" src="fig/m04/m04-f07.bmp" width="404"/></a></td></tr>
+<tr><td><em> Fig. 7. (A) 80 µm × 80 µm atomic force microscopy image of a disk-like region of 
+boron-doped diamond. (B) SECM image over such a region.</em></td></tr>
+</table>
+
+The small dimension of the tip allows for the imaging of local reactivity. 
+If one scans a geometrically flat substrate that is <a href="../../ed/dict.html#r42"> redox active</a> one can obtain 
+a "chemical image" of the substrate. Figure 7A shows the topography (image 
+acquired with the atomic force microscope) of a flat polished substrate made of 
+diamond where 20 <a href="../../ed/dict.html#m64"> mm</a> radius disk-like regions are doped with boron. The 
+height of the doped region (&lt;1 nm) is negligible compared to the radius of the 
+SECM tip (2.5 µm) so that for the SECM tip, the surface appears to be flat. In 
+the corresponding SECM image (Figure 7B) the different colors correspond to 
+different tip-current intensities. The tip-current changes are attributed to 
+variations in surface reactivity. The SECM image shows that unlike the undoped 
+surrounding diamond, the small disk-like region is reactive but its surface 
+reactivity is not homogenous. 
+
+<br clear="left"/>   <p>
+<h3> Some applications of SECM </h3>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Measurement of rates of reactions at interfaces </em></h3> 
+
+The <a href="../../ed/dict.html#k01"> kinetics</a> of reactions at the interface between a solid and a liquid, for example, 
+metal or <a href="../../ed/dict.html#s73"> semiconductor</a> in solution, can be probed by SECM. The technique 
+can also be applied to measure kinetics of reactions at the interface between 
+two immiscible solutions (for example, water/oil). To perform a measurement, 
+one records the tip-<a href="../../ed/dict.html#c14">current</a> as the tip is approached toward the interface. The 
+experimental tip-current versus tip-substrate distance curve is then matched 
+with computer simulated curves and the value of the speed of reaction occurring 
+at the interface can be obtained. 
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Electrocatalysis </em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="422">
+<tr><td><a href="fig/m04/m04-f08b.png"><img alt=" Catalytic array" height="353" src="fig/m04/m04-f08.png" width="400"/></a></td></tr>
+<tr><td><em> Fig. 8. Array of metal mixture catalytic spots on a glassy carbon substrate. 
+(1) Scanning electron micrograph of the array (rotated 90<sup>o</sup> clockwise). (2) - 
+(3) SECM images with substrate <a href="../../ed/dict.html#e157"> biased</a> at 0.2 <a href="../../ed/dict.html#v09"> V</a> and 0.75 V respectively against the <a href="../../ed/dict.html#h05"> hydrogen electrode</a>. </em></td></tr>
+</table>
+
+SECM is a valuable tool for studies of <a href="../../ed/dict.html#e46"> electrocatalysis</a>. Industry is 
+looking for new catalytic materials to replace expensive platinum used to 
+enhance the performance of <a href="art-f03-fuel-cells.html"><em> fuel cells</em></a>. Scientists used SECM to check the 
+efficiency of metallic mixtures for their catalytic activities. They 
+fabricated an array of bimetallic or trimetallic catalyst spots with different 
+compositions on a <a href="../../ed/dict.html#g23"> glassy carbon</a> substrate (Figure 8.1). SECM images were collected 
+by scanning the tip over all the spots in an <a href="../../ed/dict.html#a27"> aqueous solution</a> containing oxygen 
+(Figures. 8.2 and 8.3). The spot giving the highest tip-current was determined to 
+be the most effective catalyst. SECM enables scientist to quickly scan a large 
+number of candidates for catalytic activities. 
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Redox enzymes </em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="460">
+<tr><td><a href="fig/m04/m04-f09l-b.png"><img alt=" Optical micrograph " height="140" src="fig/m04/m04-f09l.png" width="180"/></a></td>
+<td><a href="fig/m04/m04-f09r-b.png"><img alt=" SECM image " height="230" src="fig/m04/m04-f09r.png" width="351"/></a></td></tr>
+<tr><td colspan="2"> <em> Fig. 9. Optical micrograph of substrate showing dark-colored immobilized 
+enzyme pattern (left). SECM image of the enzyme activity (right). </em></td></tr>
+</table>
+
+Many enzymes in our body <a href="../../ed/dict.html#c100"> catalyze</a> <a href="../../ed/dict.html#r03"> redox reactions</a> during metabolism. Scientists 
+are considering using these in <a href="art-f03-fuel-cells.html"><em> fuel cells</em></a> to produce energy from biofuel, 
+as part of devices such as <a href="art-g01-glucose.html"><em> glucose sensors</em></a> to monitor the level of glucose in 
+blood, etc. Devices based on enzymatic bioactivity are fabricated by 
+chemically attaching the enzymes to the surface of a substrate and immersing it 
+in a solution containing the enzyme's reactant (for example, glucose for glucose 
+oxidase). Enzymes are designed by Nature to work inside living cells so their 
+efficiency in manmade devices can be altered. SECM is appropriate for the study 
+of immobilized enzymes because it can measure the efficiency of the enzymes 
+working in these unusual conditions (Figure 9). 
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Corrosion and dissolution </em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="230">
+<tr><td><a href="fig/m04/m04-f10b.bmp"><img alt=" Ionic crystal dissolution " height="329" src="fig/m04/m04-f10.bmp" width="208"/></a></td></tr>
+<tr><td><em> Fig. 10. Scheme of SECM-induced ionic crystal dissolution. </em></td></tr>
+</table>
+<table align="left" border="0" cellpadding="5" cellspacing="5">
+<!--   a figure to provide "white space" next to the Fig. 10.   -->
+<tr><td><img height="350" src="clear.jpg" width="20"/></td></tr>
+</table>
+
+SECM is well-suited for high-resolution studies of metal <a href="art-c02-corrosion.html"><em> corrosion</em></a> in <a href="../../ed/dict.html#a27"> aqueous</a> 
+environments. The reported studies were mostly focused on 
+
+<ul>
+<li>detection of small 
+pits and pit precursors, that is, electrochemically active sites on which pits 
+nucleate in the course of an experiment;
+<li> monitoring <a href="../../ed/dict.html#c26"> concentration</a> 
+profiles of the corrosion participants and products; and
+<li> the use of the tip to induce the pit formation. 
+</li></li></li></ul>
+<p>
+Dissolution of <a href="../../ed/dict.html#i01"> ionic</a> crystals is a phenomenon that can be studied by SECM. The 
+<a href="../../ed/dict.html#u05"> ultramicroelectrode</a> tip can deplete a chemical species by <a href="../../ed/dict.html#o01"> reducing or oxidizing</a> it. If the 
+initial chemical species is in equilibrium with the crystal then the depletion 
+of the earlier dissolves the crystal as shown in Figure 10. The high spatial 
+resolution of SECM enabled scientists to determine that the dissolution of 
+copper sulfate crystals into water occurred at surface defects. 
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Surface patterning </em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="425">
+<tr><td><a href="fig/m04/m04-f11b.bmp"><img alt=" SECM metal deposition " height="134" src="fig/m04/m04-f11.bmp" width="403"/></a></td></tr>
+<tr><td><em> Fig. 11. (A) Scheme of SECM metal deposition, metallic <a href="../../ed/dict.html#i01"> ions</a> are reduced at the 
+tip and oxidation occurs at the substrate/polymer interface. (B) Scanning 
+electron micrograph picture of a pattern of silver lines deposited in a Nafion 
+film. </em></td></tr>
+</table>
+
+The SECM can be used to fabricate microstructures on surfaces by deposition of 
+metals or other solids or by etching the substrate. Figure 11A shows how 
+one can use the SECM tip to locally reduce and <a href="../../ed/dict.html#m02"> deposit a metal</a> on a substrate. A 
+very small pattern of silver lines (Figure 11B) can thus be constructed. 
+
+<br clear="left"/>   <p>
+<h3><em> <img height="1" src="clear.jpg" width="25"/> Membrane transport </em></h3> 
+
+Some scientists have used SECM to investigate the transport of chemicals through 
+natural or artificial membranes, and biological tissues. SECM seems 
+to be particularly suited for such studies because in many cases the transport 
+happens through micro pores in the material and therefore is spatially 
+constricted. Elucidating transport mechanisms can help understand the 
+functionalities of biological tissue such as skin, dentine, or cartilage. 
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> Other applications </em></h3> 
+
+SECM has been used to probe <a href="../../ed/dict.html#a28"> adsorption</a> and <a href="../../ed/dict.html#d37"> desorption</a> of chemical species on 
+surfaces. It has been applied to metabolism study of single living cells, other biological systems, and <a href="../../ed/dict.html#c02"> charge transfer</a> mechanism in 
+<a href="art-c05-condpol.html"><em> conductive polymers</em></a>, efficiency of <a href="art-p06-photoel.html"><em> photoelectrochemical</em></a> conversion, etc. These applications of SECM and other are further discussed in the 
+references below. 
+
+<h3><em> <img height="1" src="fig/clear.jpg" width="25"/> The push for nano </em></h3>
+<!--   width of table = width of figure + 22   -->
+<table align="left" border="1" cellpadding="5" cellspacing="5" hspace="10" vspace="10" width="432">
+<tr><td><a href="fig/m04/m04-f12b.jpg"><img alt=" Polishing station. " height="287" src="fig/m04/m04-f12.jpg" width="410"/></a></td></tr>
+<tr><td><em> Fig. 12. Nanoelectrodes polishing station. </em></td></tr>
+</table>
+<table align="left" border="0" cellpadding="5" cellspacing="5">
+<!--   a figure to provide "white space" next to the Fig. 12.   -->
+<tr><td><img height="310" src="clear.jpg" width="15"/></td></tr>
+</table>
+
+The reduction in size of the tip electrode offers two advantages. 
+
+<ul>
+<li> With 
+smaller tip the measurement of the rate of extremely fast <a href="../../ed/dict.html#r03"> redox reactions</a> 
+becomes possible. 
+<li> Sub<a href="../../ed/dict.html#m66">micrometer</a> sized <a href="../../ed/dict.html#e20"> electrodes</a> permit high resolution 
+SECM imaging. 
+
+</li></li></ul>
+<p>
+As can be expected, the smaller the electrodes the more fragile they become. 
+Fabricating SECM tip of <a href="../../ed/dict.html#n26"> nanometer</a> dimension is a very challenging task as these 
+electrodes need to be polished by grinding the tip with abrasive material. 
+Figure 12 shows a set up for polishing nanometer size <a href="../../ed/dict.html#u05"> ultramicroelectrodes</a>. 
+
+<br clear="left"/>   <p>
+<h3> Conclusions and prospects </h3> 
+
+SECM is a valuable and indispensable tool for the study of surface reactivity. 
+Scientists are more and more attracted to this method because of its simplicity 
+of use and the quantitative results it can deliver. The fast expansion of the 
+SECM field during the last several years has been fueled by the introduction of 
+new probes, commercially available instrumentation, and new practical 
+applications. The greatest challenge of SECM will be to routinely do 
+measurements with <a href="../../ed/dict.html#n26"> nanometer</a>-sized electrodes, as these electrodes are much 
+harder to produce and use than <a href="../../ed/dict.html#m70"> micron</a>-sized one. The fabrication of 
+nanometer-sized tips and the development of numerous hybrid techniques have 
+already greatly enhanced the SECM capacity to solve problems in cell biology, 
+surface science, and nanotechnology. 
+
+
+
+<h3> Bibliography </h3>
+<ul>
+<li><u>Bibliography for SECM Papers and Closely Related Material,</u> D. O. Wipf, available at <a href="http://www.msstate.edu/dept/Chemistry/dow1/secm/secm_bib.html">www.msstate.edu/dept/Chemistry/dow1/secm/secm_bib.html.</a>
+<p>
+<li><u> Physicochemical Applications of Scanning Electrochemical Microscopy,</u> F. O. Laforge, P. Sun, and M. V. Mirkin, in "Advances in Chemical Physics" Vol. 139, pp 177-244, Wiley-Interscience, New York, 2008.
+<p>
+<li><u>Scanning Electrochemical Microscopy in the 21<sup>st</sup> Century,</u> P. Sun, F. O. Laforge, and M. V. Mirkin, "Physical Chemistry Chemical Physics" Vol. 9, pp 802-823, 2007.
+<p>
+<li><u>Scanning Electrochemical Microscopy for Direct Imaging of Reaction Rates,</u> G. Wittstock, M. Burchardt, S. E. Pust, Y. Shen, and C. Zhao, "Angewandte Chemie International Edition" Vol. 46, pp 1584-1617, 2007.
+<p>
+<li><u> Scanning Electrochemical Microscopy,</u> F.-R. F. Fan, J. Fernandez, B. Liu, and J. Mauzeroll, in "Handbook of Electrochemistry" pp 471-540, C. G. Zoski (editor), Elsevier, Boston, 2007.
+<p>
+<li><u>Biological Applications of Scanning Electrochemical Microscopy: Chemical Imaging of Single Living Cells and Beyond,</u> S. Amemiya, J. Guo, H. Xiong, and D. A. Gross, "Analytical and Bioanalytical Chemistry" Vol. 386, pp 1584-1617, 2006.
+<p>
+<li><u>Imaging Localized Reactivities of Surfaces by Scanning Electrochemical Microscopy,</u> G. Wittstock, in "Solid-Liquid Interfaces (Topics in Applied Physics, Vol. 85)" pp 335-364, K. Wandelt and S. Thurgate (editors), Springer, New York, 2003.
+<p>
+<li><u>Scanning Electrochemical Microscopy,</u> B. R. Horrocks, in "Instrumentation and Electroanalytical Chemistry" pp 444-490, P. R. Unwin (editor), "Encyclopedia of Electrochemistry" A. J. Bard and M. Stratmann (editors), Vol. 3, Wiley-VCH, Weinheim, Germany, 2003.
+<p>
+<li><u>Fundamentals of Scanning Electrochemical Microscopy,</u> M. V. Mirkin and B. R. Horrocks, in "Electrochemical Microsystem Technologies (New Trends in Electrochemical Technology, Vol. 2)" pp 66-103, J. W. Schultze, T. Osaka, and M. Datta (editors), Taylor and Francis, New York, 2002.
+<p>
+<li><u>Scanning Electrochemical Microscopy,</u> A. J. Bard and M. V. Mirkin (editors), Marcel Dekker, New York, 2001.
+<p>
+<li><u>Scanning Electrochemical Microscopy as a Local Probe of Chemical Processes at Liquid Interfaces,</u> A. L. Barker, C. J. Slevin, P. R. Unwin, and J. Zhang, in "Liquid Interfaces in Chemical, Biological, and Pharmaceutical Applications (Surfactant Science Series 95)" pp 283-324, A. G. Volkov (editor), Marcel Dekker, New York, 2001.
+<p>
+<li><u>Scanning Electrochemical Microscopy: Beyond the Solid/Liquid Interface,</u> A. L. Barker, M. Gonsalves, J. V. Macpherson, C. J. Slevin, and P. R. Unwin, "Analytica Chimica Acta" Vol. 385, pp 223-240, 1999.
+<p>
+<li> <u>Scanning Electrochemical Microscopy,</u> A. J. Bard, F.-R. F. Fan, and M. V. Mirkin, in "The Handbook of Surface Imaging and Visualization" pp 667-679, A. T. Hubbard (editor), CRC, Boca Baton, FL 1995.
+<p>
+<li><u>Scanning Electrochemical Microscopy,</u> A. J. Bard, F.-R. Fen, and M. Mirkin, in "Physical Electrochemistry: Principles, Methods, and Applications" pp 209-242, I. Rubinstein (editor), Marcel Dekker, New York, 1995.
+<p>
+<li><u>Scanning Electrochemical Microscopy,</u> A. J. Bard, F.-R. Fen, and M. Mirkin, in "Electroanalytical Chemistry: a Series of Advances" Vol. 18, pp 244-373, A. J. Bard (editor), Marcel Dekker, New York, 1994.
+<p>
+<li><u>Scanning Electrochemical Microscopy. Theory of the Feedback Mode,</u> J. Kwak and A. J. Bard, "Analytical Chemistry" Vol. 61, pp 1221-1227, 1989.
+
+</li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></p></li></ul></section>
+
+            <section>
+                <h2><i class="fas fa-flask"></i>Other Resources</h2>
+                <p>
+                    Listings of electrochemistry <a href="../../estir/books.html"> books</a>, <a href="../../estir/chap.html"> review chapters</a>, <a href="/estir/proc.html"> proceedings volumes</a>, and full text of some <a href="/estir/history.html"> historical publications</a> are also available in the <a href="/estir/"> Electrochemistry Science and Technology Information Resource (ESTIR)</a>. (http://knowledge.electrochem.org/estir/)
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <!-- END OF CONTENT -->
+
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+
+    <!-- FOOTER CODE -->
+
+    <footer>
+        <img src="../../images/ECS_Logo-removebg.png" alt="ECS Logo">
+        <div class="footer-text">
+            <p>
                 Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
                 <a href="/copyright.html">Copyright Notice</a>
-</p>
-<p>
+            </p>
+            <p>
                 Edited by: <a href="/estir/editor.html">Zoltan Nagy</a> <a href="mailto:nagyz@email.unc.edu">(nagyz@email.unc.edu)</a> | 
                 <a href="http://www.chem.unc.edu/" target="_blank">Dept. of Chemistry</a> | 
                 <a href="http://www.unc.edu/" target="_blank">UNC at Chapel Hill</a></p>
-<p>
-<a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
+            <p>
+                <a href="http://www.electrochem.org/" target="_blank">ECS</a> | 
                 <a href="http://www.ecsblog.org/" target="_blank">Redcat Blog</a> | 
                 <a href="http://ecsdl.org/" target="_blank">ECS Digital Library</a>
-</p>
-</div>
-</footer>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-<script defer="" src="../../js/analytics.js"></script>
+            </p>
+        </div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
+    <script src="../../js/analytics.js" defer></script>
 </body>
 </html>
