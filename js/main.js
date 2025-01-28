@@ -24,3 +24,23 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll("#alphabet-nav button");
+    const sections = document.querySelectorAll(".category-section");
+
+    function showSection(letter) {
+        sections.forEach(section => {
+            section.classList.toggle("active", section.id === `section-${letter}`);
+        });
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            showSection(button.dataset.letter);
+        });
+    });
+
+    // Show default section (A)
+    showSection("A");
+});

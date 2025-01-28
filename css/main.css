@@ -460,3 +460,51 @@ table a:hover {
     color: #555; /* Subtle gray for the caption text */
     margin-top: 5px;
 }
+
+/* Dictionary Index Section */
+#alphabet-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+#alphabet-nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#alphabet-nav button:hover {
+    background-color: #0056b3;
+}
+
+.category-section {
+    display: none;
+    padding: 20px;
+    /* margin: 10px auto; */
+    max-width: 100%;
+    background-color: white;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+}
+
+.category-section.active {
+    display: block;
+}
+
+.letter-header {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
