@@ -1,0 +1,5 @@
+<a href="#j04">J</a>  <br> 
+<a href="#j02">JECS</a>  <br> 
+<a href="#j03">joule</a>  <br> 
+<a href="#j01">junction potential</a>  <br> 
+

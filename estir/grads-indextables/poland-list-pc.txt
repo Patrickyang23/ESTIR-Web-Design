@@ -1,0 +1,14 @@
+﻿<a href="#pol1"> Renata Bilewicz</a><br>
+<a href="#pol10"> Aleksander Ciszewski</a><br>
+<a href="#pol6"> Maria Grzeszczuk</a><br>
+<a href="#pol11"> Maria Janik-Czachor</a><br>
+<a href="#pol12"> Elzbieta Krasicka-Cydzik</a><br>
+<a href="#pol13"> Pawel Krysinski</a><br>
+<a href="#pol5"> Pawel J. Kulesza</a><br>
+<a href="#pol9"> Jan M. Skowronski</a><br>
+<a href="#pol3"> Zbigniew J. Stojek</a><br>
+<a href="#pol4"> Leszek Suski</a><br>
+
+
+<!--  last number used:    pol13  not used: pol2, pol7, pol8    -->
+

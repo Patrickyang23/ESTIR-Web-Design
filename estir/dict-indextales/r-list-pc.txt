@@ -1,0 +1,55 @@
+<h2><em><a name="r36">radical</a></em></h2>
+<h2><em><a name="r16">rate constant</a></em></h2>
+<h2><em><a name="r35">rated capacity</a></em></h2>
+<h2><em><a name="r12">rate-determining step</a></em></h2>
+<h2><em><a name="r18">rational potential</a></em></h2>
+<h2><em><a name="r32">RDE</a></em></h2>
+<h2><em><a name="r27">rds</a></em></h2>
+<h2><em><a name="r43">RE</a></em></h2>
+<h2><em><a name="r17">reactant</a></em></h2>
+<h2><em><a name="r15">(electrode) reaction mechanism</a></em></h2>
+<h2><em><a name="r11">reaction overpotential (polarization)</a></em></h2>
+<h2><em><a name="r47">real electrode area</a></em></h2>
+<h2><em><a name="r01">rechargeable battery</a></em></h2>
+<h2><em><a name="r37">recharging</a></em></h2>
+<h2><em><a name="r04">rectifier</a></em></h2>
+<h2><em><a name="r42">redox active species</a></em></h2>
+<h2><em><a name="r20">redox battery</a></em></h2>
+<h2><em><a name="r26">redox couple</a></em></h2>
+<h2><em><a name="r19">redox electrode</a></em></h2>
+<h2><em><a name="r41">redox mediator</a></em></h2>
+<h2><em><a name="r25">redox potential</a></em></h2>
+<h2><em><a name="r03">redox reaction</a></em></h2>
+<h2><em><a name="r28">reducing agent</a></em></h2>
+<h2><em><a name="r29">reductant</a></em></h2>
+<h2><em><a name="r02">reduction</a></em></h2>
+<h2><em><a name="r06">reference electrode</a></em></h2>
+<h2><em><a name="r44">reforming</a></em></h2>
+<h2><em><a name="r45">regenerative braking</a></em></h2>
+<h2><em><a name="r40">regenerative fuel cell</a></em></h2>
+<h2><em><a name="r05">reserve battery</a></em></h2>
+<h2><em><a name="r10">residual current (density)</a></em></h2>
+<h2><em><a name="r23">resistance</a></em></h2>
+<h2><em><a name="r14">resistance overpotential (polarization)</a></em></h2>
+<h2><em><a name="r22">resistivity (electrical)</a></em></h2>
+<h2><em><a name="r24">resistor</a></em></h2>
+<h2><em><a name="r07">rest potential</a></em></h2>
+<h2><em><a name="r08">reversible electrode</a></em></h2>
+<h2><em><a name="r09">reversible electrode reaction</a></em></h2>
+<h2><em><a name="r38">reversible fuel cell</a></em></h2>
+<h2><em><a name="r13">reversible hydrogen electrode</a></em></h2>
+<h2><em><a name="r39">RHE</a></em></h2>
+<h2><em><a name="r48">rheostat</a></em></h2>
+<h2><em><a name="r46">rocking-chair battery</a></em></h2>
+<h2><em><a name="r30">rotating-disk electrode</a></em></h2>
+<h2><em><a name="r31">rotating-ring-disk electrode</a></em></h2>
+<h2><em><a name="r34">rotating-wire electrode</a></em></h2>
+<h2><em><a name="r21">roughness factor</a></em></h2>
+<h2><em><a name="r33">RRDE</a></em></h2>
+
+
+
+
+<!--  last number used:    r48      -->
+
+

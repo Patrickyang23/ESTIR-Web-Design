@@ -1,0 +1,12 @@
+
+Greetings,
+
+A link has been provided to your website (  ) in the Electrochemical Science and Technology Information Resource (ESTIR).
+
+ESTIR (http://knowledge.electrochem.org/estir/) is a widely quoted and visited site listing and providing links to more than one thousand highly relevant electrochemistry websites, in addition to listing books, reviews, graduate schools, meetings, etc, etc.
+
+If you wish, you can add a small logo to your site indicating that it is listed in ESTIR. Use the following lines:
+
+<a href="http://knowledge.electrochem.org/estir/"><img src="http://knowledge.electrochem.org/estir/fig/estir-logo.gif" alt="Listed in ESTIR" border="0" hspace=10></a>
+
+Regards: Zoltan Nagy

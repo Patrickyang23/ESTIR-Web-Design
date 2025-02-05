@@ -1,0 +1,14 @@
+estir/inet.htm
+estir/pdi.htm
+estir/pop.htm
+estir/grads.htm
+estir/chap.htm
+estir/proc.htm
+estir/books.htm
+estir/old-books.htm
+estir/history.htm
+estir/soc.htm
+estir/jour.htm
+estir/handb.htm
+estir/nom.htm
+ed/dict.htm

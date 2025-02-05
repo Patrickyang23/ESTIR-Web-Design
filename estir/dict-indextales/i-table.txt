@@ -1,0 +1,103 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#i54">IDA</a>  </td>
+<td width=200 > <a href="#i27">inner-sphere charge-transfer reaction</a>  </td>
+<td width=200 > <a href="#i20">ionics</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i55">IDE</a>  </td>
+<td> <a href="#i24">insulator (electrical)</a>  </td>
+<td> <a href="#i39">ionic solution</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i31">ideal depolarized electrode</a>  </td>
+<td> <a href="#i28">interconnect</a>  </td>
+<td> <a href="#i43">ionic strength</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i30">ideal non-polarizable electrode</a>  </td>
+<td> <a href="#i53">interdigitated electrode (assembly)</a>  </td>
+<td> <a href="#i16">ion-selective electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i11">ideal polarized (polarizable) electrode</a>  </td>
+<td> <a href="#i41">interfacial tension</a>  </td>
+<td> <a href="#i05">ion-selective membrane</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i29">IHP</a>  </td>
+<td> <a href="#i35">intermediate</a>  </td>
+<td> <a href="#i17">ion-sensing electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i36">Ilkovic equation</a>  </td>
+<td> <a href="#i08">internal electrolyte</a>  </td>
+<td> <a href="#i57">ipp</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i33">impedance</a>  </td>
+<td> <a href="#i18">internal reference electrode</a>  </td>
+<td> <a href="#i14">ir (drop) compensation</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i45">impedance spectroscopy</a>  </td>
+<td> <a href="#i51">internal-reforming fuel cell</a>  </td>
+<td> <a href="#i15">ir (drop) correction</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i60">impressed-current corrosion protection</a>  </td>
+<td> <a href="#i42">interphase</a>  </td>
+<td> <a href="#i13">ir drop</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i12">indicator electrode</a>  </td>
+<td> <a href="#i47">introduction – what is electrochermistry?</a>  </td>
+<td> <a href="#i52">IRFC</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i06">indifferent electrolyte</a>  </td>
+<td> <a href="#i01">ion</a>  </td>
+<td> <a href="#i09">irreversible electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i21">indirect electrolysis</a>  </td>
+<td> <a href="#i04">ion-exchange membrane</a>  </td>
+<td> <a href="#i10">irreversible electrode reaction</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i22">indirect electrosynthesis</a>  </td>
+<td> <a href="#i03">ion-exchange resin</a>  </td>
+<td> <a href="#i19">ISE</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i58">indium tin oxide electrode</a>  </td>
+<td> <a href="#i44">ionic atmosphere</a>  </td>
+<td> <a href="#i32">isoelectric focusing</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i34">inert electrode</a>  </td>
+<td> <a href="#i02">ionic conductor</a>  </td>
+<td> <a href="#i49">isoelectric point</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i07">inert electrolyte</a>  </td>
+<td> <a href="#i38">ionic current</a>  </td>
+<td> <a href="#i50">isoelectronic point</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i23">inhibitor</a>  </td>
+<td> <a href="#i37">ionic liquid</a>  </td>
+<td> <a href="#i56">isopotential point</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i46">inner (double) layer</a>  </td>
+<td> <a href="#i40">ionic melt</a>  </td>
+<td> <a href="#i48">isotherm</a>  </td>
+</tr>
+<tr>
+<td> <a href="#i26">inner Helmholtz plane</a>  </td>
+<td> <a href="#i25">ionic mobility</a>  </td>
+<td> <a href="#i59">ITO</a>  </td>
+</tr>
+</table>
+<p clear=left>

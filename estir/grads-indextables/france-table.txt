@@ -1,0 +1,48 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#fran18"> Philippe Allongue</a>  </td>
+<td width=200 > <a href="#fran9"> Bruno Fabre</a>  </td>
+<td width=200 > <a href="#fran8"> Michael J. Matlosz</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran10"> Christian Amatore</a>  </td>
+<td> <a href="#fran17"> Viatcheslav V. Jouikov</a>  </td>
+<td> <a href="#fran21"> Patrick Ozil</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran4"> Claude P. Andrieux</a>  </td>
+<td> <a href="#fran12"> Mohamed Jouini</a>  </td>
+<td> <a href="#fran25"> Marc Robert</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran6"> Fethi Bedioui</a>  </td>
+<td> <a href="#fran3"> Christian M. Julien</a>  </td>
+<td> <a href="#fran27"> Elena Savinova</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran23"> Michel Cassir</a>  </td>
+<td> <a href="#fran7"> Michel H. Keddam</a>  </td>
+<td> <a href="#fran11"> Patrice Simon</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran1"> Pierre Chartier</a>  </td>
+<td> <a href="#fran19"> Alexander Kuhn</a>  </td>
+<td> <a href="#fran13"> Jacques Simonet</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran5"> Jean-Paul Chopart</a>  </td>
+<td> <a href="#fran16"> Daniel Lincot</a>  </td>
+<td> <a href="#fran2"> Jean M. Tarascon</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran15"> Alain Deronzier</a>  </td>
+<td> <a href="#fran26"> Emmanuel Maisonhaute</a>  </td>
+<td> <a href="#fran24"> Bernard Tribollet</a>  </td>
+</tr>
+<tr>
+<td> <a href="#fran22"> Didier Devilliers</a>  </td>
+<td> <a href="#fran20"> Philippe Mandin</a>  </td>
+<td> <a href="#fran14"> Alain Walcarius</a>  </td>
+</tr>
+</table>
+<p clear=left>

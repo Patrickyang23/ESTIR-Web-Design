@@ -1,0 +1,38 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#germ16"> Helmut Baltruschat</a>  </td>
+<td width=200 > <a href="#germ11"> Olaf Magnussen</a>  </td>
+<td width=200 > <a href="#germ13"> Fritz Scholz</a>  </td>
+</tr>
+<tr>
+<td> <a href="#germ20"> Andreas Bund</a>  </td>
+<td> <a href="#germ23"> Frank-Michael Matysik</a>  </td>
+<td> <a href="#germ9"> Wolfgang Schuhmann</a>  </td>
+</tr>
+<tr>
+<td> <a href="#germ10"> Heiner J. Gores</a>  </td>
+<td> <a href="#germ15"> Vladimir Mirsky</a>  </td>
+<td> <a href="#germ19"> Bernd Speiser</a>  </td>
+</tr>
+<tr>
+<td> <a href="#germ1"> Rudolf Holze</a>  </td>
+<td> <a href="#germ14"> Ulrich Nickel</a>  </td>
+<td> <a href="#germ22"> Eckhard Spohr</a>  </td>
+</tr>
+<tr>
+<td> <a href="#germ5"> Nils I. Jaeger</a>  </td>
+<td> <a href="#germ4"> Waldfried Plieth</a>  </td>
+<td> <a href="#germ7"> Werner Weppner</a>  </td>
+</tr>
+<tr>
+<td> <a href="#germ6"> Juergen Janek</a>  </td>
+<td> <a href="#germ3"> Hans J. Schafer</a>  </td>
+<td> <a href="#germ24"> Martin Winter</a>  </td>
+</tr>
+<tr>
+<td> <a href="#germ8"> Zenonas Jusys</a>  </td>
+<td> <a href="#germ12"> Wieland Schafer</a>  </td>
+<td> <a href="#germ17"> Gunther Wittstock</a>  </td>
+</tr>
+</table>
+<br clear=left> &nbsp; <p>

@@ -1,0 +1,27 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr><td width=200 > <a href="#italy16"> Antonio Barbucci</a>  </td>
+<td width=200 > <a href="#italy21"> Francesco Di Quarto</a>  </td>
+<td width=200 > <a href="#italy22"> Patrizia R. Mussini</a>  </td></tr>
+<tr><td> <a href="#italy11"> Francesco Bellucci</a>  </td>
+<td> <a href="#italy7"> Rolando Guidelli</a>  </td>
+<td> <a href="#italy10"> Piercarlo Mustarelli</a>  </td></tr>
+<tr><td> <a href="#italy15"> Benedetto Bozzini</a>  </td>
+<td> <a href="#italy13"> Flavio Maran</a>  </td>
+<td> <a href="#italy4"> Domenico Osella</a>  </td></tr>
+<tr><td> <a href="#italy5"> Giacomo Costa</a>  </td>
+<td> <a href="#italy2"> Pier F. Marconi</a>  </td>
+<td> <a href="#italy19"> Sandra Rondinini</a>  </td></tr>
+<tr><td> <a href="#italy17"> Paola Costamagna</a>  </td>
+<td> <a href="#italy23"> Giovanna Marrazza</a>  </td>
+<td> <a href="#italy8"> Bruno Scrosati</a>  </td></tr>
+<tr><td> <a href="#italy1"> Salvatore Daniele</a>  </td>
+<td> <a href="#italy6"> Maurizio Masi</a>  </td>
+<td> <a href="#italy14"> Renato Seeber</a>  </td></tr>
+<tr><td> <a href="#italy12"> Achille De Battisti</a>  </td>
+<td> <a href="#italy18"> Tullio Monetta</a>  </td>
+<td> <a href="#italy9"> Piero Zanello</a>  </td></tr>
+<tr><td> <a href="#italy20"> Vito Di Noto</a>  </td>
+<td>  </td>
+<td>  </td></tr>
+</table>
+<br clear=left> &nbsp; <p>

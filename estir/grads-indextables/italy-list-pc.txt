@@ -1,0 +1,26 @@
+<a href="#italy16"> Antonio Barbucci</a>
+<a href="#italy11"> Francesco Bellucci</a>
+<a href="#italy15"> Benedetto Bozzini</a>
+<a href="#italy5"> Giacomo Costa</a>
+<a href="#italy17"> Paola Costamagna</a>
+<a href="#italy1"> Salvatore Daniele</a>
+<a href="#italy12"> Achille De Battisti</a>
+<a href="#italy20"> Vito Di Noto</a>
+<a href="#italy21"> Francesco Di Quarto</a>
+<a href="#italy7"> Rolando Guidelli</a>
+<a href="#italy13"> Flavio Maran</a>
+<a href="#italy2"> Pier F. Marconi</a>
+<a href="#italy23"> Giovanna Marrazza</a>
+<a href="#italy6"> Maurizio Masi</a>
+<a href="#italy18"> Tullio Monetta</a>
+<a href="#italy22"> Patrizia R. Mussini</a>
+<a href="#italy10"> Piercarlo Mustarelli</a>
+<a href="#italy4"> Domenico Osella</a>
+<a href="#italy19"> Sandra Rondinini</a>
+<a href="#italy8"> Bruno Scrosati</a>
+<a href="#italy14"> Renato Seeber</a>
+<a href="#italy9"> Piero Zanello</a>
+
+
+<!--  last number used:    italy23  not used italy3    -->
+

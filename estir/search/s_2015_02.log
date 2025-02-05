@@ -1,0 +1,62 @@
+Sun Feb  1 15:44:36 2015
+Search term used: " nervi    " ffound: 2.
+Tue Feb  3 16:15:42 2015
+Search term used: " gas sensor   " Time covered: 1950 to 2015. Type of search: " omit "
+cfound = 16.
+Thu Feb  5 04:43:57 2015
+Search term used: " Barthel J., Gores H.-J. " Time covered: 1994 to 2015. Type of search: " omit "
+cfound = 0.
+Thu Feb 12 12:59:39 2015
+Search term used: " Erb U, Aust KT, " Time covered: 1950 to 2015. Type of search: " no_omit "
+cfound = 0.
+Thu Feb 12 13:00:36 2015
+Search term used: " Erb U, Aust KT, " Time covered: 1950 to 2015. Type of search: " no_omit "
+cfound = 0.
+Thu Feb 12 13:01:00 2015
+Search term used: " Erb U, Aust KT, " Time covered: 1950 to 2015. Type of search: " omit "
+cfound = 0.
+Thu Feb 12 13:01:27 2015
+Search term used: " Erb U, Aust KT, " AND " Electrodeposited nanocrystalline materials.  "
+Time covered: 2002 to 2002. Type of search: " omit "
+bfound = 0.
+cfound = 0.
+Thu Feb 12 13:01:58 2015
+Search term used: " Electrodeposited nanocrystalline materials.  " AND " Erb U, Aust KT, "
+Time covered: 2002 to 2002. Type of search: " omit "
+bfound = 0.
+cfound = 0.
+Thu Feb 12 13:02:14 2015
+Search term used: " Electrodeposited nanocrystalline materials.  " OR " Erb U, Aust KT, "
+Time covered: 2002 to 2002. Type of search: " omit "
+bfound = 0.
+cfound = 1.
+Thu Feb 12 13:03:06 2015
+Search term used: "     " Time covered: 1950 to 2015. Type of search: "  "
+Thu Feb 12 13:04:59 2015
+Search term used: "     " Time covered: 1950 to 2015. Type of search: "  "
+Thu Feb 12 13:06:31 2015
+Search term used: " Erb U, Aust KT, " Time covered: 2002 to 2015. Type of search: " omit "
+bfound = 0.
+cfound = 0.
+Thu Feb 12 13:06:39 2015
+Search term used: " Erb U, Aust KT, " OR " Erb U, Aust KT, "
+Time covered: 2002 to 2015. Type of search: " omit "
+bfound = 0.
+cfound = 0.
+Thu Feb 12 13:06:47 2015
+Search term used: " Erb U, Aust KT, " OR " Erb U, Aust KT, "
+Time covered: 2002 to 2002. Type of search: " omit "
+bfound = 0.
+cfound = 0.
+Sun Feb 15 06:22:18 2015
+Search term used: " bockris    " ffound: 5.
+Sun Feb 22 10:09:20 2015
+Search term used: " Electron transfer standard rate " ffound: 0.
+Sun Feb 22 10:11:13 2015
+Search term used: " Rate constant electron transfer " ffound: 0.
+Sun Feb 22 10:11:34 2015
+Search term used: " Rate constant electron transfer " Exact search. (No "wildcards" as leading or trailing characters.)
+ffound: 0.
+Sun Feb 22 10:12:10 2015
+Search term used: " Iron    " Time covered: 1950 to 2015. Type of search: " omit "
+bfound = 15.

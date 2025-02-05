@@ -1,0 +1,23 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#russ7"> Herman C. Budnikov</a><br>  </td>
+<td width=200 > <a href="#russ1"> Valerii I. Kravtsov</a><br>  </td>
+<td width=200 > <a href="#russ3"> Arkady Ya. Neiman</a><br>  </td>
+</tr>
+<tr>
+<td> <a href="#russ8"> Gennady A. Evtugyn</a><br>  </td>
+<td> <a href="#russ4"> Valery V. Malev</a><br>  </td>
+<td> <a href="#russ6"> Eugene V. Nikitin</a><br>  </td>
+</tr>
+<tr>
+<td> <a href="#russ10"> Vitali A. Grinberg</a><br>  </td>
+<td> <a href="#russ12"> Konstantin N. Mikhelson</a><br>  </td>
+<td> <a href="#russ2"> Oleg A. Petrii</a><br>  </td>
+</tr>
+<tr>
+<td> <a href="#russ5"> Arkady A. Karyakin</a><br>  </td>
+<td> <a href="#russ11"> Renat Nazmutdinov</a><br>  </td>
+<td> <a href="#russ9"> Galina A. Tsirlina</a><br>  </td>
+</tr>
+</table>
+<p clear=left>

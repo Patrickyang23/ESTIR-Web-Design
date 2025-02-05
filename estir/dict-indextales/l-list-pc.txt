@@ -1,0 +1,28 @@
+<h2><em><a name="l21">l</a></em></h2>
+<h2><em><a name="l01">lead-acid battery</a></em></h2>
+<h2><em><a name="l12">leakage current</a></em></h2>
+<h2><em><a name="l10">Leclanche cell (battery)</a></em></h2>
+<h2><em><a name="l08">leveling agent, leveler</a></em></h2>
+<h2><em><a name="l14">Levich equation</a></em></h2>
+<h2><em><a name="l22">ligand</a></em></h2>
+<h2><em><a name="l09">limiting current density</a></em></h2>
+<h2><em><a name="l15">linear current-potential relation</a></em></h2>
+<h2><em><a name="l23">linear polarization resistance</a></em></h2>
+<h2><em><a name="l16">linear range</a></em></h2>
+<h2><em><a name="l04">linear-sweep voltammetry</a></em></h2>
+<h2><em><a name="l02">liquid-junction potential</a></em></h2>
+<h2><em><a name="l20">liter</a></em></h2>
+<h2><em><a name="l19">lithium battery</a></em></h2>
+<h2><em><a name="l18">lithium-ion battery</a></em></h2>
+<h2><em><a name="l07">load</a></em></h2>
+<h2><em><a name="l13">load leveling</a></em></h2>
+<h2><em><a name="l11">local cell</a></em></h2>
+<h2><em><a name="l17">low voltage cut-off</a></em></h2>
+<h2><em><a name="l24">LPR</a></em></h2>
+<h2><em><a name="l05">LSV</a></em></h2>
+<h2><em><a name="l03">Luggin tip (Luggin capillary) (Luggin probe)</a></em></h2>
+<h2><em><a name="l06">LV</a></em></h2>
+
+
+       last number used:    l24      -->
+

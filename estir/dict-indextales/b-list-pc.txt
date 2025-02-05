@@ -1,0 +1,32 @@
+<h2><em><a name="b13">background current (density)</a></em></h2>
+<h2><em><a name="b22">Baizer-Danly process</a></em></h2>
+<h2><em><a name="b26">band gap</a></em></h2>
+<h2><em><a name="b19">barrier (oxide) film</a></em></h2>
+<h2><em><a name="b07">base</a></em></h2>
+<h2><em><a name="b04">basicity</a></em></h2>
+<h2><em><a name="b11">bath</a></em></h2>
+<h2><em><a name="b01">battery</a></em></h2>
+<h2><em><a name="b02">battery charger</a></em></h2>
+<h2><em><a name="b25">BDD</a></em></h2>
+<h2><em><a name="b09">bioelectrochemistry</a></em></h2>
+<h2><em><a name="b03">bipolar electrode</a></em></h2>
+<h2><em><a name="b15">bipotentiostat</a></em></h2>
+<h2><em><a name="b27">BL</a></em></h2>
+<h2><em><a name="b06">bleach production</a></em></h2>
+<h2><em><a name="b23">blood glucose sensor</a></em></h2>
+<h2><em><a name="b21">Bode plot</a></em></h2>
+<h2><em><a name="b18">boost charging</a></em></h2>
+<h2><em><a name="b24">boron-doped diamond</a></em></h2>
+<h2><em><a name="b12">boundary layer</a></em></h2>
+<h2><em><a name="b10">brightening agent, brightener</a></em></h2>
+<h2><em><a name="b05">brine electrolysis</a></em></h2>
+<h2><em><a name="b08">buffer solution</a></em></h2>
+<h2><em><a name="b14">bus(bar)</a></em></h2>
+<h2><em><a name="b20">Butler-Volmer equation</a></em></h2>
+<h2><em><a name="b17">button cell</a></em></h2>
+<h2><em><a name="b16">bypass current</a></em></h2>
+
+
+
+<!--  last number used:    b27      -->
+

@@ -1,0 +1,32 @@
+<h2><em><a name="t01">Tafel equation</a></em></h2>
+<h2><em><a name="t02">Tafel line</a></em></h2>
+<h2><em><a name="t04">Tafel plot</a></em></h2>
+<h2><em><a name="t03">Tafel slope</a></em></h2>
+<h2><em><a name="t16">taper charging</a></em></h2>
+<h2><em><a name="t20">tension</a></em></h2>
+<h2><em><a name="t05">terminal</a></em></h2>
+<h2><em><a name="t15">tertiary current distribution</a></em></h2>
+<h2><em><a name="t14">thermocell (thermogalvanic cell)</a></em></h2>
+<h2><em><a name="t22">thin layer cell</a></em></h2>
+<h2><em><a name="t07">third kind electrode</a></em></h2>
+<h2><em><a name="t08">three-electrode cell</a></em></h2>
+<h2><em><a name="t24">three-phase boundary (interface)</a></em></h2>
+<h2><em><a name="t10">throwing power</a></em></h2>
+<h2><em><a name="t26">top-off charging</a></em></h2>
+<h2><em><a name="t19">totally-polarized electrode</a></em></h2>
+<h2><em><a name="t06">transference number</a></em></h2>
+<h2><em><a name="t23">transient technique</a></em></h2>
+<h2><em><a name="t18">transition time</a></em></h2>
+<h2><em><a name="t21">transpassive potential</a></em></h2>
+<h2><em><a name="t13">transport number</a></em></h2>
+<h2><em><a name="t17">trickle charging</a></em></h2>
+<h2><em><a name="t25">triple interface</a></em></h2>
+<h2><em><a name="t12">true current density</a></em></h2>
+<h2><em><a name="t11">true electrode area</a></em></h2>
+<h2><em><a name="t09">two-electrode cell</a></em></h2>
+
+
+
+
+<!--  last number used:    t26      -->
+

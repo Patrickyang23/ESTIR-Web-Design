@@ -1,0 +1,31 @@
+<a href="#fran18"> Philippe Allongue</a>
+<a href="#fran10"> Christian Amatore</a>
+<a href="#fran4"> Claude P. Andrieux</a>
+<a href="#fran6"> Fethi Bedioui</a>
+<a href="#fran23"> Michel Cassir</a>
+<a href="#fran1"> Pierre Chartier</a>
+<a href="#fran5"> Jean-Paul Chopart</a>
+<a href="#fran15"> Alain Deronzier</a>
+<a href="#fran22"> Didier Devilliers</a>
+<a href="#fran9"> Bruno Fabre</a>
+<a href="#fran17"> Viatcheslav V. Jouikov</a>
+<a href="#fran12"> Mohamed Jouini</a>
+<a href="#fran3"> Christian M. Julien</a>
+<a href="#fran7"> Michel H. Keddam</a>
+<a href="#fran19"> Alexander Kuhn</a>
+<a href="#fran16"> Daniel Lincot</a>
+<a href="#fran26"> Emmanuel Maisonhaute</a>
+<a href="#fran20"> Philippe Mandin</a>
+<a href="#fran8"> Michael J. Matlosz</a>
+<a href="#fran21"> Patrick Ozil</a>
+<a href="#fran25"> Marc Robert</a>
+<a href="#fran27"> Elena Savinova</a>
+<a href="#fran11"> Patrice Simon</a>
+<a href="#fran13"> Jacques Simonet</a>
+<a href="#fran2"> Jean M. Tarascon</a>
+<a href="#fran24"> Bernard Tribollet</a>
+<a href="#fran14"> Alain Walcarius</a>
+
+
+<!--  last number used:    fran27  -->
+

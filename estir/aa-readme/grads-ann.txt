@@ -1,0 +1,95 @@
+
+Professor 
+
+I would like to include you in the following directory. If you are interested,
+please send the appropriate information by e-mail to      
+nagyz@email.unc.edu. Or just fill in the info below and send it back as a “reply”.
+
+            WORLDWIDE, ON-LINE DIRECTORY OF GRADUATE SCHOOLS
+                                 for
+                ELECTROCHEMICAL SCIENCE AND ENGINEERING
+
+<p><hr><p>
+The ESTIR is hosted by the <a href="http://www.electrochem.org/">The Electrochemical Society, Inc. (ECS)</a>.
+<br>
+<a href="/copyright.htm"> Copyright Notice</a>.
+<br>
+Maintained by <a href="/estir/editor.htm">
+Zoltan Nagy</a> ( <a href="mailto:nagyz@email.unc.edu">
+nagyz@email.unc.edu</a> ),
+<a href="http://www.chem.unc.edu/index.html"> Department of Chemistry</a>,
+<a href="http://www.unc.edu/"> The University of North Carolina at Chapel
+Hill</a>.
+<p><hr><p>
+Available on WWW at the 
+
+     Electrochemical Science and Technology Information Resource (ESTIR) 
+
+with URL of:      http://knowledge.electrochem.org/estir/
+
+A directory of graduate schools where a student can obtain a Ph.D. degree (or equivalent)
+by working for a professor who is specializing in electrochemical science or engineering.
+
+The file presently contains more than 700 listings from over 60 countries.
+
+***********************************************************************
+
+The following information is needed for a listing:
+
+Full name:
+
+Department:
+
+University:
+
+Mailing address:
+
+Phone:
+
+Fax:
+
+E-mail:
+
+WWW home page:
+
+Degree offered and in what field of science or engineering.    
+(The degree your students can obtain from your institution. 
+E.g., Ph.D. in chemistry.)
+
+A brief description of research interests, maximum ten (80 character) 
+lines. Use keyword type descriptors to facilitate searches.
+
+***********************************************************************
+
+The sister sites of ESTIR are:
+
+Electrochemistry Encyclopedia with more than 40 articles written by leading international experts
+(http://knowledge.electrochem.org/encycl/)
+
+and
+
+Electrochemistry Dictionary with more than 1,000 definitions
+(http://knowledge.electrochem.org/ed/dict.htm )
+
+ESTIR and the FTP site contain also other material of interest to electrochemists:
+
+Electrochemistry and related subjects on the Internet (>700 entries): 
+   WWW Sites, Newsgroups, Mailing Lists, FAQ Files   
+Public domain information on the Internet (over 20 entries):
+   Bibliographies, Software, Physical/Chemical Data   
+Popular science information (over 200 entries)  
+Review chapters (over 5,000 entries)  
+Books (over 2,000 entries)   
+Proceedings volumes (over 1,000 entries)   
+Historical publications in electrochemistry on the Internet (over 100 entries) 
+Scientific/technical societies (over 20 entries)   
+Scientific/technical journals (over 40 entries)   
+Handbooks, bibliographies (over 50 entries)   
+Nomenclature, standards, etc (over 40 entries)   
+Meetings
+
+***********************************************************************
+
+
+Regards:  Zoltan Nagy.
+

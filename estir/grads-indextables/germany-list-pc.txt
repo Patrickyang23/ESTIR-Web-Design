@@ -1,0 +1,26 @@
+<a href="#germ16"> Helmut Baltruschat</a>
+<a href="#germ20"> Andreas Bund</a>
+<a href="#germ10"> Heiner J. Gores</a>
+<a href="#germ1"> Rudolf Holze</a>
+<a href="#germ5"> Nils I. Jaeger</a>
+<a href="#germ6"> Juergen Janek</a>
+<a href="#germ8"> Zenonas Jusys</a>
+<a href="#germ11"> Olaf Magnussen</a>
+<a href="#germ23"> Frank-Michael Matysik</a>
+<a href="#germ15"> Vladimir Mirsky</a>
+<a href="#germ14"> Ulrich Nickel</a>
+<a href="#germ4"> Waldfried Plieth</a>
+<a href="#germ3"> Hans J. Schafer</a>
+<a href="#germ12"> Wieland Schafer</a>
+<a href="#germ13"> Fritz Scholz</a>
+<a href="#germ9"> Wolfgang Schuhmann</a>
+<a href="#germ19"> Bernd Speiser</a>
+<a href="#germ22"> Eckhard Spohr</a>
+<a href="#germ7"> Werner Weppner</a>
+<a href="#germ24"> Martin Winter</a>
+<a href="#germ17"> Gunther Wittstock</a>
+
+
+<!--  last number used:    germ24   not used germ2  and germ18   germ 21 -->
+
+

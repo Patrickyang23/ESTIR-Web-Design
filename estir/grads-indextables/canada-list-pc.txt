@@ -1,0 +1,43 @@
+<a href="#can36"> Elena Baranova</a>
+<a href="#can13"> Daniel Belanger</a>
+<a href="#can9"> Viola I. Birss</a>
+<a href="#can23"> Dan Bizzotto</a>
+<a href="#can18"> Gessie M. Brisard</a>
+<a href="#can16"> Alexandre G. Brolo</a>
+<a href="#can27"> Jean-Pol Dodelet</a>
+<a href="#can38"> Michael H. Eikerling</a>
+<a href="#can22"> Thomas H. Etsell</a>
+<a href="#can33"> Michael S. Freund</a>
+<a href="#can12"> David A. Harrington</a>
+<a href="#can3"> D. Jed Harrison</a>
+<a href="#can11"> Steven Holdcroft</a>
+<a href="#can30"> Abdelaziz Houmam</a>
+<a href="#can4"> Gregory Jerkiewicz</a>
+<a href="#can5"> Georges J. Kipouros</a>
+<a href="#can29"> Donald W. Kirk</a>
+<a href="#can6"> Andrzej Lasia</a>
+<a href="#can17"> R. Bruce Lennox</a>
+<a href="#can21"> Keryn Lian</a>
+<a href="#can14"> Jacek Lipkowski</a>
+<a href="#can15"> Jingli Luo</a>
+<a href="#can1"> Benoit Marsan</a>
+<a href="#can2"> Richard L. McCreery</a>
+<a href="#can26"> Mark T. McDermott</a>
+<a href="#can31"> Sylvie Morin</a>
+<a href="#can8"> Keith B. Oldham</a>
+<a href="#can32"> Sasha Omanovic</a>
+<a href="#can37"> Anthony Petric</a>
+<a href="#can20"> Peter G. Pickup</a>
+<a href="#can25"> Mark D. Pritzker</a>
+<a href="#can39"> Edward P.L. Roberts</a>
+<a href="#can28"> Oumarou Savadogo</a>
+<a href="#can7"> Steen B. Schougaard</a>
+<a href="#can24"> David W. Shoesmith</a>
+<a href="#can35"> Andy X. Sun</a>
+<a href="#can10"> Gilles Villemure</a>
+<a href="#can19"> Mark S. Workentin</a>
+<a href="#can34"> Hua-Zhong (Hogan) Yu</a>
+
+
+<!--  last number used:    can39    -->
+

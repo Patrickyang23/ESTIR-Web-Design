@@ -1,0 +1,46 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#t01">Tafel equation</a>  </td>
+<td width=200 > <a href="#t22">thin layer cell</a>  </td>
+<td width=200 > <a href="#t18">transition time</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t02">Tafel line</a>  </td>
+<td> <a href="#t07">third kind electrode</a>  </td>
+<td> <a href="#t21">transpassive potential</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t04">Tafel plot</a>  </td>
+<td> <a href="#t08">three-electrode cell</a>  </td>
+<td> <a href="#t13">transport number</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t03">Tafel slope</a>  </td>
+<td> <a href="#t24">three-phase boundary (interface)</a>  </td>
+<td> <a href="#t17">trickle charging</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t16">taper charging</a>  </td>
+<td> <a href="#t10">throwing power</a>  </td>
+<td> <a href="#t25">triple interface</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t20">tension</a>  </td>
+<td> <a href="#t26">top-off charging</a>  </td>
+<td> <a href="#t12">true current density</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t05">terminal</a>  </td>
+<td> <a href="#t19">totally-polarized electrode</a>  </td>
+<td> <a href="#t11">true electrode area</a>  </td>
+</tr>
+<tr>
+<td> <a href="#t15">tertiary current distribution</a>  </td>
+<td> <a href="#t06">transference number</a>  </td>
+<td> <a href="#t09">two-electrode cell</a>  </td>
+</tr>
+<tr><td> <a href="#t14">thermocell (thermogalvanic cell)</a>  </td>
+<td> <a href="#t23">transient technique</a>  </td>
+<td>  </td></tr>
+</table>
+<p clear=left>

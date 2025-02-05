@@ -1,0 +1,69 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr><td width=200 > <a href="#Algeria">Algeria </a>  </td>
+<td width=200 > <a href="#Greece"> Greece </a>  </td>
+<td width=200 > <a href="#Poland"> Poland </a>  </td></tr>
+<tr><td> <a href="#Argentina">Argentina </a>  </td>
+<td> <a href="#Hungary"> Hungary </a>  </td>
+<td> <a href="#Portugal"> Portugal </a>  </td></tr>
+<tr><td> <a href="#Australia">Australia </a>  </td>
+<td> <a href="#India"> India </a>  </td>
+<td> <a href="#Puerto Rico"> Puerto Rico </a>  </td></tr>
+<tr><td> <a href="#Austria">Austria </a>  </td>
+<td> <a href="#Iran"> Iran </a>  </td>
+<td> <a href="#Romania"> Romania </a>  </td></tr>
+<tr><td> <a href="#Bangladesh"> Bangladesh </a>  </td>
+<td> <a href="#Ireland"> Ireland </a>  </td>
+<td> <a href="#Russia"> Russia </a>  </td></tr>
+<tr><td> <a href="#Belarus"> Belarus </a>  </td>
+<td> <a href="#Israel"> Israel </a>  </td>
+<td> <a href="#Saudi"> Saudi Arabia </a>  </td></tr>
+<tr><td> <a href="#Belgium"> Belgium </a>  </td>
+<td> <a href="#Italy"> Italy </a>  </td>
+<td> <a href="#Serb"> Serbia </a>  </td></tr>
+<tr><td> <a href="#Brazil"> Brazil </a>  </td>
+<td> <a href="#Jamaica"> Jamaica </a>  </td>
+<td> <a href="#Singapore"> Singapore </a>  </td></tr>
+<tr><td> <a href="#Bulgaria"> Bulgaria </a>  </td>
+<td> <a href="#Japan"> Japan </a>  </td>
+<td> <a href="#Slovakia"> Slovakia </a>  </td></tr>
+<tr><td> <a href="#Cameroon"> Cameroon </a>  </td>
+<td> <a href="#Jordan"> Jordan </a>  </td>
+<td> <a href="#Slovenia"> Slovenia </a>  </td></tr>
+<tr><td> <a href="#Canada"> Canada </a>  </td>
+<td> <a href="#Korea"> Korea </a>  </td>
+<td> <a href="#South Africa"> South Africa </a>  </td></tr>
+<tr><td> <a href="#Chile"> Chile </a>  </td>
+<td> <a href="#Kuwait"> Kuwait </a>  </td>
+<td> <a href="#Spain"> Spain </a>  </td></tr>
+<tr><td> <a href="#China"> China </a>  </td>
+<td> <a href="#Lithuania"> Lithuania </a>  </td>
+<td> <a href="#Sweden"> Sweden </a>  </td></tr>
+<tr><td> <a href="#Croatia"> Croatia </a>  </td>
+<td> <a href="#Macedonia"> Macedonia </a>  </td>
+<td> <a href="#Switzerland"> Switzerland </a>  </td></tr>
+<tr><td> <a href="#Czech Republic"> Czech Republic </a>  </td>
+<td> <a href="#Malaysia"> Malaysia </a>  </td>
+<td> <a href="#Taiwan"> Taiwan </a>  </td></tr>
+<tr><td> <a href="#Denmark"> Denmark </a>  </td>
+<td> <a href="#Mexico"> Mexico </a>  </td>
+<td> <a href="#Turkey"> Turkey </a>  </td></tr>
+<tr><td> <a href="#Egypt"> Egypt </a>  </td>
+<td> <a href="#Nepal"> Nepal </a>  </td>
+<td> <a href="#Ukraine"> Ukraine </a>  </td></tr>
+<tr><td> <a href="#Estonia"> Estonia </a>  </td>
+<td> <a href="#Netherlands"> Netherlands </a>  </td>
+<td> <a href="#United Kingdom"> United Kingdom </a>  </td></tr>
+<tr><td> <a href="#Ethiopia"> Ethiopia </a>  </td>
+<td> <a href="#New Zealand"> New Zealand </a>  </td>
+<td> <a href="#Uruguay"> Uruguay </a>  </td></tr>
+<tr><td> <a href="#Finland"> Finland </a>  </td>
+<td> <a href="#Norway"> Norway </a>  </td>
+<td> <a href="#USA"> USA </a>  </td></tr>
+<tr><td> <a href="#France"> France </a>  </td>
+<td> <a href="#Pakistan"> Pakistan </a>  </td>
+<td> <a href="#Venezuela"> Venezuela </a>  </td></tr>
+<tr><td> <a href="#Germany"> Germany </a>  </td>
+<td>  </td>
+<td>  </td></tr>
+</table>
+<p clear=left>

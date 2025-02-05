@@ -1,0 +1,83 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#r36">radical</a>  </td>
+<td width=200 > <a href="#r20">redox battery</a>  </td>
+<td width=200 > <a href="#r14">resistance overpotential (polarization)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r16">rate constant</a>  </td>
+<td> <a href="#r26">redox couple</a>  </td>
+<td> <a href="#r22">resistivity (electrical)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r35">rated capacity</a>  </td>
+<td> <a href="#r19">redox electrode</a>  </td>
+<td> <a href="#r24">resistor</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r12">rate-determining step</a>  </td>
+<td> <a href="#r41">redox mediator</a>  </td>
+<td> <a href="#r07">rest potential</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r18">rational potential</a>  </td>
+<td> <a href="#r25">redox potential</a>  </td>
+<td> <a href="#r08">reversible electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r32">RDE</a>  </td>
+<td> <a href="#r03">redox reaction</a>  </td>
+<td> <a href="#r09">reversible electrode reaction</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r27">rds</a>  </td>
+<td> <a href="#r28">reducing agent</a>  </td>
+<td> <a href="#r38">reversible fuel cell</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r43">RE</a>  </td>
+<td> <a href="#r29">reductant</a>  </td>
+<td> <a href="#r13">reversible hydrogen electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r17">reactant</a>  </td>
+<td> <a href="#r02">reduction</a>  </td>
+<td> <a href="#r39">RHE</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r15">(electrode) reaction mechanism</a>  </td>
+<td> <a href="#r06">reference electrode</a>  </td>
+<td> <a href="#r48">rheostat</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r11">reaction overpotential (polarization)</a>  </td>
+<td> <a href="#r44">reforming</a>  </td>
+<td> <a href="#r46">rocking-chair battery</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r47">real electrode area</a>  </td>
+<td> <a href="#r45">regenerative braking</a>  </td>
+<td> <a href="#r30">rotating-disk electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r01">rechargeable battery</a>  </td>
+<td> <a href="#r40">regenerative fuel cell</a>  </td>
+<td> <a href="#r31">rotating-ring-disk electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r37">recharging</a>  </td>
+<td> <a href="#r05">reserve battery</a>  </td>
+<td> <a href="#r34">rotating-wire electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r04">rectifier</a>  </td>
+<td> <a href="#r10">residual current (density)</a>  </td>
+<td> <a href="#r21">roughness factor</a>  </td>
+</tr>
+<tr>
+<td> <a href="#r42">redox active species</a>  </td>
+<td> <a href="#r23">resistance</a>  </td>
+<td> <a href="#r33">RRDE</a>  </td>
+</tr>
+</table>
+<p clear=left>

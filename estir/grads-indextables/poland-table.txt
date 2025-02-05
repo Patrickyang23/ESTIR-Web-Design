@@ -1,0 +1,16 @@
+﻿<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr><td width=200 > <a href="#pol1"> Renata Bilewicz</a><br>  </td>
+<td width=200 > <a href="#pol12"> Elzbieta Krasicka-Cydzik</a><br>  </td>
+<td width=200 > <a href="#pol9"> Jan M. Skowronski</a><br>  </td></tr>
+<tr><td> <a href="#pol10"> Aleksander Ciszewski</a><br>  </td>
+<td> <a href="#pol13"> Pawel Krysinski</a><br>  </td>
+<td> <a href="#pol3"> Zbigniew J. Stojek</a><br>  </td></tr>
+<tr><td> <a href="#pol6"> Maria Grzeszczuk</a><br>  </td>
+<td> <a href="#pol5"> Pawel J. Kulesza</a><br>  </td>
+<td> <a href="#pol4"> Leszek Suski</a><br>  </td></tr>
+<tr><td> <a href="#pol11"> Maria Janik-Czachor</a><br>  </td>
+<td>  </td>
+<td>  </td></tr>
+</table>
+<p clear=left>
+

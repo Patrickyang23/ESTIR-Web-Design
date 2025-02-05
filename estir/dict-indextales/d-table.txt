@@ -1,0 +1,128 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#d07">Daniell cell</a>  </td>
+<td width=200 > <a href="#d69">diamond electrode</a>  </td>
+<td width=200 > <a href="#d21">dissociation</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d61">dark current</a>  </td>
+<td> <a href="#d06">diaphragm</a>  </td>
+<td> <a href="#d39">dissolved-oxygen electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d62">dark voltage</a>  </td>
+<td> <a href="#d59">dielectric</a>  </td>
+<td> <a href="#d04">divided cell</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d47">dc</a>  </td>
+<td> <a href="#d50">dielectric constant</a>  </td>
+<td> <a href="#d05">divider</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d57">Debye-Falkenhagen effect</a>  </td>
+<td> <a href="#d33">diffuse double layer</a>  </td>
+<td> <a href="#d72">dm</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d67">Debye-Huckel theory</a>  </td>
+<td> <a href="#d31">diffuse-junction potential</a>  </td>
+<td> <a href="#d75">dm<sup>3</sup></a>  </td>
+</tr>
+<tr>
+<td> <a href="#d71">decimeter</a>  </td>
+<td> <a href="#d38">diffuse layer</a>  </td>
+<td> <a href="#d23">dme</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d41">decomposition potential (voltage)</a>  </td>
+<td> <a href="#d19">diffusion</a>  </td>
+<td> <a href="#d55">DMFC</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d45">de-electronation</a>  </td>
+<td> <a href="#d68">diffusion coefficient</a>  </td>
+<td> <a href="#d60">DOD</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d73">deep-cycle battery</a>  </td>
+<td> <a href="#d58">diffusion control</a>  </td>
+<td> <a href="#d27">Donnan equilibrium</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d53">deep discharge</a>  </td>
+<td> <a href="#d28">diffusion layer</a>  </td>
+<td> <a href="#d26">Donnan potential</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d12">deferred-action battery</a>  </td>
+<td> <a href="#d29">diffusion limited current density</a>  </td>
+<td> <a href="#d40">Dorn potential (effect)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d24">degreasing</a>  </td>
+<td> <a href="#d20">diffusion overpotential (polarization)</a>  </td>
+<td> <a href="#d32">double-junction reference electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d01">deionization</a>  </td>
+<td> <a href="#d30">diffusion potential</a>  </td>
+<td> <a href="#d14">double layer</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d02">demineralization</a>  </td>
+<td> <a href="#d70">diffusion resistance</a>  </td>
+<td> <a href="#d15">double-layer capacitance</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d44">dendrite</a>  </td>
+<td> <a href="#d66">dimensionally stable electrode</a>  </td>
+<td> <a href="#d51">double-layer capacitor</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d54">depolarization</a>  </td>
+<td> <a href="#d34">dipole</a>  </td>
+<td> <a href="#d36">double-layer current (density)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d18">depolarizer</a>  </td>
+<td> <a href="#d35">dipole moment</a>  </td>
+<td> <a href="#d17">double-layer range (or window)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d09">deposition/dissolution</a>  </td>
+<td> <a href="#d11">direct current</a>  </td>
+<td> <a href="#d22">dropping-mercury electrode</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d42">depth of discharge</a>  </td>
+<td> <a href="#d63">direct-formic-acid fuel cell</a>  </td>
+<td> <a href="#d08">dry cell</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d03">desalination</a>  </td>
+<td> <a href="#d56">direct-methanol fuel cell</a>  </td>
+<td> <a href="#d13">dry-charged battery</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d37">desorption</a>  </td>
+<td> <a href="#d46">discharge rate</a>  </td>
+<td> <a href="#d65">DSA</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d43">dezincification</a>  </td>
+<td> <a href="#d10">discharging</a>  </td>
+<td> <a href="#d74">duty cycle</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d64">DFAFC</a>  </td>
+<td> <a href="#d25">disinfection of water</a>  </td>
+<td> <a href="#d16">dynamic equilibrium</a>  </td>
+</tr>
+<tr>
+<td> <a href="#d49">DHE</a>  </td>
+<td> <a href="#d52">disproportionation</a>  </td>
+<td> <a href="#d48">dynamic hydrogen electrode</a>  </td>
+</tr>
+</table>
+<p clear=left>

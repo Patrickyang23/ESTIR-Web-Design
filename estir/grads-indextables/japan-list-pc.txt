@@ -1,0 +1,46 @@
+<a href="#jap36"> Koichi Aoki</a>
+<a href="#jap14"> Jingyuan Chen</a>
+<a href="#jap1"> Shigehito Deki</a>
+<a href="#jap16"> Takao Esaka</a>
+<a href="#jap30"> Hiroki Habazaki</a>
+<a href="#jap8"> Koji Hashimoto</a>
+<a href="#jap9"> Takayuki Homma</a>
+<a href="#jap28"> Minoru Inaba</a>
+<a href="#jap33"> Masashi Ishikawa</a>
+<a href="#jap37"> Kingo Itaya</a>
+<a href="#jap29"> Masatoki Ito</a>
+<a href="#jap7"> Mitsuru Itoh</a>
+<a href="#jap19"> Chiaki Iwakura</a>
+<a href="#jap21"> Takashi Kakiuchi</a>
+<a href="#jap40"> Ryoji Kanno</a>
+<a href="#jap32"> Kazuo Kondo</a>
+<a href="#jap15"> Tomokazu Matsue</a>
+<a href="#jap26"> Tadashi Matsunaga</a>
+<a href="#jap38"> Kei Murakoshi</a>
+<a href="#jap18"> Nobuyoshi Nakagawa</a>
+<a href="#jap10"> Yoshihiro Nakato</a>
+<a href="#jap20"> Hiroshi Nishihara</a>
+<a href="#jap11"> Tsutomu Nonaka</a>
+<a href="#jap34"> Yukio H. Ogata</a>
+<a href="#jap23"> Zempachi Ogumi</a>
+<a href="#jap3"> Kotaro Ogura</a>
+<a href="#jap27"> Hiroyuki Ohno</a>
+<a href="#jap42"> Takeo Ohsaka</a>
+<a href="#jap24"> Tsutomu Ohzuku</a>
+<a href="#jap25"> Shigeto Okada</a>
+<a href="#jap5"> Tetsuya Osaka</a>
+<a href="#jap35"> Takamasa Sagara</a>
+<a href="#jap12"> Wataru Sugimoto</a>
+<a href="#jap2"> Toshihide Takenaka</a>
+<a href="#jap4"> Isao Taniguchi</a>
+<a href="#jap41"> Meguru Tezuka</a>
+<a href="#jap6"> Hiroyuki Uchida</a>
+<a href="#jap13"> Yoshiharu Uchimoto</a>
+<a href="#jap17"> Kohei Uosaki</a>
+<a href="#jap22"> Masataka Wakihara</a>
+<a href="#jap39"> Jun-ichi Yamaki</a>
+<a href="#jap31"> Jun-ichi Yoshida</a>
+
+
+<!--  last number used:    jap42     -->
+

@@ -1,0 +1,43 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#l21">l</a>  </td>
+<td width=200 > <a href="#l15">linear current-potential relation</a>  </td>
+<td width=200 > <a href="#l07">load</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l01">lead-acid battery</a>  </td>
+<td> <a href="#l23">linear polarization resistance</a>  </td>
+<td> <a href="#l13">load leveling</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l12">leakage current</a>  </td>
+<td> <a href="#l16">linear range</a>  </td>
+<td> <a href="#l11">local cell</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l10">Leclanche cell (battery)</a>  </td>
+<td> <a href="#l04">linear-sweep voltammetry</a>  </td>
+<td> <a href="#l17">low voltage cut-off</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l08">leveling agent, leveler</a>  </td>
+<td> <a href="#l02">liquid-junction potential</a>  </td>
+<td> <a href="#l24">LPR</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l14">Levich equation</a>  </td>
+<td> <a href="#l20">liter</a>  </td>
+<td> <a href="#l05">LSV</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l22">ligand</a>  </td>
+<td> <a href="#l19">lithium battery</a>  </td>
+<td> <a href="#l03">Luggin tip (Luggin capillary) (Luggin probe)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#l09">limiting current density</a>  </td>
+<td> <a href="#l18">lithium-ion battery</a>  </td>
+<td> <a href="#l06">LV</a>  </td>
+</tr>
+</table>
+<p clear=left>

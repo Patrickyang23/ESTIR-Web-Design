@@ -1,0 +1,48 @@
+<table align=left width=600 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td width=200 > <a href="#b13">background current (density)</a>  </td>
+<td width=200 > <a href="#b25">BDD</a>  </td>
+<td width=200 > <a href="#b24">boron-doped diamond</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b22">Baizer-Danly process</a>  </td>
+<td> <a href="#b09">bioelectrochemistry</a>  </td>
+<td> <a href="#b12">boundary layer</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b26">band gap</a>  </td>
+<td> <a href="#b03">bipolar electrode</a>  </td>
+<td> <a href="#b10">brightening agent, brightener</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b19">barrier (oxide) film</a>  </td>
+<td> <a href="#b15">bipotentiostat</a>  </td>
+<td> <a href="#b05">brine electrolysis</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b07">base</a>  </td>
+<td> <a href="#b27">BL</a>  </td>
+<td> <a href="#b08">buffer solution</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b04">basicity</a>  </td>
+<td> <a href="#b06">bleach production</a>  </td>
+<td> <a href="#b14">bus(bar)</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b11">bath</a>  </td>
+<td> <a href="#b23">blood glucose sensor</a>  </td>
+<td> <a href="#b20">Butler-Volmer equation</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b01">battery</a>  </td>
+<td> <a href="#b21">Bode plot</a>  </td>
+<td> <a href="#b17">button cell</a>  </td>
+</tr>
+<tr>
+<td> <a href="#b02">battery charger</a>  </td>
+<td> <a href="#b18">boost charging</a>  </td>
+<td> <a href="#b16">bypass current</a>  </td>
+</tr>
+</table>
+<p clear=left>

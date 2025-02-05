@@ -1,0 +1,42 @@
+Mon Sep 29 12:22:11 2014
+Search term used: "     " ofound: 0.
+Mon Sep 29 12:22:11 2014
+Search term used: "     " ofound: 0.
+Mon Sep 29 12:23:08 2014
+Search term used: " electron    " ofound: 1.
+Mon Sep 29 12:23:22 2014
+Search term used: " chem    " ofound: 150.
+Mon Sep 29 12:29:15 2014
+Search term used: " chem    " ofound: 150.
+Mon Sep 29 13:02:21 2014
+Search term used: " battery    " ofound: 52.
+Mon Sep 29 15:31:48 2014
+Search term used: " zinc    " ofound: 9.
+Mon Sep 29 18:57:00 2014
+Search term used: " copper    " ofound: 24.
+Mon Sep 29 19:26:55 2014
+Search term used: " tin    " ofound: 168.
+Mon Sep 29 19:28:37 2014
+Search term used: " iron    " ofound: 2.
+Mon Sep 29 20:09:58 2014
+Search term used: " test    " ofound: 8.
+Mon Sep 29 20:16:53 2014
+Search term used: " gas    " ofound: 6.
+Mon Sep 29 20:24:13 2014
+Search term used: " gas    " ofound: 6.
+Mon Sep 29 20:24:45 2014
+Search term used: " fire    " ofound: 1.
+Mon Sep 29 22:52:44 2014
+Search term used: " bronz    " AND " copper    "
+ofound: 0.
+Mon Sep 29 22:53:17 2014
+Search term used: " zinc    " AND " copper    "
+ofound: 4.
+Mon Sep 29 22:53:35 2014
+Search term used: " zinc    " NOT " copper    "
+ofound: 5.
+Mon Sep 29 22:53:49 2014
+Search term used: " zinc    " AND " copper    "
+ofound: 4.
+Mon Sep 29 23:02:39 2014
+Search term used: " vv    " ofound: 0.

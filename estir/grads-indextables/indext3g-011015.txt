@@ -1,0 +1,154 @@
+#!c:/perl
+
+#  indext3g.pl
+#  program to create an index table in three columns
+#  to be used with GRADS
+#     zn.  Oct. 15, 2001.
+
+#  use:   "perl indext3g.pl countryname"
+
+# use input argument to define filenames
+
+$listname = $ARGV[0]."-list.txt";
+$tablename = $ARGV[0]."-table.txt";
+#$listfile="d:\\zn-estir\\grads\\indextables\\$listname";
+#$tablefile="d:\\zn-estir\\grads\\indextables\\$tablename";
+$listfile="/home/httpd/html/estir/notes-g-index/$listname";
+$tablefile="/home/httpd/html/estir/notes-g-index/$tablename";
+
+open (INLIST, "$listfile")||
+      die("Cannot open listfile, $! \n");
+
+#   read in list from file
+
+$i =0;
+while (!eof(INLIST))
+{  
+     $line = <INLIST>;
+     last if ($line eq "\n");
+     $line =~ s/\n/ /;
+     $list[$i] = $line;
+     $i++;
+  }
+
+close INLIST;
+
+# determine needed lines
+
+$nc = 3;                                  #   number of columns
+$twidth = 600;                            # width of table in pixels
+$cwidth = $twidth / $nc;                  # width of columns in pixels
+$ffull = $i / $nc;
+$full = int($ffull);                      # number of full lines in table
+$left = $i % $nc;  # if last line is not full, number of entries in last line
+
+#    create table
+
+open (OUTTABLE, ">$tablefile")||
+      die("Cannot open tablefile, $! \n");
+print OUTTABLE "<table align=left width=$twidth border=0 cellspacing=0 cellpadding=0 >\n";
+
+if ($left == 0)
+
+{ #1
+#   write the first row
+  print OUTTABLE "<tr>\n";
+  $ln = 0;
+  for ($r1 = 1; $r1 <=$nc; $r1++)
+    { #2
+      print OUTTABLE "<td width=$cwidth > $list[$ln] </td>\n";
+      $ln += $full;
+    } #2
+  print OUTTABLE "</tr>\n";
+
+#   write the rest of full rows
+
+  for ($row = 2; $row <= $full; $row++)
+    { #3
+      print OUTTABLE "<tr>\n";
+      $ln = $row -1 ;
+      for ($rx = 1; $rx <= $nc; $rx++)
+        { #4
+          print OUTTABLE "<td> $list[$ln] </td>\n";
+          $ln += $full;
+        } #4
+      print OUTTABLE "</tr>\n";
+     } #3
+
+} #1
+
+if ($left == 1)
+
+{ #5
+#   write the first row
+  $ln = 0;
+  print OUTTABLE "<tr><td width=$cwidth > $list[$ln] </td>\n";
+  $ln += ($full + 1);
+  print OUTTABLE "<td width=$cwidth > $list[$ln] </td>\n";
+  $ln += $full;
+  print OUTTABLE "<td width=$cwidth > $list[$ln] </td></tr>\n";
+
+#   write the rest of full rows
+
+  for ($row = 2; $row <= $full; $row++)
+    { #6
+      $ln = $row -1 ;
+      print OUTTABLE "<tr><td> $list[$ln] </td>\n";
+      $ln += ($full + 1);
+      print OUTTABLE "<td> $list[$ln] </td>\n";
+      $ln += $full;
+      print OUTTABLE "<td> $list[$ln] </td></tr>\n";
+    } #6
+
+#   write the last row
+
+  $ln = $full;
+  print OUTTABLE "<tr><td> $list[$ln] </td>\n";
+  print OUTTABLE "<td>  </td>\n";
+  print OUTTABLE "<td>  </td></tr>\n";
+
+} #5
+
+if ($left == 2)
+
+{ #7
+#   write the first row
+  print OUTTABLE "<tr>\n";
+  $ln = 0;
+  for ($r1 = 1; $r1 <=$nc; $r1++)
+    { #8
+      print OUTTABLE "<td width=$cwidth > $list[$ln] </td>\n";
+      $ln += ($full + 1);
+    } #8
+  print OUTTABLE "</tr>\n";
+
+#   write the rest of full rows
+
+  for ($row = 2; $row <= $full; $row++)
+    { #9
+      print OUTTABLE "<tr>\n";
+      $ln = $row -1 ;
+      for ($rx = 1; $rx <= $nc; $rx++)
+        { #4
+          print OUTTABLE "<td> $list[$ln] </td>\n";
+          $ln += ($full + 1);
+        } #4
+      print OUTTABLE "</tr>\n";
+     } #9
+
+#   write the last row
+
+  $ln = $full;
+  print OUTTABLE "<tr><td> $list[$ln] </td>\n";
+  $ln += ($full + 1);
+  print OUTTABLE "<td> $list[$ln] </td>\n";
+  print OUTTABLE "<td>  </td></tr>\n";
+
+} #7
+
+print OUTTABLE "</table>\n";
+print OUTTABLE "<p clear=left>\n";
+close OUTTABLE;
+
+# end of indext3g.pl
+
