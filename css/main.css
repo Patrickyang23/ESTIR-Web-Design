@@ -22,56 +22,13 @@ header {
 
 /* Navigation Bar */
 nav {
-    width: 100%; /* Make nav span the full width of the header */
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    /* width: 100%;  */
+    background-color: #01377D;
+    /* position: fixed; */
+    padding: 5px 0px;
     display: flex;
-    justify-content: space-evenly;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
-    background-color: #01377D;
-    /* padding: 10px 0; */
-}
-
-nav ul li {
-	flex: 1; /* Ensure each nav item takes equal width */
-    text-align: center; /* Center text inside each block */
-    padding: 10px 0; /* Vertical padding for nav items */
-    font-weight: bold; /* Bold text */
-    color: white; /* Text color */
-}
-
-nav ul li:nth-child(1) {
-    background-color: #01377D;
-}
-
-nav ul li:nth-child(2) {
-    background-color: #009DD1;
-}
-
-nav ul li:nth-child(3) {
-    background-color: #77bcd7;
-}
-
-nav ul li:nth-child(4) {
-    background-color: #56ab31;
-}
-
-nav ul li:nth-child(5) {
-    background-color: #26BE70;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Banner Image */
@@ -81,9 +38,120 @@ header a img {
     display: block; /* Remove extra spacing below the image */
 }
 
+/* Hamburger Menu */
+.hamburger {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+nav .search-container {
+    margin-right: 5px;
+}
+
+nav .search-container button {
+    font-size: 1rem;
+}
+
+/* Side Navigation Menu */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #01377D;
+    transition: left 0.3s ease-in-out;
+    padding-top: 60px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu ul {
+    list-style: none;
+}
+
+.side-menu ul li {
+    padding: 5px;
+}
+
+/* When menu is open */
+.side-menu.show {
+    left: 0;
+}
+
+.side-menu a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.side-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Overlay Effect */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* When overlay is active */
+.overlay.show {
+    display: block;
+}
+
+
+/* Sidebar (Hidden in Mobile, Visible in Desktop) */
+#sidebar {
+    display: none; /* Initially hidden */
+}
+
+/* Navigation Container */
+.navigation-container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+/* "Skip to" Label */
+.navigation-container span {
+    white-space: nowrap; /* Ensures "Skip to" stays on one line */
+}
+
+.navigation-container ul {
+    width: 100%; /* Ensures it spans full width */
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next row if needed */
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+/* Navigation Items */
+/* .navigation-container ul li {
+    flex: 1 1 auto; Distributes space evenly while allowing wrapping
+    text-align: left;
+
+} */
+
 /* Container Styling */
 .main-container {
     display: flex;
+    flex-direction: column;
     /* margin: 20px auto; */
     gap: 15px;
 }
@@ -107,12 +175,12 @@ header a img {
 }
 
 aside {
-    flex: 1;
+    /* flex: 1; */
 	background-color: #d8d8d8;
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
+    width: 180px;
 	
 }
 
@@ -145,15 +213,17 @@ aside ul li a:hover {
 .search-container {
     display: flex;
     align-items: center;
+    align-items: center;
     background-color: #f4f4f4; /* Light gray background */
     padding: 5px 10px;
     border-radius: 5px;
-    margin-bottom: 30px; /* Space below the search bar */
+    /* margin-bottom: 30px; Space below the search bar */
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
 }
 
 /* Search Input Field */
 .search-container input {
+    width: 50px;
     flex: 1;
     border: none;
     outline: none;
@@ -166,7 +236,7 @@ aside ul li a:hover {
 /* Search Button */
 .search-container button {
 	position: relative;
-	left: -20px;
+	/* left: -20px; */
     background: none;
     border: none;
     cursor: pointer;
@@ -254,9 +324,9 @@ ul ul {
 	margin-left: 15px;
 }
 
-ul li {
+/* ul li {
 	line-height: 1.8em;
-}
+} */
 
 ol {
 	list-style-type: decimal;
@@ -283,7 +353,7 @@ dl dt {
 /* Footer Section */
 footer {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
     background-color: #d8d8d8;
     align-items: center; /* Vertically center content */
     justify-content: space-between; /* Add space between image and text */
@@ -294,13 +364,8 @@ footer {
 }
 
 footer img {
-	padding-left: 30px;
     max-width: 200px; /* Restrict the logo size */
     height: auto; /* Maintain aspect ratio */
-}
-
-.footer-text {
-	padding-right: 30px;
 }
 
 footer p {
@@ -505,6 +570,134 @@ table a:hover {
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    /* nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+        /* padding: 10px 0; */
+    /*} */
+
+    .side-menu {
+        position: static;
+        width: 100%;
+        height: auto;
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* .side-menu a {
+        padding: 15px 20px;
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        flex: 1;
+    } */
+
+    .side-menu ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+        background-color: #01377D;
+        /* padding: 10px 0; */
+    }
+
+    .side-menu ul li {
+        flex: 1; /* Ensure each nav item takes equal width */
+        text-align: center; /* Center text inside each block */
+        padding: 10px 0; /* Vertical padding for nav items */
+        font-weight: bold; /* Bold text */
+        color: white; /* Text color */
+    }
+    
+    .side-menu ul li:nth-child(1) {
+        background-color: #01377D;
+    }
+    
+    .side-menu ul li:nth-child(2) {
+        background-color: #009DD1;
+    }
+    
+    .side-menu ul li:nth-child(3) {
+        background-color: #77bcd7;
+    }
+    
+    .side-menu ul li:nth-child(4) {
+        background-color: #56ab31;
+    }
+    
+    .side-menu ul li:nth-child(5) {
+        background-color: #26BE70;
+    }
+    
+    .side-menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .side-menu nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* Container Styling */
+    .main-container {
+        flex-direction: row;
+    }
+
+    #sidebar {
+        display: block; /* Show sidebar on large screens */
+    }
+
+    .navigation-container {
+        display: none;
+    }
+
+    nav .search-container {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #d8d8d8;
+        align-items: center; /* Vertically center content */
+        justify-content: space-between; /* Add space between image and text */
+        padding: 20px;
+        gap: 30px;
+        font-size: 1em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer img {
+        padding-left: 30px;
+        max-width: 200px; /* Restrict the logo size */
+        height: auto; /* Maintain aspect ratio */
+    }
 }
 
 

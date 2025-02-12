@@ -1,3 +1,22 @@
+// Toggles the side navigation menu on mobile screens
+document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.querySelector(".side-menu");
+    const overlay = document.querySelector(".overlay");
+    const hamburger = document.querySelector(".hamburger");
+
+    function toggleMenu() {
+        menu.classList.toggle("show");
+        overlay.classList.toggle("show");
+    }
+
+    // Click on the hamburger icon to open the menu
+    hamburger.addEventListener("click", toggleMenu);
+
+    // Click on overlay to close the menu
+    overlay.addEventListener("click", toggleMenu);
+});
+
+
 // For dictionary page, handle the interaction to show and hide the corresponding content when a letter is clicked
 document.addEventListener("DOMContentLoaded", () => {
     const letters = document.querySelectorAll(".letter");

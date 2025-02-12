@@ -17,26 +17,57 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="estir/index.html">ESTIR</a></li>
-                <li><a href="encycl/index.html">Encyclopedia</a></li>
-                <li><a href="ed/dict.html">Dictionary</a></li>
-                <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
-            </ul>
+            <button class="hamburger">☰</button>
+
+            <div class="side-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="estir/index.html">ESTIR</a></li>
+                    <li><a href="encycl/index.html">Encyclopedia</a></li>
+                    <li><a href="ed/dict.html">Dictionary</a></li>
+                    <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
+                </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <!-- <button class="search-icon" onclick="toggleSearch()">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </button> -->
+
+            <div class="search-container">
+                <input type="text" placeholder="Search">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
         </nav>
+
         <a href="index.html">
             <img src="images/banner_knowledge.jpg" alt="Electrochemistry Knowledge Banner">
         </a>
     </header>
 
+
     <div class="main-container">
-        <aside>
+         <!-- Sidebar Navigation (Row in Mobile, Sidebar in Desktop) -->
+        <div class="navigation-container">
+            <span>Skip to:</span>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#estir">ESTIR</a></li>
+                <li><a href="#dictionary">Dictionary</a></li>
+                <li><a href="#encyclopedia">Encyclopedia</a></li>
+            </ul>
+        </div>
+
+         <!-- Sidebar (Hidden in Mobile, Visible in Desktop) -->
+        <aside id="sidebar">
             <div class="fixed-sidebar">
-                <h3 class="subtitle">Search</h3>
-                <div class="search-container">
-                    <input type="text" placeholder="Search">
-                    <button type="button"><i class="fas fa-search"></i></button>
+                <div class = "sidebar-search">
+                    <h3 class="subtitle">Search</h3>
+                    <div class="search-container">
+                        <input type="text" placeholder="Search">
+                        <button type="button"><i class="fas fa-search"></i></button>
+                    </div>
                 </div>
 
                 <h3 class="subtitle">Navigation</h3>
@@ -110,7 +141,8 @@
             </p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-    <script src="js/analytics.js" defer></script>
+    <script src="js/analytics.js"></script>
 </body>
 </html>

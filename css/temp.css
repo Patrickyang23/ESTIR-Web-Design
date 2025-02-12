@@ -1,0 +1,73 @@
+@meida (min-width: 640ox) {
+    nav {
+        width: 100%; /* Make nav span the full width of the header */
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+        background-color: #01377D;
+        /* padding: 10px 0; */
+    }
+    
+    nav ul li {
+        flex: 1; /* Ensure each nav item takes equal width */
+        text-align: center; /* Center text inside each block */
+        padding: 10px 0; /* Vertical padding for nav items */
+        font-weight: bold; /* Bold text */
+        color: white; /* Text color */
+    }
+    
+    nav ul li:nth-child(1) {
+        background-color: #01377D;
+    }
+    
+    nav ul li:nth-child(2) {
+        background-color: #009DD1;
+    }
+    
+    nav ul li:nth-child(3) {
+        background-color: #77bcd7;
+    }
+    
+    nav ul li:nth-child(4) {
+        background-color: #56ab31;
+    }
+    
+    nav ul li:nth-child(5) {
+        background-color: #26BE70;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    
+}
+
+<aside id="sidebar">
+<div class="fixed-sidebar">
+    <!-- <h3 class="subtitle">Search</h3>
+    <div class="search-container">
+        <input type="text" placeholder="Search">
+        <button type="button"><i class="fas fa-search"></i></button>
+    </div> -->
+
+    <h3 class="subtitle">Navigation</h3>
+    <ul>
+        <li><a href="#introduction">> Introduction</a></li>
+        <li><a href="#estir">> ESTIR</a></li>
+        <li><a href="#dictionary">> Dictionary</a></li>
+        <li><a href="#encyclopedia">> Encyclopedia</a></li>
+    </ul>
+</div>
+</aside>
