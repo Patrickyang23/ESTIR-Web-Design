@@ -48,10 +48,11 @@ for entry in entries:
         # Create an individual HTML page for the term
         filename = anchor_to_file[vocab_tag['name']]
         with open(filename, 'w', encoding='utf-8') as vocab_file:
-            vocab_file.write(f"""
-<!DOCTYPE html>
-<html lang="en">
-<head>
+            vocab_file.write(f"""  
+                             
+                             <!DOCTYPE html>
+    <html lang="en">
+    <head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Many thousands of electrochemistry information items: Encyclopedia, Dictionary, website links, books, reviews, graduate schools, definitions, popular-science style articles, meetings, etc.">
@@ -66,7 +67,7 @@ for entry in entries:
     <title>{vocab}</title>
 </head>
 <body>
-    <header>
+      <header>
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -80,7 +81,6 @@ for entry in entries:
             <img src="../images/banner_encyclopedia.jpg" alt="Electrochemical Encyclopedia Banner">
         </a>
     </header>
-
     <!-- Main content container -->
     <div class="main-container">
         <aside>
@@ -90,7 +90,6 @@ for entry in entries:
                     <input type="text" placeholder="Search">
                     <button type="button"><i class="fas fa-search"></i></button>
                 </div>
-
                 <!-- Navigation menu for sections -->
                 <h3 class="subtitle">Navigation</h3>
                 <ul>
@@ -104,6 +103,8 @@ for entry in entries:
         </aside>
         <main>
             <section>
+
+    
             <h2>{vocab}</h2>
             {explanation}
         </section>

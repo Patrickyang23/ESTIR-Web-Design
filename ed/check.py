@@ -5,10 +5,11 @@ from bs4 import BeautifulSoup
 # Use the current directory where the script is located
 directory = os.path.dirname(os.path.abspath(__file__))
 
-# Regular expression to match "/encycl/art-" at the correct position and ensure it ends with ".htm.html"
-pattern = re.compile(r'^(.*?)/encycl/article/art-([^/]+).htm.html$', re.IGNORECASE)
+# Regular expressions
+# pattern_htm = re.compile(r'\.htm$', re.IGNORECASE)  
+pattern_article = re.compile(r'^/encycl/article/', re.IGNORECASE)  # Match "/encycl/article/"
 
-def check_and_modify_files(directory):
+def convert_links(directory):
     for filename in os.listdir(directory):
         if filename.endswith(".html") or filename.endswith(".htm"):  # Only check HTML files
             file_path = os.path.join(directory, filename)
@@ -22,21 +23,25 @@ def check_and_modify_files(directory):
             for a_tag in soup.find_all("a", href=True):
                 href_value = a_tag["href"].strip()
 
-                # Check if it matches the pattern
-                match = pattern.match(href_value)
-                if match:
-                    # Remove only the ".htm" part if it appears before ".html"
-                    corrected_filename = href_value.replace('.htm.html', '.html')
-
-                    print(f"Fixing in {filename}: {href_value}  →  {corrected_filename}")
-                    a_tag["href"] = corrected_filename
+                # 1. Replace ".htm" with ".html"
+                # if pattern_htm.search(href_value):
+                #     href_value = pattern_htm.sub(".html", href_value)  # Replace .htm with .html
+                #     modified = True  # Mark as modified
+                
+                # 2. Change "/encycl/article/..." to "../encycl/article/..."
+                if pattern_article.match(href_value):
+                    href_value = href_value.replace("/encycl/article/", "../encycl/article/", 1)
                     modified = True  # Mark as modified
+
+                # Update the <a> tag if changes were made
+                if modified:
+                    print(f"Updating in {filename}: {a_tag['href']}  →  {href_value}")
+                    a_tag["href"] = href_value
             
             # Save the updated file only if modifications were made
             if modified:
                 with open(file_path, "w", encoding="utf-8") as updated_file:
                     updated_file.write(str(soup))
-                    
 
 # Run the function
-check_and_modify_files(directory)
+convert_links(directory)
