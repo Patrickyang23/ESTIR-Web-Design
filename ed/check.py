@@ -7,7 +7,7 @@ directory = os.path.dirname(os.path.abspath(__file__))
 
 # Regular expressions
 # pattern_htm = re.compile(r'\.htm$', re.IGNORECASE)  
-pattern_article = re.compile(r'^/encycl/article/', re.IGNORECASE)  # Match "/encycl/article/"
+pattern_article = re.compile(r'^../encycl/article/', re.IGNORECASE)  # Match "/encycl/article/"
 
 def convert_links(directory):
     for filename in os.listdir(directory):
@@ -30,7 +30,7 @@ def convert_links(directory):
                 
                 # 2. Change "/encycl/article/..." to "../encycl/article/..."
                 if pattern_article.match(href_value):
-                    href_value = href_value.replace("/encycl/article/", "../encycl/article/", 1)
+                    href_value = href_value.replace("../encycl/article/", "../encycl/articles/", 1)
                     modified = True  # Mark as modified
 
                 # Update the <a> tag if changes were made
