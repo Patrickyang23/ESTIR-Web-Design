@@ -112,7 +112,7 @@ nav .search-container button {
 
 
 /* Sidebar (Hidden in Mobile, Visible in Desktop) */
-#sidebar {
+.sidebar {
     display: none; /* Initially hidden */
 }
 
@@ -583,16 +583,18 @@ table a:hover {
         align-items: center;
         padding: 0;
     }
-    
-    /* nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-evenly;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
-        /* padding: 10px 0; */
-    /*} */
+
+    main h2 {
+        font-size: 1.1em;
+    }
+
+    main h2 i {
+        font-size: 1.1em;
+    }
+
+    main h3 {
+        font-size: 1.1em;
+    }
 
     .side-menu {
         position: static;
@@ -604,15 +606,6 @@ table a:hover {
         justify-content: center;
         padding: 0;
     }
-
-    /* .side-menu a {
-        padding: 15px 20px;
-        background-color: transparent;
-        color: white;
-        font-size: 16px;
-        text-align: center;
-        flex: 1;
-    } */
 
     .side-menu ul {
         width: 100%;
@@ -669,7 +662,7 @@ table a:hover {
         flex-direction: row;
     }
 
-    #sidebar {
+    .sidebar {
         display: block; /* Show sidebar on large screens */
     }
 
