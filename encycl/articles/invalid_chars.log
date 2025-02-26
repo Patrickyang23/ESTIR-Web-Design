@@ -1,0 +1,21 @@
+Scanning directory: .
+----------------------------------------
+[WARNING] Invalid characters found in .\art-e04-echem-soc.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-g01-glucose.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-i01-inhibitors.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-i02-introduction.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-n01-nose.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-n02-nernst.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-p04-metalpowder.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-p06-photoel.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\art-s02-sensor.html:
+  Character: '�' (ASCII: Replacement)
+Scan complete. Check invalid_chars.log for results.
