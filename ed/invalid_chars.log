@@ -1,0 +1,31 @@
+Scanning directory: .
+----------------------------------------
+[WARNING] Invalid characters found in .\absolute temperature.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\anodic partial current (density).html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\anodized (anodic) aluminum oxide.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\barrier (oxide) film.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\current leakage.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\E-nose.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\electrochemical atomic layer deposition.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\electrochemical atomic layer epitaxy.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\isopotential point.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\Kelvin.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\linear polarization resistance.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\milliampere-hour.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\photoelectrochemistry.html:
+  Character: '�' (ASCII: Replacement)
+[WARNING] Invalid characters found in .\SCE.html:
+  Character: '�' (ASCII: Replacement)
+Scan complete. Check invalid_chars.log for results.
