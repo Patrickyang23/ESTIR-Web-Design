@@ -532,6 +532,7 @@ table a:hover {
     justify-content: center;
     padding: 10px;
     background-color: #fff;
+    flex-wrap: wrap;
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 }
 
