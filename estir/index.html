@@ -12,11 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/html5reset.css">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js" defer></script>
     <title>Electrochemical Science and Technology Information Resource (ESTIR)</title>
 </head>
 <body>
     <header>
         <nav>
+            <button class="hamburger">☰</button>
+            <div class="side-menu">
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../estir/index.html">ESTIR</a></li>
@@ -24,6 +27,12 @@
                 <li><a href="../ed/dict.html">Dictionary</a></li>
                 <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
             </ul>
+            </div>
+            <div class="overlay"></div>
+            <div class="search-container">
+                <input type="text" placeholder="Search">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
         </nav>
         <a href="index.html">
             <img src="../images/banner_estir.jpg" alt="Electrochemical Science and Technology Information Resource Banner">
@@ -31,8 +40,20 @@
     </header>
 
     <div class="main-container">
-        <aside>
+        <!-- Sidebar Navigation (Row in Mobile, Sidebar in Desktop) -->
+        <div class="navigation-container">
+            <span>Skip to:</span>
+            <ul>
+            <!-- Mobile navigation items -->
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#other-sites">Other Sites</a></li>
+                <li><a href="#index">Index</a></li>
+            </ul>
+        </div>
+
+        <aside class="sidebar">
             <div class="fixed-sidebar">
+                <div class="sidebar-search">
                 <h3 class="subtitle">Search</h3>
                 <div class="search-container">
                     <input type="text" placeholder="Search">
@@ -41,9 +62,9 @@
 
                 <h3 class="subtitle">Navigation</h3>
                 <ul>
-                    <li><a href="#introduction">> Introduction</a></li>
-                    <li><a href="#other-sites">> Other Sites</a></li>
-                    <li><a href="#index">> Index</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#other-sites">Other Sites</a></li>
+                    <li><a href="#index">Index</a></li>
                 </ul>
             </div>
         </aside>
@@ -182,7 +203,5 @@
             </p>
         </div>
     </footer>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-    <script src="../js/analytics.js" defer></script>
 </body>
 </html>

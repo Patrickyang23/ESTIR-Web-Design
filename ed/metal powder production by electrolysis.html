@@ -14,11 +14,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
 <link href="../css/html5reset.css" rel="stylesheet"/>
 <link href="../css/main.css" rel="stylesheet"/>
+<script src="../js/main.js" defer></script>
 <title>metal powder production by electrolysis</title>
 </head>
 <body>
 <header>
 <nav>
+    <button class="hamburger">☰</button>
+<div class="side-menu">
 <ul>
 <li><a href="../index.html">Home</a></li>
 <li><a href="../estir/index.html">ESTIR</a></li>
@@ -26,6 +29,12 @@
 <li><a href="../ed/dict.html">Dictionary</a></li>
 <li><a href="https://www.electrochem.org/" target="_blank">ECS Page</a></li>
 </ul>
+</div>
+<div class="overlay"></div>
+<div class="search-container">
+    <input type="text" placeholder="Search">
+    <button type="button"><i class="fas fa-search"></i></button>
+</div>
 </nav>
 <a href="index.html">
 <img alt="Electrochemical Encyclopedia Banner" src="../images/banner_encyclopedia.jpg"/>
@@ -33,8 +42,22 @@
 </header>
 <!-- Main content container -->
 <div class="main-container">
-<aside>
+    <!-- Sidebar Navigation (Row in Mobile, Sidebar in Desktop) -->
+    <div class="navigation-container">
+        <span>Skip to:</span>
+        <ul>
+        <!-- Mobile navigation items -->
+            <li><a href="#article">Main Content</a></li>
+            <li><a href="#appendix">Appendix</a></li>
+            <li><a href="#acknowledgements">Acknowledgements</a></li>
+            <li><a href="#bibliography">Bibliography</a></li>
+            <li><a href="#other-resources">Other Resources</a></li>
+        </ul>
+    </div>
+
+<aside class="sidebar">
 <div class="fixed-sidebar">
+<div class="sidebar-search">
 <h3 class="subtitle">Search</h3>
 <div class="search-container">
 <input placeholder="Search" type="text"/>
@@ -43,11 +66,11 @@
 <!-- Navigation menu for sections -->
 <h3 class="subtitle">Navigation</h3>
 <ul>
-<li><a href="#article">&gt; Main Content</a></li>
-<li><a href="#appendix">&gt; Appendix</a></li>
-<li><a href="#acknowledgements">&gt; Acknowledgements</a></li>
-<li><a href="#bibliography">&gt; Bibliography</a></li>
-<li><a href="#other-resources">&gt; Other Resources</a></li>
+<li><a href="#article">Main Content</a></li>
+<li><a href="#appendix">Appendix</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#bibliography">Bibliography</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
 </ul>
 </div>
 </aside>
@@ -71,7 +94,7 @@ Metal powders can be produced by <a href="electrolysis.html">electrolyis</a> wit
 <!-- DO NOT EDIT BELOW THIS LINE -->
 <!-- FOOTER CODE -->
 <footer>
-<img alt="ECS Logo" src="../../images/ECS_Logo-removebg.png"/>
+<img alt="ECS Logo" src="../images/ECS_Logo-removebg.png"/>
 <div class="footer-text">
 <p>
                 Hosted by: <a href="http://www.electrochem.org/" target="_blank">The Electrochemical Society, Inc. (ECS)</a> | 
@@ -88,7 +111,5 @@ Metal powders can be produced by <a href="electrolysis.html">electrolyis</a> wit
 </p>
 </div>
 </footer>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-<script defer="" src="../../js/analytics.js"></script>
 </body>
 </html>

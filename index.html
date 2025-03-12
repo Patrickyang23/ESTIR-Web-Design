@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
     <title>Electrochemistry Knowledge</title>
 </head>
 <body>
@@ -30,10 +31,6 @@
             </div>
 
             <div class="overlay"></div>
-
-            <!-- <button class="search-icon" onclick="toggleSearch()">
-                <button type="button"><i class="fas fa-search"></i></button>
-            </button> -->
 
             <div class="search-container">
                 <input type="text" placeholder="Search">
@@ -60,9 +57,9 @@
         </div>
 
          <!-- Sidebar (Hidden in Mobile, Visible in Desktop) -->
-        <aside id="sidebar">
+        <aside class="sidebar">
             <div class="fixed-sidebar">
-                <div class = "sidebar-search">
+                <div class="sidebar-search">
                     <h3 class="subtitle">Search</h3>
                     <div class="search-container">
                         <input type="text" placeholder="Search">
@@ -72,13 +69,14 @@
 
                 <h3 class="subtitle">Navigation</h3>
                 <ul>
-                    <li><a href="#introduction">> Introduction</a></li>
-                    <li><a href="#estir">> ESTIR</a></li>
-                    <li><a href="#dictionary">> Dictionary</a></li>
-                    <li><a href="#encyclopedia">> Encyclopedia</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#estir">ESTIR</a></li>
+                    <li><a href="#dictionary">Dictionary</a></li>
+                    <li><a href="#encyclopedia">Encyclopedia</a></li>
                 </ul>
             </div>
         </aside>
+
         <main>
             <p>
                 Welcome to the ECS Electrochemistry Knowledge Base. This resource was created and is manually curated by <a href="/estir/editor.html">Dr. Zoltan Nagy</a>. He updates it regularly.
@@ -141,8 +139,5 @@
             </p>
         </div>
     </footer>
-    <script src="js/main.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW5FGNQDL2"></script>
-    <script src="js/analytics.js"></script>
 </body>
 </html>
