@@ -1,0 +1,18 @@
+Scanning directory: .
+----------------------------------------
+[WARNING] Invalid characters found in .\art-n02-nernst.html, Line 84:
+ 
+  Character: '�' (ASCII: Replacement)
+  Line Content: Institute of Physics, Experimental Physics II, University of T�bingen<br>
+
+ 
+ 
+[WARNING] Invalid characters found in .\art-n02-nernst.html, Line 85:
+ 
+  Character: '�' (ASCII: Replacement)
+  Line Content: D�72076 T�bingen, Germany</em><br>
+
+ 
+ 
+Scan complete. Check invalid_chars.log for results.
+
