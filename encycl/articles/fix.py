@@ -7,7 +7,8 @@ special_replacement = {
     '¢': '', # Example of another character to replace, adjust as needed
     'â': '',
     'Ã': '',
-    '¼': ''
+    '¼': '',
+    '½': ''
     
 }
 
