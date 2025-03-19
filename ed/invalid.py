@@ -21,9 +21,9 @@ def detect_invalid_chars(file_path, encoding='utf-8'):
     for line_number, line in enumerate(lines, start=1):
         matches = invalid_pattern.findall(line)
 
-        # Check for Unicode replacement character (�)
-        if "�" in line:
-            matches.append("�")
+        # Check for Unicode replacement character ()
+        if "" in line:
+            matches.append("")
 
         if matches:
             found_invalid = True
@@ -31,7 +31,7 @@ def detect_invalid_chars(file_path, encoding='utf-8'):
             log_message(f" ")
             for match in set(matches):
                 char_repr = repr(match)
-                ascii_code = ord(match) if match != '�' else 'Replacement'
+                ascii_code = ord(match) if match != '' else 'Replacement'
                 log_message(f"  Character: {char_repr} (ASCII: {ascii_code})")
             log_message(f"  Line Content: {line.strip()}\n")
             log_message(f" ")
