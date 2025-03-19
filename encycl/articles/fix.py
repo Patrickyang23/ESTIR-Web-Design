@@ -5,7 +5,9 @@ special_replacement = {
     '€': '', # Unicode for the hamburger menu icon "☰"
     'œ': '', # Unicode for the hamburger menu icon "☰"
     '¢': '', # Example of another character to replace, adjust as needed
-    'â': ''
+    'â': '',
+    'Ã': '',
+    '¼': ''
     
 }
 
