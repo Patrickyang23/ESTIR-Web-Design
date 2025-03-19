@@ -23,7 +23,8 @@ header {
 /* Navigation Bar */
 nav {
     /* width: 100%;  */
-    background-color: #01377D;
+    /* background-color: #01377D; */
+    background-color: #002878;
     /* position: fixed; */
     padding: 5px 0px;
     display: flex;
@@ -647,8 +648,19 @@ table a:hover {
         font-weight: bold; /* Bold text */
         color: white; /* Text color */
     }
+
+    .side-menu li {
+        padding: 10px 15px;
+        border-right: 1.5px solid white; /* White separator */
+    }
     
-    .side-menu ul li:nth-child(1) {
+    /* Remove the last separator */
+    .side-menu li:last-child {
+        border-right: none;
+    }
+
+    
+    /* .side-menu ul li:nth-child(1) {
         background-color: #01377D;
     }
     
@@ -666,7 +678,7 @@ table a:hover {
     
     .side-menu ul li:nth-child(5) {
         background-color: #26BE70;
-    }
+    } */
     
     .side-menu nav ul li a {
         color: white;
