@@ -14,8 +14,8 @@ def find_files_with_invalid_char(directory):
                 with open(file_path, "r", encoding="utf-8") as file:
                     content = file.read()
 
-                    if "�" in content:
-                        print(f"Found '�' in: {filename}")
+                    if "¢" or 'œ' or 'Â' or '€'in content:
+                        print(f"Found 'Â' in: {filename}")
                         found_files.append(filename)
             
             except Exception as e:
@@ -23,11 +23,11 @@ def find_files_with_invalid_char(directory):
 
     # Summary Output
     if found_files:
-        print("\nSummary: The following files contain '�':")
+        print("\nSummary: The following files contain 'Â':")
         for f in found_files:
             print(f"- {f}")
     else:
-        print("\nNo files contain '�'.")
+        print("\nNo files contain 'Â'.")
 
 # Run the function
 find_files_with_invalid_char(directory)

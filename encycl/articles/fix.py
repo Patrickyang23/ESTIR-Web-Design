@@ -1,7 +1,12 @@
 import os
 # Define the special replacement for the hamburger icon
 special_replacement = {
-    "â˜°": "\u2630"  # Unicode for the hamburger menu icon "☰"
+    'Â': '', # Unicode for the hamburger menu icon "☰"
+    '€': '', # Unicode for the hamburger menu icon "☰"
+    'œ': '', # Unicode for the hamburger menu icon "☰"
+    '¢': '', # Example of another character to replace, adjust as needed
+    'â': ''
+    
 }
 
 def replace_specific_sequence(file_path):

@@ -22,7 +22,7 @@ def detect_invalid_chars(file_path, encoding='utf-8'):
         matches = invalid_pattern.findall(line)
 
         # Check for Unicode replacement character (�)
-        if "�" in line:
+        if 'â'  in line:
             matches.append("�")
 
         if matches:
