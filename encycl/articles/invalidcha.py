@@ -38,6 +38,19 @@ def detect_invalid_chars(file_path, encoding='utf-8'):
             log_message(f" ")
 
 
+        if "" in line:
+            matches.append("")
+        if matches:
+            found_invalid = True
+            log_message(f"[WARNING] Invalid characters found in {file_path}, Line {line_number}:")
+            log_message(f" ")
+            for match in set(matches):
+                char_repr = repr(match)
+                ascii_code = ord(match) if match != '' else 'Replacement'
+                log_message(f"  Character: {char_repr} (ASCII: {ascii_code})")
+            log_message(f"  Line Content: {line.strip()}\n")
+            log_message(f" ")
+            log_message(f" ")
 
 def log_message(message):
     """Logs messages to both console and a file."""
