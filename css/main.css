@@ -416,11 +416,24 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    table-layout: auto; /* Allows flexible column sizing */
+    overflow-x: auto; /* Prevents horizontal scrolling issues */
 }
 
 table td {
     padding: 10px;
     border: 1px solid #ddd;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center; /* Centers content */
+}
+
+/* Make images responsive */
+table img {
+    max-width: 100%; /* Prevents overflow */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers images */
 }
 
 table a {
